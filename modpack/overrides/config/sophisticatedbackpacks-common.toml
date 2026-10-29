@@ -1,0 +1,3 @@
+# Purgatorio RPG: sin mochilas con mejoras en los cofres de botín (evita inflar el botín).
+[common]
+	chestLootEnabled = false

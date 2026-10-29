@@ -1,0 +1,55 @@
+# Purgatorio RPG: ~2 % de los hostiles aptos son élite (200 de 10000); máximo nivel 3 (niveles 4 y 5 con peso 0).
+#List of ranks
+[[ranks]]
+	tier = 0
+	numAffixes = 0
+	defaultColor = "#FFFFFF"
+	weight = 9800
+	growthFactor = 1
+	effects = []
+	presetAffixes = []
+#List of ranks
+[[ranks]]
+	tier = 1
+	numAffixes = 1
+	defaultColor = "#FFC0CB"
+	weight = 120
+	growthFactor = 1
+	effects = []
+	presetAffixes = []
+#List of ranks
+[[ranks]]
+	tier = 2
+	numAffixes = 2
+	defaultColor = "#FFFF00"
+	weight = 60
+	growthFactor = 4
+	effects = []
+	presetAffixes = []
+#List of ranks
+[[ranks]]
+	tier = 3
+	numAffixes = 3
+	defaultColor = "#FF9900"
+	weight = 20
+	growthFactor = 7
+	effects = []
+	presetAffixes = []
+#List of ranks
+[[ranks]]
+	tier = 4
+	numAffixes = 4
+	defaultColor = "#66FFFF"
+	weight = 0
+	growthFactor = 10
+	effects = []
+	presetAffixes = []
+#List of ranks
+[[ranks]]
+	tier = 5
+	numAffixes = 5
+	defaultColor = "#CC33FF"
+	weight = 0
+	growthFactor = 16
+	effects = []
+	presetAffixes = []

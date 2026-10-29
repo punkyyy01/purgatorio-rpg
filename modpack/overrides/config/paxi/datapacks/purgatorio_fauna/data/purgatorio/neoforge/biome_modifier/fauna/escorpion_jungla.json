@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#naturalist:has_jungle_scorpion",
+  "spawners": {
+    "type": "naturalist:jungle_scorpion",
+    "weight": 8,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

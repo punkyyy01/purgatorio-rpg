@@ -1,0 +1,50 @@
+# reabrir050
+22:37:08 mods de prueba: purg4tory_cauces-prueba.jar purg4tory_diagtick-0.1.0.jar  (sha cauces: 8f64c84035fd)
+22:37:08 reabriendo mundo existente p0v_largo050
+22:38:23 mundo abierto; pid 1228808; diag /home/umbrel/dev/lab-p0/cli/diagtick/20261028-223759/
+22:38:26 vuelo cliente +X (servidor: 21.6 b/s fijo; cliente: W+esprint creativo), y=310, 600 s, distancia 32
+22:48:26 fin del vuelo; últimas posiciones SRV/CLI:
+22:48:25.806 CLI -10543.7 330.0 -288.0 fps=19 ms_desde_ultimo_tick=6
+22:48:26.349 SRV tick=12480 Pruebas -10550.3 330.0 -288.0 chunk_cargado=true tp_sin_confirmar=no
+22:48:34 servidor responde
+22:48:38 guardar y salir: limpio en 3 s
+22:48:42 resumen diag:
+22:37:59.338 inicio; dedicado=false hilo=Server thread
+22:38:21.799 minuto: ticks=389 mspt_medio=5.9 max=118ms >50ms=4 >250ms=0 >1s=0 >5s=0 chunks_cargados=3032
+22:38:23.352 orden: gamemode creative Pruebas
+22:38:23.358 orden: time set noon
+22:38:23.359 orden: gamerule doDaylightCycle false
+22:38:23.359 orden: weather clear
+22:38:23.360 orden: gamerule doWeatherCycle false
+22:38:23.361 orden: tp Pruebas ~ 330 ~ 90 0
+22:38:26.368 orden: !vuelo_cliente 600 0 90
+22:39:21.801 minuto: ticks=1200 mspt_medio=8.1 max=93ms >50ms=9 >250ms=0 >1s=0 >5s=0 chunks_cargados=3163
+22:40:21.850 minuto: ticks=1201 mspt_medio=4.9 max=47ms >50ms=0 >250ms=0 >1s=0 >5s=0 chunks_cargados=3340
+22:41:21.899 minuto: ticks=1201 mspt_medio=4.5 max=28ms >50ms=0 >250ms=0 >1s=0 >5s=0 chunks_cargados=3338
+22:42:21.933 minuto: ticks=1200 mspt_medio=4.6 max=35ms >50ms=0 >250ms=0 >1s=0 >5s=0 chunks_cargados=3302
+22:43:21.950 minuto: ticks=1201 mspt_medio=4.8 max=68ms >50ms=1 >250ms=0 >1s=0 >5s=0 chunks_cargados=3313
+22:44:21.994 minuto: ticks=1199 mspt_medio=4.2 max=63ms >50ms=4 >250ms=0 >1s=0 >5s=0 chunks_cargados=3339
+22:45:21.999 minuto: ticks=1202 mspt_medio=5.1 max=57ms >50ms=1 >250ms=0 >1s=0 >5s=0 chunks_cargados=3367
+22:46:22.015 minuto: ticks=1198 mspt_medio=4.1 max=43ms >50ms=0 >250ms=0 >1s=0 >5s=0 chunks_cargados=3344
+22:47:22.050 minuto: ticks=1189 mspt_medio=4.5 max=72ms >50ms=2 >250ms=0 >1s=0 >5s=0 chunks_cargados=3330
+22:48:22.099 minuto: ticks=1215 mspt_medio=4.8 max=95ms >50ms=2 >250ms=0 >1s=0 >5s=0 chunks_cargados=3339
+22:48:26.370 vuelo terminado
+22:48:27.350 orden: say fin-de-prueba-reabrir050
+22:48:36.351 orden: !salir
+22:48:38.252 parada (servidor detenido; guardado terminado)
+22:48:42 pausas >=0.5 s: 3; >=2 s: 1; suma: 4.11 s; máx: 3 s
+22:48:42 esperas síncronas >50 ms: 1; Can't keep up: 0; VIGÍA: 0
+22:48:42 FIN
+
+## análisis (analizar.py)
+pausas >=0.5 s: 3  suma 4.1 s  máx 3.00 s
+  ?                              n=   2 suma=    3.5 s máx=  3.00 s
+  streamsreflowing               n=   1 suma=    0.6 s máx=  0.56 s
+pausas >= 2 s:
+  22:38:02.568   3.00 s  ?  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.wrapOperation$znh000$modernfix$waitLongerForTasks(MinecraftServer.java:2163)
+esperas síncronas >50 ms: 1  suma 0.3 s
+  n=   1     0.3 s carga=true  Entity.lambda$isInWall$8 <- MatchOps$1MatchSink.accept <- Spliterators$IteratorSpliterator.tryAdvance <- ReferencePipeline.forEachWithCancel
+esperas >= 2 s:
+
+## Cauces al parar
+al parar: cadenas de terreno nuevo: 4549 cargas síncronas evitadas, 161 reanudadas, 241 pendientes, 0 perdidas; consultas sin esperar: 2 esperas evitadas, «cargado» = listo: 70 respuestas no, movimiento a terreno listo: 565 frenados

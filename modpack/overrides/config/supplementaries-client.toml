@@ -1,0 +1,3 @@
+# PURG4TORY: sin botón de configuración en el menú principal (sigue en Mods).
+[general]
+	configs_button = false

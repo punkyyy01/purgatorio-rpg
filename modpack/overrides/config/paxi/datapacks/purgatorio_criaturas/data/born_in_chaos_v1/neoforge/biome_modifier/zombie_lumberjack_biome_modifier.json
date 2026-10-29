@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:or",
+    "values": [
+      "#c:is_forest",
+      "#c:is_taiga"
+    ]
+  },
+  "spawners": [
+    {
+      "type": "born_in_chaos_v1:zombie_lumberjack",
+      "weight": 12,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

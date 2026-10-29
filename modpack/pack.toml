@@ -1,0 +1,11 @@
+# FUENTE ÚNICA de la identidad y versión del pack. empaquetar.py / crear_entrega.py derivan de aquí:
+# manifest.json, nombre del zip, título del menú (FancyMenu), paquete de servidor, documentación y SHA-256.
+nombre = "PURG4TORY: Souls Grimore"
+version = "0.7.0-beta.2"          # versión técnica (manifiesto, nombres de archivo)
+version_visible = "0.7.0 Beta 2"   # texto que ve el jugador (menú, descripción)
+canal = "Beta"                      # canal de CurseForge: Alpha / Beta / Release
+candidata_interna = "0.9.0-alfa.2"  # candidata interna de la que procede (historial; las Alphas 6-9 no se publicaron)
+autor = "Purgatorio"
+neoforge = "21.1.259"   # >= 21.1.247 (mínimo que pide Supplementaries); la misma que usa ATM10
+ram_mb = 6144
+# cauces_cf = { projectID = 1763725, fileID = <fileID de Cauces 0.5.0> }   # descomentar al publicar Cauces (docs/publicacion-0.7.0-beta.2)

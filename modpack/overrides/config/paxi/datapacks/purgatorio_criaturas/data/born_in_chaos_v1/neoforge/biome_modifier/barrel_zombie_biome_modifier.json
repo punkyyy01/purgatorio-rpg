@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:or",
+    "values": [
+      "#c:is_river",
+      "#c:is_beach"
+    ]
+  },
+  "spawners": [
+    {
+      "type": "born_in_chaos_v1:barrel_zombie",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

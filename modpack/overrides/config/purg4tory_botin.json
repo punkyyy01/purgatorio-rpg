@@ -1,0 +1,349 @@
+{
+ "version": 1,
+ "nota": "Generado por herramientas/equilibrar_botin.py. Ver LimitarBotin en PURG4TORY Cauces.",
+ "tablas": {
+  "alexscaves:chests/licowitch_tower_secret": {
+   "conservar": 0.42,
+   "sinEquipoNetherita": false,
+   "mod": "Alex's Caves Continued",
+   "premium_antes": 3.07,
+   "premium_despues": 1.3
+  },
+  "betterdeserttemples:chests/tomb_pharaoh": {
+   "conservar": 0.53,
+   "sinEquipoNetherita": false,
+   "mod": "YUNG's Better Desert Temples (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "premium_antes": 1.5,
+   "premium_despues": 0.8
+  },
+  "betterfortresses:chests/worship": {
+   "conservar": 0.53,
+   "sinEquipoNetherita": false,
+   "mod": "YUNG's Better Nether Fortresses (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "premium_antes": 1.5,
+   "premium_despues": 0.8
+  },
+  "betterstrongholds:chests/cmd_yung": {
+   "conservar": 0.8,
+   "sinEquipoNetherita": false,
+   "mod": "YUNG's Better Strongholds (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "premium_antes": 1.0,
+   "premium_despues": 0.8
+  },
+  "betterstrongholds:chests/trap": {
+   "conservar": 0.62,
+   "sinEquipoNetherita": false,
+   "mod": "YUNG's Better Strongholds (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "premium_antes": 1.29,
+   "premium_despues": 0.8
+  },
+  "deeperdarker:chests/ancient_temple_basement": {
+   "conservar": 0.5,
+   "sinEquipoNetherita": false,
+   "mod": "Deeper and Darker",
+   "premium_antes": 1.59,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise:chests/aviary/aviary_barrels": {
+   "conservar": 0.51,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.57,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise:chests/aviary/aviary_normal": {
+   "conservar": 0.42,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.9,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise:chests/aviary/aviary_treasure": {
+   "conservar": 0.5,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 2.58,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/foundry/foundry_normal": {
+   "conservar": 0.56,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.43,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise:chests/foundry/foundry_treasure": {
+   "conservar": 0.65,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 2.0,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_normal": {
+   "conservar": 0.42,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.9,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_theater": {
+   "conservar": 0.79,
+   "sinEquipoNetherita": true,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.35,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise:chests/heavenly_challenger/heavenly_challenger_treasure": {
+   "conservar": 0.32,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 4.06,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_normal": {
+   "conservar": 0.58,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.39,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise:chests/heavenly_conqueror/heavenly_conqueror_treasure": {
+   "conservar": 0.54,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 2.41,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/heavenly_rider/heavenly_rider_treasure": {
+   "conservar": 0.95,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.37,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/illager_fort/illager_fort_treasure": {
+   "conservar": 0.95,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.38,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/infested_temple/infested_temple_vault_normal": {
+   "conservar": 0.92,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.42,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/infested_temple/infested_temple_vault_ominous": {
+   "conservar": 0.77,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.7,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/infested_temple/infested_temple_vault_treasure": {
+   "conservar": 0.54,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 2.4,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/keep_kayra/keep_kayra_garden_normal": {
+   "conservar": 0.52,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.54,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise:chests/keep_kayra/keep_kayra_garden_treasure": {
+   "conservar": 0.5,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 2.6,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/keep_kayra/keep_kayra_library_treasure": {
+   "conservar": 0.84,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.55,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/keep_kayra/keep_kayra_treasure": {
+   "conservar": 0.95,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.37,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/kisegi_sanctuary/kisegi_sanctuary_vault_normal_treasure": {
+   "conservar": 0.88,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.48,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/kisegi_sanctuary/kisegi_sanctuary_vault_ominous": {
+   "conservar": 0.67,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.93,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/kisegi_sanctuary/kisegi_sanctuary_vault_ominous_treasure": {
+   "conservar": 0.54,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 2.4,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/mechanical_nest/mechanical_nest_equipment": {
+   "conservar": 0.95,
+   "sinEquipoNetherita": true,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 0.86,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise:chests/mechanical_nest/mechanical_nest_supply": {
+   "conservar": 0.8,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.0,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise:chests/mechanical_nest/mechanical_nest_treasure": {
+   "conservar": 0.66,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.96,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/mines_treasure_big": {
+   "conservar": 0.98,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.33,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/mining_complex/mining_complex_dripstone_normal": {
+   "conservar": 0.75,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.07,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise:chests/mining_complex/mining_complex_lush_normal": {
+   "conservar": 0.74,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.08,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise:chests/mining_complex/mining_complex_treasure": {
+   "conservar": 0.79,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.64,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/mining_system/mining_system_treasure": {
+   "conservar": 0.98,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.33,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/mushroom_mines/mushroom_mines_treasure": {
+   "conservar": 0.98,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.33,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/plague_asylum/plague_asylum_normal": {
+   "conservar": 0.84,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 0.95,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise:chests/scorched_mines/scorched_mines_treasure": {
+   "conservar": 0.46,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 2.8,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/shiraz_palace/shiraz_palace_elite": {
+   "conservar": 0.34,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 3.87,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/shiraz_palace/shiraz_palace_normal": {
+   "conservar": 0.32,
+   "sinEquipoNetherita": true,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 3.81,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise:chests/shiraz_palace/shiraz_palace_rooms": {
+   "conservar": 0.66,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.21,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise:chests/shiraz_palace/shiraz_palace_towers": {
+   "conservar": 0.28,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 2.91,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise:chests/shiraz_palace/shiraz_palace_treasure": {
+   "conservar": 0.39,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 3.33,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise:chests/undead_pirate_ship/undead_pirate_ship_barrels": {
+   "conservar": 0.8,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Forge!",
+   "premium_antes": 1.0,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise_seven_seas:chests/pirate_junk/pirate_junk_treasure": {
+   "conservar": 0.83,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Seven Seas",
+   "premium_antes": 1.57,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise_seven_seas:chests/unicorn_galleon/unicorn_galleon_treasure": {
+   "conservar": 0.83,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Seven Seas",
+   "premium_antes": 1.57,
+   "premium_despues": 1.3
+  },
+  "dungeons_arise_seven_seas:chests/victory_frigate/victory_frigate_normal_lower": {
+   "conservar": 0.51,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Seven Seas",
+   "premium_antes": 1.57,
+   "premium_despues": 0.8
+  },
+  "dungeons_arise_seven_seas:chests/victory_frigate/victory_frigate_treasure": {
+   "conservar": 0.52,
+   "sinEquipoNetherita": false,
+   "mod": "When Dungeons Arise - Seven Seas",
+   "premium_antes": 2.5,
+   "premium_despues": 1.3
+  }
+ }
+}

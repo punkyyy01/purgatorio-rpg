@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+issueTrackerURL=""
+
+[[mods]]
+modId="purg4tory_cauces"
+version="0.5.0"
+displayName="PURG4TORY Cauces"
+description='''Prepara de antemano las cuencas de Streams Reflowing (sin generar chunks) en momentos de poca carga, usando solo sus métodos públicos, evita que el guardado completo y la parada se cuelguen, aplaza los teletransportes a terreno sin generar, impide que el hilo principal se quede esperando a la generación de chunks (congelaciones del mundo al explorar) y limita el equipo de alto nivel de algunos cofres de mazmorra (Minecraft 1.21.1).'''
+authors="PURG4TORY"
+displayTest="IGNORE_SERVER_VERSION"
+
+[[mixins]]
+config="purg4tory_cauces.mixins.json"
+
+[[dependencies.purg4tory_cauces]]
+modId="neoforge"
+type="required"
+versionRange="[21.1,)"
+ordering="NONE"
+side="SERVER"
+
+[[dependencies.purg4tory_cauces]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="SERVER"
+
+[[dependencies.purg4tory_cauces]]
+modId="streamsreflowing"
+type="optional"
+versionRange="[2.15,)"
+ordering="AFTER"
+side="SERVER"

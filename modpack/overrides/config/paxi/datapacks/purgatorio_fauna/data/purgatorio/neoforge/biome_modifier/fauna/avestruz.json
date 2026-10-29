@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#naturalist:has_ostrich",
+  "spawners": {
+    "type": "naturalist:ostrich",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

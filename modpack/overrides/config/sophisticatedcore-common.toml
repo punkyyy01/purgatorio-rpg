@@ -1,0 +1,12 @@
+# Purgatorio RPG: mejoras de mochila desactivadas (se elimina su receta).
+# Para reactivar una, cambia "|false" por "|true" o borra su línea.
+[common]
+	enabledItems = [
+		"sophisticatedbackpacks:inception_upgrade|false",
+		"sophisticatedbackpacks:stack_upgrade_omega_tier|false",
+		"sophisticatedbackpacks:auto_smelting_upgrade|false",
+		"sophisticatedbackpacks:auto_smoking_upgrade|false",
+		"sophisticatedbackpacks:auto_blasting_upgrade|false",
+		"sophisticatedbackpacks:feeding_upgrade|false",
+		"sophisticatedbackpacks:advanced_feeding_upgrade|false"
+	]

@@ -1,0 +1,11 @@
+# Compilados y entregas (se regeneran; los binarios se publican en CurseForge, no en Git)
+build/
+*.jar
+*.zip
+*.jfr
+entrega/
+__pycache__/
+# Excepción: el jar propio de Cauces que el paquete de servidor lleva en overrides (se compila desde modpack/mods-propios)
+!modpack/overrides/mods/purg4tory_cauces-*.jar
+# classpath.txt contiene rutas de la máquina local (ver classpath.ejemplo.txt)
+modpack/mods-propios/purg4tory_cauces/classpath.txt

@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:or",
+    "values": [
+      "#c:is_badlands",
+      "#c:is_desert"
+    ]
+  },
+  "spawners": [
+    {
+      "type": "born_in_chaos_v1:siamese_skeletons",
+      "weight": 12,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

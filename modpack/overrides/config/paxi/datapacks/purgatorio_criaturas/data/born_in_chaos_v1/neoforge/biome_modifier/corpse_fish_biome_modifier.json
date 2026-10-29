@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:or",
+    "values": [
+      "#c:is_swamp",
+      "#c:is_river"
+    ]
+  },
+  "spawners": [
+    {
+      "type": "born_in_chaos_v1:corpse_fish",
+      "weight": 4,
+      "minCount": 2,
+      "maxCount": 3
+    }
+  ]
+}

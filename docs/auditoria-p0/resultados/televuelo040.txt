@@ -1,0 +1,63 @@
+# televuelo040
+19:46:34 mods de prueba: purg4tory_cauces-prueba.jar purg4tory_diagtick-0.1.0.jar  (sha cauces: 427cb66e96bd)
+19:48:32 mundo abierto; pid 923193; diag /home/umbrel/dev/lab-p0/cli/diagtick/20261028-194756/
+19:48:33 vuelo programado +X a 21.6 b/s, y=310, 900 s, distancia 32
+19:51:03 fin del vuelo; últimas posiciones SRV/CLI:
+19:51:02.806 SRV tick=2080 Pruebas 1361.1 310.0 -288.0 chunk_cargado=true tp_sin_confirmar=no
+19:51:02.930 SRV tick=2100 Pruebas 1361.1 310.0 -288.0 chunk_cargado=true tp_sin_confirmar=no
+19:51:11 servidor responde
+19:51:30 resumen diag:
+19:47:56.610 inicio; dedicado=false hilo=Server thread
+19:48:06.243 minuto: ticks=1 mspt_medio=9509.0 max=9509ms >50ms=1 >250ms=1 >1s=1 >5s=1 chunks_cargados=1520
+19:48:32.956 orden: gamemode creative Pruebas
+19:48:32.961 orden: time set noon
+19:48:32.961 orden: gamerule doDaylightCycle false
+19:48:32.962 orden: weather clear
+19:48:32.965 orden: gamerule doWeatherCycle false
+19:48:32.965 orden: tp Pruebas ~ 310 ~ -90 0
+19:48:33.936 orden: !vuelo 21.6 0 310 900
+19:49:06.251 minuto: ticks=1043 mspt_medio=27.5 max=986ms >50ms=62 >250ms=20 >1s=0 >5s=0 chunks_cargados=2456
+19:50:06.545 minuto: ticks=572 mspt_medio=59.2 max=13444ms >50ms=25 >250ms=17 >1s=8 >5s=1 chunks_cargados=3495
+19:51:00.781 orden: !parar_vuelo
+19:51:00.830 vuelo terminado
+19:51:03.823 orden: say fin-de-prueba-base040
+19:51:06.607 minuto: ticks=560 mspt_medio=65.4 max=31409ms >50ms=16 >250ms=3 >1s=1 >5s=1 chunks_cargados=3816
+19:51:29.188 parada
+19:51:30 pausas >=0.5 s: 44; >=2 s: 9; suma: 120.93 s; máx: 31.41 s
+19:51:30 esperas síncronas >50 ms: 149; Can't keep up: 5; VIGÍA: 1
+19:51:30 FIN
+
+## análisis (analizar.py)
+pausas >=0.5 s: 44  suma 120.9 s  máx 31.41 s
+  getChunkBlocking               n=  43 suma=  115.6 s máx= 31.41 s
+  ?                              n=   1 suma=    5.4 s máx=  5.38 s
+pausas >= 2 s:
+  19:48:06.247   9.63 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  19:48:11.623   5.38 s  ?  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.wrapOperation$znh000$modernfix$waitLongerForTasks(MinecraftServer.java:2163)
+  19:49:22.261   2.14 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  19:49:53.651  13.44 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  19:50:00.983   4.94 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  19:50:03.943   2.63 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  19:50:06.552   2.04 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  19:50:42.043  31.41 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  19:51:25.481  14.71 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+esperas síncronas >50 ms: 149  suma 167.2 s
+  n=  39    64.9 s carga=false  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- LithiumEntityCollisions.doesBoxCollideWithBlocks <- Level.noCollision
+  n=  40    34.4 s carga=true  CollectingNeighborUpdater$MultiNeighborUpdate.runNext <- CollectingNeighborUpdater.runUpdates <- CollectingNeighborUpdater.addAndRun <- CollectingNeighborUpdater.updateNeighborsAtExceptFromFacing
+  n=  31    29.9 s carga=true  FluidInteractionRegistry$InteractionInformation.lambda$new$2 <- FluidInteractionRegistry.canInteract <- LiquidBlock.neighborChanged <- BlockBehaviour$BlockStateBase.handleNeighborChanged
+  n=  20    12.6 s carga=true  FishingInfoManager.scanForNearbyInformationalBlocks <- FishingInfoManager.addNearbyPlacedItems <- FishingInfoManager.getActiveInformationalItems <- FishingInfoManager.tick
+  n=   1     9.4 s carga=true  ServerLevel.setChunkForced <- ForceLoadCommand.changeForceLoad <- ForceLoadCommand.lambda$register$3 <- ContextChain.runExecutable
+  n=   5     5.7 s carga=true  Entity.lambda$isInWall$8 <- MatchOps$1MatchSink.accept <- Spliterators$IteratorSpliterator.tryAdvance <- ReferencePipeline.forEachWithCancel
+  n=   4     5.2 s carga=true  Entity.setPosRaw <- Entity.setPos <- Entity.absMoveTo <- Entity.absMoveTo
+  n=   6     4.3 s carga=true  MobEvents.handleBurrowAnchorTeleporting <- MobEvents.onLivingUpdate <- SubscribeEventListener.invoke <- EventBus.post
+  n=   3     0.7 s carga=false  BlockCollisions.getChunk <- BlockCollisions.computeNext <- AbstractIterator.tryToComputeNext <- AbstractIterator.hasNext
+esperas >= 2 s:
+  19:48:06.119    9.4 s minecraft:full carga=true dist=2147483647  ServerLevel.setChunkForced <- ForceLoadCommand.changeForceLoad <- ForceLoadCommand.lambda$register$3 <- ContextChain.runExecutable
+  19:49:22.212    2.0 s minecraft:full carga=true dist=3  CollectingNeighborUpdater$MultiNeighborUpdate.runNext <- CollectingNeighborUpdater.runUpdates <- CollectingNeighborUpdater.addAndRun <- CollectingNeighborUpdater.updateNeighborsAtExceptFromFacing
+  19:49:53.639   13.4 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- LithiumEntityCollisions.doesBoxCollideWithBlocks <- Level.noCollision
+  19:50:00.902    2.1 s minecraft:full carga=true dist=9  CollectingNeighborUpdater$MultiNeighborUpdate.runNext <- CollectingNeighborUpdater.runUpdates <- CollectingNeighborUpdater.addAndRun <- CollectingNeighborUpdater.updateNeighborsAtExceptFromFacing
+  19:50:00.981    3.2 s minecraft:full carga=true dist=1  Entity.lambda$isInWall$8 <- MatchOps$1MatchSink.accept <- Spliterators$IteratorSpliterator.tryAdvance <- ReferencePipeline.forEachWithCancel
+  19:50:31.855    2.3 s minecraft:full carga=true dist=8  FluidInteractionRegistry$InteractionInformation.lambda$new$2 <- FluidInteractionRegistry.canInteract <- LiquidBlock.neighborChanged <- BlockBehaviour$BlockStateBase.handleNeighborChanged
+  19:50:42.010   31.4 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- LithiumEntityCollisions.doesBoxCollideWithBlocks <- Level.noCollision
+
+## Cauces al parar

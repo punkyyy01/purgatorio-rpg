@@ -1,0 +1,32 @@
+{
+ "type": "minecraft:generic",
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:written_book",
+     "functions": [
+      {
+       "function": "minecraft:set_components",
+       "components": {
+        "minecraft:written_book_content": {
+         "title": "Guía de PURG4TORY",
+         "author": "PURG4TORY",
+         "pages": [
+          "{\"text\": \"\", \"extra\": [{\"text\": \"PURG4TORY\\n\", \"bold\": true, \"color\": \"dark_purple\"}, {\"text\": \"Souls Grimore\\n\", \"italic\": true}, {\"text\": \"{{VERSION_VISIBLE}}\\n\\n\", \"color\": \"gray\"}, {\"text\": \"Un mundo grande para explorar: cordilleras, ríos, bosques y mazmorras. No hay misiones obligatorias ni capítulos: avanza a tu ritmo.\\n\\nEsta guía es opcional; puedes dejarla en un cofre.\"}]}",
+          "{\"text\": \"\", \"extra\": [{\"text\": \"Primeros pasos\\n\", \"bold\": true}, {\"text\": \"- Mapa y minimapa: Xaero.\\n- Mira un bloque o criatura: Jade te dice qué es.\\n- Receta o uso de un objeto: pasa el ratón en EMI y pulsa R (receta) o U (usos).\\n- Las aldeas traen una Waystone: úsala para viajar entre piedras activadas.\\n- Tu base es un lugar tranquilo: no hay asaltos ni patrullas, y las criaturas hostiles no rompen bloques.\"}]}",
+          "{\"text\": \"\", \"extra\": [{\"text\": \"Combate\\n\", \"bold\": true}, {\"text\": \"Las armas tienen animaciones y alcance propios (Better Combat): apunta y golpea; algunas hacen golpes en arco.\\nPuedes rodar para esquivar (Combat Roll).\\nLas teclas están en Opciones > Controles.\\n\\nUnas pocas criaturas son élites (nombre y color): dan mejor botín y golpean más fuerte.\"}]}",
+          "{\"text\": \"\", \"extra\": [{\"text\": \"Clases y magia\\n\", \"bold\": true}, {\"text\": \"No eliges clase: tu equipo la define. Fabrica o encuentra:\\n- túnicas y báculos (mago)\\n- arcos y ballestas (arquero)\\n- mazas y escudos (paladín, sacerdote)\\n- dagas y hachas dobles (pícaro, guerrero).\\nLa mesa de vinculación de hechizos (receta en EMI) sirve para obtener hechizos. Algunos aldeanos especialistas venden equipo de clase.\"}]}",
+          "{\"text\": \"\", \"extra\": [{\"text\": \"Explorar\\n\", \"bold\": true}, {\"text\": \"Cuanto más lejos del inicio, más peligroso: dragones, jefes y estructuras difíciles están lejos.\\nLos cofres de mazmorras son individuales (Lootr): cada jugador tiene el suyo.\\nEl botín de mazmorras es moderado a propósito: lo mejor se gana con jefes y exploración.\\n\\nEsto es una Beta: si algo falla, cuéntanoslo.\"}]}"
+         ]
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

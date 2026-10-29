@@ -1,0 +1,31 @@
+[
+  {
+    "dimension": "minecraft:overworld",
+    "spawntype": "natural",
+    "hostile": true,
+    "seesky": true,
+    "structuretags": "minecraft:village",
+    "result": "deny"
+  },
+  {
+    "mob": "cataclysm:amethyst_crab",
+    "spawntype": "natural",
+    "biometags": [
+      "c:is_plains",
+      "c:is_floral"
+    ],
+    "result": "deny"
+  },
+  {
+    "mob": [
+      "born_in_chaos_v1:fallen_chaos_knight",
+      "born_in_chaos_v1:lifestealer",
+      "born_in_chaos_v1:nightmare_stalker",
+      "born_in_chaos_v1:dire_hound_leader",
+      "born_in_chaos_v1:supreme_bonescaller"
+    ],
+    "spawntype": "natural",
+    "maxspawndist": 1500,
+    "result": "deny"
+  }
+]

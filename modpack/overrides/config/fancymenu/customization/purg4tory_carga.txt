@@ -1,0 +1,84 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = drippy_loading_overlay
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 0
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+}
+
+menu_background {
+  background_type = image
+  instance_identifier = purg4tory_fondo_carga
+  image_path = [source:local]/config/fancymenu/assets/purg4tory/fondo_menus.jpg
+  slide = false
+  repeat_texture = false
+  parallax = false
+  restart_animated_on_menu_load = false
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = true
+}
+
+element {
+  element_type = image
+  instance_identifier = purg4tory_logo_carga
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = -14
+  width = 100
+  height = 40
+  stay_on_screen = false
+  enable_parallax = false
+  load_once_per_session = false
+  source = [source:local]/config/fancymenu/assets/purg4tory/logo_1024.png
+  advanced_width = {"placeholder":"calc","values":{"expression":"(({"placeholder":"guiwidth"}*0.42)+({"placeholder":"guiheight"}*0.42*1024/418)-abs(({"placeholder":"guiwidth"}*0.42)-({"placeholder":"guiheight"}*0.42*1024/418)))/2","decimal":"false"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"((({"placeholder":"guiwidth"}*0.42)+({"placeholder":"guiheight"}*0.42*1024/418)-abs(({"placeholder":"guiwidth"}*0.42)-({"placeholder":"guiheight"}*0.42*1024/418)))/2)*418/1024","decimal":"false"}}
+  restart_animated_on_menu_load = false
+  repeat_texture = false
+  nine_slice_texture = false
+  image_tint = #FFFFFF
+}
+
+element {
+  element_type = drippy_vanilla_bar
+  instance_identifier = purg4tory_barra_carga
+  appearance_delay = no_delay
+  disappearance_delay = no_delay
+  fade_in_v2 = no_fading
+  fade_out = no_fading
+  anchor_point = mid-centered
+  sticky_anchor = true
+  x = 0
+  y = {"placeholder":"calc","values":{"expression":"((({"placeholder":"guiwidth"}*0.42)+({"placeholder":"guiheight"}*0.42*1024/418)-abs(({"placeholder":"guiwidth"}*0.42)-({"placeholder":"guiheight"}*0.42*1024/418)))/2)*418/1024/2+4","decimal":"false"}}
+  width = 160
+  height = 6
+  stay_on_screen = false
+  enable_parallax = false
+  load_once_per_session = false
+  color = #5FD1B0
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = mojang_logo
+  is_hidden = true
+}
+
+vanilla_button {
+  element_type = vanilla_button
+  instance_identifier = progress_bar
+  is_hidden = true
+}
+

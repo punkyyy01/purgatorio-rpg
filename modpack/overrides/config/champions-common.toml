@@ -1,0 +1,10 @@
+# Purgatorio RPG (Champions 1.21.1-2.1.11.3): élites SOLO en mobs de la lista blanca (etiqueta
+# champions:allow_champions = hostiles vanilla) y nunca en jefes; en todas las dimensiones.
+[general]
+	allowChampionsList = true
+	allowChampionsPermission = "WHITELIST"
+	entitiesList = ["minecraft:warden", "minecraft:wither", "minecraft:ender_dragon", "minecraft:elder_guardian"]
+	entitiesPermission = "BLACKLIST"
+	championSpawners = false
+	championTrialSpawners = false
+	beaconProtectionRange = 64

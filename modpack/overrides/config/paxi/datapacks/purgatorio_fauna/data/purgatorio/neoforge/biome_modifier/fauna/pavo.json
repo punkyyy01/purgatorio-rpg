@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#naturalist:has_turkey",
+  "spawners": {
+    "type": "naturalist:turkey",
+    "weight": 10,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

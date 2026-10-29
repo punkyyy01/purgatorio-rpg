@@ -1,0 +1,8 @@
+# Purgatorio RPG: sin waystones salvajes (sueltas en el terreno).
+# Siguen apareciendo en aldeas: las vanilla según spawnInVillages y las de CTOV, que trae una
+# waystone garantizada por aldea. Los jugadores pueden fabricarlas y colocarlas.
+# Solo afecta a chunks nuevos: no toca waystones ya generadas ni colocadas.
+# NeoForge completa el resto de opciones con sus valores por defecto.
+[worldGen]
+	chunksBetweenWildWaystones = 0
+	spawnInVillages = "REGULAR"

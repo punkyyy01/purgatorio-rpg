@@ -1,0 +1,20 @@
+# PURG4TORY: Every Compat 2.11.55 no encuentra las texturas de las maderas de Promenade 6.0.1 (sakura, maple, palm, dark_amaranth):
+# sus variantes de Rechiseled, Handcrafted, Farmer's Delight y Regions Unexplored salían con texturas rotas. Se excluyen esas cuatro
+# maderas (y las hojas de arce, cuyos arbustos usan la misma textura) de TODOS los módulos de compatibilidad (Promenade conserva sus propios bloques y su propia madera).
+[woodtype]
+	blacklist = ["promenade:sakura", "promenade:maple", "promenade:palm", "promenade:dark_amaranth"]
+
+[leavestype]
+	blacklist = ["promenade:.*maple.*"]
+
+[block]
+	blacklist = []
+
+[entryset]
+	blacklist = []
+
+[module]
+	blacklist = []
+
+[other]
+	include_all_wood_modules = true

@@ -1,0 +1,10 @@
+# Purgatorio RPG: ajustes de Jaden's Nether Expansion (el resto, por defecto)
+[blockSettings]
+	#Los cofres de brasero se rellenan como máximo una vez al día real (máximo permitido)
+	brazierChestRefillCooldown = 86400
+
+[itemSettings]
+	#Pociones apilables cambian el equilibrio del combate: se deja como en vanilla
+	stackablePotions = false
+	#No se elimina un encantamiento vanilla
+	removeSoulSpeedEnchantment = false

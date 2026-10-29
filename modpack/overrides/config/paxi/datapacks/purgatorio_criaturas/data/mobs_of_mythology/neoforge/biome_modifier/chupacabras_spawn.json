@@ -1,0 +1,25 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      "#mobs_of_mythology:chupacabras_spawn_in",
+      {
+        "type": "neoforge:not",
+        "value": {
+          "type": "neoforge:or",
+          "values": [
+            "#c:is_plains",
+            "#c:is_floral"
+          ]
+        }
+      }
+    ]
+  },
+  "spawners": {
+    "type": "mobs_of_mythology:chupacabra",
+    "weight": 6,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

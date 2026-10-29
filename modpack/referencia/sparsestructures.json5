@@ -1,0 +1,12 @@
+// Purgatorio: valores de Sparse Structures. NO va en el zip (desde 0.1.2).
+// Coinciden exactamente con el archivo que el propio mod crea si no existe
+// (sparse-structures-default-config.json5 dentro del jar): spreadFactor 2, idBasedSalt true, mansión x2.
+// CurseForge marca los .json5 de overrides como archivos externos al importar el zip.
+// Si algún día se cambian estos valores, habrá que volver a incluirlo y el aviso volverá.
+{
+  "spreadFactor": 2,
+  "idBasedSalt": true,
+  "customSpreadFactors": [
+    { "structure": "minecraft:mansion", "factor": 2 }
+  ]
+}

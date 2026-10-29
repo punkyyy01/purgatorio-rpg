@@ -1,0 +1,33 @@
+23:18:46 Cauces: purg4tory_cauces-0.5.0.jar
+23:19:46 servidor: Done (29.143s)
+23:20:23 L armadas (todo cargado): fila1 lava 128 obsidiana 0 | c1000:L16/O0 c1001:L16/O0 c1002:L16/O0 c1003:L16/O0 c1004:L16/O0 c1005:L16/O0 c1006:L16/O0 c1007:L16/O0 || fila2 lava 128 obsidiana 0 | c1000:L16/O0 c1001:L16/O0 c1002:L16/O0 c1003:L16/O0 c1004:L16/O0 c1005:L16/O0 c1006:L16/O0 c1007:L16/O0
+23:20:34 L borde: 1002=cargado=true 1003=cargado=false (fila2: 1002=cargado=true 1003=cargado=false)
+23:20:36 L antes del disparo (parte cargada): fila1 lava 48 obsidiana 0 | c1000:L16/O0 c1001:L16/O0 c1002:L16/O0 c1003:L0/O0/?16 c1004:L0/O0/?16 c1005:L0/O0/?16 c1006:L0/O0/?16 c1007:L0/O0/?16
+23:20:44 L1 disparo normal con /setblock (como un jugador) en 16000: [23:20:36] [Server thread/INFO] [minecraft/MinecraftServer]: Changed the block at 16000, 100, 8 
+23:20:48 L1 justo después: lava 0 obsidiana 48 | c1000:L0/O16 c1001:L0/O16 c1002:L0/O16 c1003:L0/O0/?16 c1004:L0/O0/?16 c1005:L0/O0/?16 c1006:L0/O0/?16 c1007:L0/O0/?16   [1003=cargado=false 1007=cargado=false]
+23:21:10 L1 con 1003-1007 cargados: lava 0 obsidiana 128 | c1000:L0/O16 c1001:L0/O16 c1002:L0/O16 c1003:L0/O16 c1004:L0/O16 c1005:L0/O16 c1006:L0/O16 c1007:L0/O16
+23:21:12 L1 Cauces: cadenas de terreno nuevo: 0 cargas síncronas evitadas, 0 reanudadas, 0 pendientes, 0 perdidas
+23:21:17 L2 borde: 1002=cargado=true 1003=cargado=false
+23:21:23 L2 disparo en modo terreno nuevo en 16000 z=24: cadenas de terreno nuevo: 6 cargas síncronas evitadas, 0 reanudadas, 1 pendientes, 0 perdidas 
+23:21:26 L2 justo después: lava 0 obsidiana 48 | c1000:L0/O16 c1001:L0/O16 c1002:L0/O16 c1003:L0/O0/?16 c1004:L0/O0/?16 c1005:L0/O0/?16 c1006:L0/O0/?16 c1007:L0/O0/?16   [1003=cargado=false]
+23:21:43 L2 tras cargar 1002-1006 (forzar 1004,1): lava 0 obsidiana 112 | c1000:L0/O16 c1001:L0/O16 c1002:L0/O16 c1003:L0/O16 c1004:L0/O16 c1005:L0/O16 c1006:L0/O16 c1007:L0/O0/?16
+23:22:00 L2 tras cargar 1007: lava 0 obsidiana 128 | c1000:L0/O16 c1001:L0/O16 c1002:L0/O16 c1003:L0/O16 c1004:L0/O16 c1005:L0/O16 c1006:L0/O16 c1007:L0/O16
+23:22:02 L2 Cauces: cadenas de terreno nuevo: 18 cargas síncronas evitadas, 3 reanudadas, 0 pendientes, 0 perdidas
+23:22:55 N borde: 2003=cargado=true 2004=cargado=false
+23:23:02 N pistón pegajoso (cruza 2000->2001): empujado a 32016 Test passed
+23:23:09 N pistón pegajoso: retraído a 32015 Test passed
+23:23:26 N granja (observador en 2000 ve crecer el trigo en 2001, la bombilla de cobre alterna en cada paso): Test passed (passed>failed>passed>failed)
+23:23:40 N agua (cruza 2000->2001): 32016 Test passed, 32017 Test passed, 32018 vacío Test passed
+23:23:44 N redstone: bloque en 32055 (cable 32056-32067 cruza 2003->2004 descargado): Changed   [2004=cargado=false]
+23:24:03 N redstone con 2004 cargado: lámpara encendida Test passed, cable 32066 con potencia Test passed
+23:24:08 N redstone apagado: cable 32066 sin potencia Test passed
+23:24:10 N Cauces: cadenas de terreno nuevo: 18 cargas síncronas evitadas, 3 reanudadas, 0 pendientes, 0 perdidas
+23:24:13 S save-all flush: 1 confirmado en 1 s
+23:24:15 parada en 2 s
+[Server thread/INFO] [PURG4TORY Cauces/]: salvaguarda del guardado completo: ACTIVA
+23:24:45 S reabierto: Done (2.804s)
+23:25:09 S fila1 tras reabrir: lava 0 obsidiana 128 | c1000:L0/O16 c1001:L0/O16 c1002:L0/O16 c1003:L0/O16 c1004:L0/O16 c1005:L0/O16 c1006:L0/O16 c1007:L0/O16 || fila2 lava 0 obsidiana 128 | c1000:L0/O16 c1001:L0/O16 c1002:L0/O16 c1003:L0/O16 c1004:L0/O16 c1005:L0/O16 c1006:L0/O16 c1007:L0/O16
+23:25:30 S pistón/agua/lámpara tras reabrir: Test passed Test passed Test passed
+23:25:36 parada en 6 s
+23:25:36 errores de Cauces: 0; excepciones del hilo principal: 0
+23:25:36 FIN

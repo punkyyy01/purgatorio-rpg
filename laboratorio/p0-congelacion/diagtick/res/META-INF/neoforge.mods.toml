@@ -1,0 +1,10 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="purg4tory_diagtick"
+version="0.1.0"
+displayName="PURG4TORY diagnostico de ticks (SOLO LABORATORIO)"
+description='''Vigía de ticks con muestreo de pilas, esperas síncronas de chunks y desincronización cliente/servidor. No distribuir.'''
+[[mixins]]
+config="purg4tory_diagtick.mixins.json"

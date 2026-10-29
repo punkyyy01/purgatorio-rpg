@@ -1,0 +1,3328 @@
+[
+  {
+    "mob": "minecraft:cow",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_plains"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:sheep",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_plains"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:pig",
+    "persecond": 0.4,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_plains"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:chicken",
+    "persecond": 0.4,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_plains"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:horse",
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_plains"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:hedgehog",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biometags": [
+          "c:is_plains"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "crittersandcompanions:ferret",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_plains"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:deer",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_forest"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:boar",
+    "persecond": 0.35,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_forest"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:sheep",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_forest"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:chicken",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_forest"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:rabbit",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_forest"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:turkey",
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_forest"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:black_bear",
+    "persecond": 0.125,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biometags": [
+          "c:is_forest"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "alexsmobs:raccoon",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_forest"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:deer",
+    "persecond": 0.4,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_taiga"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:wolf",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_taiga"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:fox",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_taiga"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:rabbit",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_taiga"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:sheep",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_taiga"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "alexsmobs:grizzly_bear",
+    "persecond": 0.125,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biometags": [
+          "c:is_taiga"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "alexsmobs:moose",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biometags": [
+          "c:is_taiga"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:zebra",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 7,
+      "and": {
+        "biometags": [
+          "c:is_savanna"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:giraffe",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_savanna"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:ostrich",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_savanna"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "alexsmobs:elephant",
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_savanna"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:horse",
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_savanna"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "alexsmobs:rhinoceros",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biometags": [
+          "c:is_savanna"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "alexsmobs:gazelle",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_savanna"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:lion",
+    "persecond": 0.075,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biometags": [
+          "c:is_savanna"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:frog",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 7,
+      "and": {
+        "biometags": [
+          "c:is_swamp"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:duck",
+    "persecond": 0.4,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_swamp"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:capybara",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_swamp"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:tortoise",
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_swamp"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "alexsmobs:shoebill",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biometags": [
+          "c:is_swamp"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "alexsmobs:crocodile",
+    "persecond": 0.075,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biometags": [
+          "c:is_swamp"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:parrot",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_jungle"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "crittersandcompanions:red_panda",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_jungle"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:capybara",
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_jungle"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:chicken",
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_jungle"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:ocelot",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biometags": [
+          "c:is_jungle"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "alexsmobs:toucan",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_jungle"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "alexsmobs:gorilla",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_jungle"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "alexsmobs:capuchin_monkey",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_jungle"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:rabbit",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_snowy"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:fox",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_snowy"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "crittersandcompanions:shima_enaga",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_snowy"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:polar_bear",
+    "persecond": 0.075,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biometags": [
+          "c:is_snowy"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:mammoth",
+    "persecond": 0.075,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biometags": [
+          "c:is_snowy"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:goat",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_mountain"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "meadow:wooly_cow",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_mountain"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:llama",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_mountain"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:sheep",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_mountain"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:rabbit",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_desert"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:camel",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biometags": [
+          "c:is_desert"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:lizard",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biometags": [
+          "c:is_desert"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:tortoise",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biometags": [
+          "c:is_desert"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "alexsmobs:roadrunner",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biometags": [
+          "c:is_desert"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:armadillo",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_badlands"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:rabbit",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_badlands"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "crittersandcompanions:otter",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biometags": [
+          "c:is_river"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:duck",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biometags": [
+          "c:is_river"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:sheep",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "terralith:shrubland",
+          "terralith:hot_shrubland"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:cow",
+    "persecond": 0.35,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "terralith:shrubland",
+          "terralith:hot_shrubland"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:horse",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "terralith:shrubland",
+          "terralith:hot_shrubland"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:boar",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "terralith:shrubland",
+          "terralith:hot_shrubland"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:armadillo",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biome": [
+          "terralith:shrubland",
+          "terralith:hot_shrubland"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:lizard",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biome": [
+          "terralith:shrubland",
+          "terralith:hot_shrubland"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:sheep",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "minecraft:windswept_hills",
+          "minecraft:windswept_forest",
+          "minecraft:windswept_gravelly_hills",
+          "terralith:haze_mountain",
+          "terralith:windswept_spires"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:cow",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "minecraft:windswept_hills",
+          "minecraft:windswept_forest",
+          "minecraft:windswept_gravelly_hills",
+          "terralith:haze_mountain",
+          "terralith:windswept_spires"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:pig",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "minecraft:windswept_hills",
+          "minecraft:windswept_forest",
+          "minecraft:windswept_gravelly_hills",
+          "terralith:haze_mountain",
+          "terralith:windswept_spires"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:llama",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "minecraft:windswept_hills",
+          "minecraft:windswept_forest",
+          "minecraft:windswept_gravelly_hills",
+          "terralith:haze_mountain",
+          "terralith:windswept_spires"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:chicken",
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "minecraft:windswept_hills",
+          "minecraft:windswept_forest",
+          "minecraft:windswept_gravelly_hills",
+          "terralith:haze_mountain",
+          "terralith:windswept_spires"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:cow",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "terralith:lush_valley",
+          "terralith:valley_clearing",
+          "terralith:shield_clearing",
+          "terralith:yosemite_cliffs",
+          "terralith:yellowstone",
+          "terralith:blooming_plateau"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:sheep",
+    "persecond": 0.4,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "terralith:lush_valley",
+          "terralith:valley_clearing",
+          "terralith:shield_clearing",
+          "terralith:yosemite_cliffs",
+          "terralith:yellowstone",
+          "terralith:blooming_plateau"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:pig",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "terralith:lush_valley",
+          "terralith:valley_clearing",
+          "terralith:shield_clearing",
+          "terralith:yosemite_cliffs",
+          "terralith:yellowstone",
+          "terralith:blooming_plateau"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:horse",
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "terralith:lush_valley",
+          "terralith:valley_clearing",
+          "terralith:shield_clearing",
+          "terralith:yosemite_cliffs",
+          "terralith:yellowstone",
+          "terralith:blooming_plateau"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:fox",
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "terralith:lush_valley",
+          "terralith:valley_clearing",
+          "terralith:shield_clearing",
+          "terralith:yosemite_cliffs",
+          "terralith:yellowstone",
+          "terralith:blooming_plateau"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:rabbit",
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "terralith:lush_valley",
+          "terralith:valley_clearing",
+          "terralith:shield_clearing",
+          "terralith:yosemite_cliffs",
+          "terralith:yellowstone",
+          "terralith:blooming_plateau"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:wolf",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "terralith:lush_valley",
+          "terralith:valley_clearing",
+          "terralith:shield_clearing",
+          "terralith:yosemite_cliffs",
+          "terralith:yellowstone",
+          "terralith:blooming_plateau"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:deer",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "terralith:lush_valley",
+          "terralith:valley_clearing",
+          "terralith:shield_clearing",
+          "terralith:yosemite_cliffs",
+          "terralith:yellowstone",
+          "terralith:blooming_plateau"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:sheep",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "terralith:alpha_islands",
+          "terralith:alpha_islands_winter",
+          "terralith:mirage_isles"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:cow",
+    "persecond": 0.35,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "terralith:alpha_islands",
+          "terralith:alpha_islands_winter",
+          "terralith:mirage_isles"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:pig",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "terralith:alpha_islands",
+          "terralith:alpha_islands_winter",
+          "terralith:mirage_isles"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:chicken",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "terralith:alpha_islands",
+          "terralith:alpha_islands_winter",
+          "terralith:mirage_isles"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:goat",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "terralith:stony_spires"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:sheep",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "terralith:stony_spires"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:mooshroom",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "minecraft:mushroom_fields"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:horse",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "natures_spirit:oak_savanna",
+          "natures_spirit:xeric_plains",
+          "natures_spirit:golden_wilds",
+          "natures_spirit:chaparral",
+          "natures_spirit:wooded_drylands"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "alexsmobs:gazelle",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "natures_spirit:oak_savanna",
+          "natures_spirit:xeric_plains",
+          "natures_spirit:golden_wilds",
+          "natures_spirit:chaparral",
+          "natures_spirit:wooded_drylands"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:zebra",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "natures_spirit:oak_savanna",
+          "natures_spirit:xeric_plains",
+          "natures_spirit:golden_wilds",
+          "natures_spirit:chaparral",
+          "natures_spirit:wooded_drylands"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:rabbit",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "natures_spirit:oak_savanna",
+          "natures_spirit:xeric_plains",
+          "natures_spirit:golden_wilds",
+          "natures_spirit:chaparral",
+          "natures_spirit:wooded_drylands"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:lizard",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biome": [
+          "natures_spirit:oak_savanna",
+          "natures_spirit:xeric_plains",
+          "natures_spirit:golden_wilds",
+          "natures_spirit:chaparral",
+          "natures_spirit:wooded_drylands"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:goat",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "natures_spirit:woody_highlands",
+          "natures_spirit:shrubby_highlands",
+          "natures_spirit:arid_highlands",
+          "biomeswevegone:lush_stacks"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:sheep",
+    "persecond": 0.35,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "natures_spirit:woody_highlands",
+          "natures_spirit:shrubby_highlands",
+          "natures_spirit:arid_highlands",
+          "biomeswevegone:lush_stacks"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:llama",
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "natures_spirit:woody_highlands",
+          "natures_spirit:shrubby_highlands",
+          "natures_spirit:arid_highlands",
+          "biomeswevegone:lush_stacks"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:rabbit",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "natures_spirit:woody_highlands",
+          "natures_spirit:shrubby_highlands",
+          "natures_spirit:arid_highlands",
+          "biomeswevegone:lush_stacks"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:sheep",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "windswept:lavender_fields",
+          "regions_unexplored:hyacinth_deeps",
+          "natures_spirit:flowering_shrubland",
+          "natures_spirit:marigold_meadows",
+          "natures_spirit:carnation_fields",
+          "natures_spirit:heather_fields"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:cow",
+    "persecond": 0.35,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "windswept:lavender_fields",
+          "regions_unexplored:hyacinth_deeps",
+          "natures_spirit:flowering_shrubland",
+          "natures_spirit:marigold_meadows",
+          "natures_spirit:carnation_fields",
+          "natures_spirit:heather_fields"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:rabbit",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "windswept:lavender_fields",
+          "regions_unexplored:hyacinth_deeps",
+          "natures_spirit:flowering_shrubland",
+          "natures_spirit:marigold_meadows",
+          "natures_spirit:carnation_fields",
+          "natures_spirit:heather_fields"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:horse",
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "windswept:lavender_fields",
+          "regions_unexplored:hyacinth_deeps",
+          "natures_spirit:flowering_shrubland",
+          "natures_spirit:marigold_meadows",
+          "natures_spirit:carnation_fields",
+          "natures_spirit:heather_fields"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:hedgehog",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biome": [
+          "windswept:lavender_fields",
+          "regions_unexplored:hyacinth_deeps",
+          "natures_spirit:flowering_shrubland",
+          "natures_spirit:marigold_meadows",
+          "natures_spirit:carnation_fields",
+          "natures_spirit:heather_fields"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:deer",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "atmospheric:aspen_parkland",
+          "bloomingnature:cypress_fields",
+          "natures_spirit:cypress_fields",
+          "biomesoplenty:old_growth_woodland"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:boar",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "atmospheric:aspen_parkland",
+          "bloomingnature:cypress_fields",
+          "natures_spirit:cypress_fields",
+          "biomesoplenty:old_growth_woodland"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:rabbit",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "atmospheric:aspen_parkland",
+          "bloomingnature:cypress_fields",
+          "natures_spirit:cypress_fields",
+          "biomesoplenty:old_growth_woodland"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:turkey",
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "atmospheric:aspen_parkland",
+          "bloomingnature:cypress_fields",
+          "natures_spirit:cypress_fields",
+          "biomesoplenty:old_growth_woodland"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:fox",
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "atmospheric:aspen_parkland",
+          "bloomingnature:cypress_fields",
+          "natures_spirit:cypress_fields",
+          "biomesoplenty:old_growth_woodland"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "alexsmobs:raccoon",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "atmospheric:aspen_parkland",
+          "bloomingnature:cypress_fields",
+          "natures_spirit:cypress_fields",
+          "biomesoplenty:old_growth_woodland"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:deer",
+    "persecond": 0.4,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "natures_spirit:snowy_redwood_forest",
+          "regions_unexplored:tundra"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:wolf",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "natures_spirit:snowy_redwood_forest",
+          "regions_unexplored:tundra"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:fox",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "natures_spirit:snowy_redwood_forest",
+          "regions_unexplored:tundra"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:rabbit",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "natures_spirit:snowy_redwood_forest",
+          "regions_unexplored:tundra"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:parrot",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "atmospheric:kousa_jungle",
+          "natures_spirit:tropical_woods",
+          "natures_spirit:sparse_tropical_woods",
+          "nyctophobia:haunted_forest"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "alexsmobs:toucan",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "atmospheric:kousa_jungle",
+          "natures_spirit:tropical_woods",
+          "natures_spirit:sparse_tropical_woods",
+          "nyctophobia:haunted_forest"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "alexsmobs:capuchin_monkey",
+    "persecond": 0.15,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "atmospheric:kousa_jungle",
+          "natures_spirit:tropical_woods",
+          "natures_spirit:sparse_tropical_woods",
+          "nyctophobia:haunted_forest"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "naturalist:capybara",
+    "persecond": 0.2,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "atmospheric:kousa_jungle",
+          "natures_spirit:tropical_woods",
+          "natures_spirit:sparse_tropical_woods",
+          "nyctophobia:haunted_forest"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:ocelot",
+    "persecond": 0.1,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 1,
+      "and": {
+        "biome": [
+          "atmospheric:kousa_jungle",
+          "natures_spirit:tropical_woods",
+          "natures_spirit:sparse_tropical_woods",
+          "nyctophobia:haunted_forest"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:sheep",
+    "persecond": 0.5,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "terralith:skylands_autumn",
+          "terralith:skylands_spring",
+          "terralith:skylands_summer",
+          "terralith:skylands_winter"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:cow",
+    "persecond": 0.35,
+    "attempts": 10,
+    "amount": {
+      "minimum": 2,
+      "maximum": 4,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 6,
+      "and": {
+        "biome": [
+          "terralith:skylands_autumn",
+          "terralith:skylands_spring",
+          "terralith:skylands_summer",
+          "terralith:skylands_winter"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:pig",
+    "persecond": 0.3,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "terralith:skylands_autumn",
+          "terralith:skylands_spring",
+          "terralith:skylands_summer",
+          "terralith:skylands_winter"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  },
+  {
+    "mob": "minecraft:chicken",
+    "persecond": 0.25,
+    "attempts": 10,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3,
+      "groupdistance": 6
+    },
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "mindist": 40,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true,
+      "maxpeaceful": 800,
+      "maxlocal": 2,
+      "and": {
+        "biome": [
+          "terralith:skylands_autumn",
+          "terralith:skylands_spring",
+          "terralith:skylands_summer",
+          "terralith:skylands_winter"
+        ],
+        "seesky": true,
+        "maxlight": 3
+      }
+    }
+  }
+]

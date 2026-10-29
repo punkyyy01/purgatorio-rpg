@@ -1,0 +1,9049 @@
+{
+ "minecraft": "1.21.1",
+ "loader": "NeoForge",
+ "entradas": [
+  {
+   "slug": "tectonic",
+   "titulo": "Tectonic",
+   "projectID": 686836,
+   "fileID": 8855043,
+   "archivo": "tectonic-3.0.28-neoforge-21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-09-11",
+   "bytes": 451757,
+   "sha1": "db15156eec4320c2997c4dd4948119472de01224",
+   "licencia": "",
+   "autores": [
+    "Apollo"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/tectonic",
+   "pilar": "mundo",
+   "porque": "Relieve a gran escala sin añadir biomas",
+   "mods": [
+    {
+     "modId": "tectonic",
+     "version": "3.0.28",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "apollib",
+       "tipo": "required",
+       "rango": "[1.1.6,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "apollib",
+     "version": "1.1.6",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.21.1]",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "terralith",
+   "titulo": "Terralith",
+   "projectID": 513688,
+   "fileID": 8222737,
+   "archivo": "Terralith_1.21.x_v2.6.2.jar",
+   "tipo": "release",
+   "fecha": "2026-06-09",
+   "bytes": 2814865,
+   "sha1": "d4a9fe71b841f70edfb4b280f9bf5c58e4a28224",
+   "licencia": "",
+   "autores": [
+    "Starmute",
+    "catter1"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/terralith",
+   "pilar": "mundo",
+   "porque": "Biomas variados con bloques vanilla",
+   "mods": [
+    {
+     "modId": "terralith",
+     "version": "2.6.2",
+     "deps": [
+      {
+       "modId": "lithostitched",
+       "tipo": "required",
+       "rango": "[1.7.7,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "lithostitched",
+       "tipo": "required",
+       "rango": "[1.7.7,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "nullscape",
+   "titulo": "Nullscape",
+   "projectID": 570354,
+   "fileID": 7078265,
+   "archivo": "Nullscape_1.21.x_v1.2.14.jar",
+   "tipo": "release",
+   "fecha": "2025-10-07",
+   "bytes": 355748,
+   "sha1": "ae8e1cbd5de6cf6f450bb44cd69cd284dad690dd",
+   "licencia": "",
+   "autores": [
+    "Starmute"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/nullscape",
+   "pilar": "mundo",
+   "porque": "Terreno del End",
+   "mods": [
+    {
+     "modId": "nullscape",
+     "version": "1.2.14",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "optional",
+       "rango": "[21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.22)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.5",
+    "Fabric",
+    "1.21.8",
+    "1.21.9",
+    "1.21.10",
+    "1.21.4",
+    "NeoForge",
+    "Forge",
+    "1.21.3",
+    "1.21.7",
+    "1.21.1",
+    "1.21.6",
+    "Quilt",
+    "1.21.2"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "659011",
+   "titulo": "Deeper and Darker",
+   "projectID": 659011,
+   "fileID": 8201775,
+   "archivo": "deeperdarker-neoforge-1.21.1-1.4.1.jar",
+   "tipo": "release",
+   "fecha": "2026-06-05",
+   "bytes": 3906057,
+   "sha1": "b6094adde68bd4b909bc75c64901e1f3fb99ad8f",
+   "licencia": "",
+   "autores": [
+    "KyaniteMods",
+    "ttv_pedro270707",
+    "nitro_dynamite18",
+    "NewJumper"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/deeperdarker",
+   "pilar": "mundo",
+   "porque": "Ciudad antigua ampliada y el Otherside: zona de peligro extremo",
+   "mods": [
+    {
+     "modId": "deeperdarker",
+     "version": "1.4.1",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "galosphere",
+   "titulo": "Galosphere",
+   "projectID": 631098,
+   "fileID": 8242886,
+   "archivo": "Galosphere-1.21.1-1.5.5-NeoForge.jar",
+   "tipo": "release",
+   "fecha": "2026-06-13",
+   "bytes": 35545869,
+   "sha1": "f2c3b139c16ba81cdd6f0df2c51313f4fde32950",
+   "licencia": "",
+   "autores": [
+    "orcinus73"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/galosphere",
+   "pilar": "mundo",
+   "porque": "Cuevas de cristal",
+   "mods": [
+    {
+     "modId": "galosphere",
+     "version": "1.5.5",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.213,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.22)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "naturalist",
+   "titulo": "Naturalist",
+   "projectID": 627986,
+   "fileID": 9004373,
+   "archivo": "naturalist-2.0.5-neoforge-1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-09-28",
+   "bytes": 11325729,
+   "sha1": "ea9ebf082eb978dcf583255e8fca1004a8114ab6",
+   "licencia": "",
+   "autores": [
+    "crispytwig",
+    "Starfish_Studios"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/naturalist",
+   "pilar": "fauna",
+   "porque": "Fauna realista ligada a biomas",
+   "mods": [
+    {
+     "modId": "naturalist",
+     "version": "2.0.5",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.234,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "lambdynlights_api",
+       "tipo": "optional",
+       "rango": "[4.0.0,)",
+       "lado": "CLIENT"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "friends-and-foes-forge",
+   "titulo": "Friends&Foes (Forge/NeoForge)",
+   "projectID": 602059,
+   "fileID": 9253513,
+   "archivo": "friendsandfoes-neoforge-5.0.3+mc1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-10-19",
+   "bytes": 5271544,
+   "sha1": "74b448afe8e9915d73a2993d67f56ebb0a1aeaf5",
+   "licencia": "",
+   "autores": [
+    "Faboslav"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/friends-and-foes-forge",
+   "pilar": "fauna",
+   "porque": "Mobs de estilo vanilla",
+   "mods": [
+    {
+     "modId": "friendsandfoes",
+     "version": "5.0.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "*",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "yet_another_config_lib_v3",
+       "tipo": "optional",
+       "rango": "*",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "resourcefullib",
+       "tipo": "required",
+       "rango": "[3.0.12,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "creeper-overhaul",
+   "titulo": "Creeper Overhaul",
+   "projectID": 561625,
+   "fileID": 6051279,
+   "archivo": "CreeperOverhaul-neoforge-1.21.1-4.0.6.jar",
+   "tipo": "release",
+   "fecha": "2025-01-04",
+   "bytes": 1185088,
+   "sha1": "5a07cc032df790e7d110ad3dedb7a76253ffd565",
+   "licencia": "",
+   "autores": [
+    "joosh_7889",
+    "ThatGravyBoat"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/creeper-overhaul",
+   "pilar": "fauna",
+   "porque": "Un creeper por bioma: señal de riesgo",
+   "mods": [
+    {
+     "modId": "creeperoverhaul",
+     "version": "4.0.6",
+     "deps": [
+      {
+       "modId": "geckolib",
+       "tipo": "required",
+       "rango": "[4.5.5,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "resourcefulconfig",
+       "tipo": "required",
+       "rango": "[3.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "NeoForge",
+    "1.21.1",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "enderman-overhaul",
+   "titulo": "Enderman Overhaul",
+   "projectID": 574409,
+   "fileID": 7661859,
+   "archivo": "endermanoverhaul-neoforge-1.21.1-2.0.3.jar",
+   "tipo": "release",
+   "fecha": "2026-02-22",
+   "bytes": 1330403,
+   "sha1": "f71aa503738f2e23a8d939b7ea9f96f2fe203f11",
+   "licencia": "",
+   "autores": [
+    "joosh_7889",
+    "HellionGames",
+    "ItsHamza",
+    "AlexNijjar"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/enderman-overhaul",
+   "pilar": "fauna",
+   "porque": "Enderman distinto por bioma, también en el Nether y el End (mismo estudio que Creeper Overhaul)",
+   "mods": [
+    {
+     "modId": "endermanoverhaul",
+     "version": "2.0.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "resourcefullib",
+       "tipo": "required",
+       "rango": "[3.0.11,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "resourcefulconfig",
+       "tipo": "required",
+       "rango": "[3.0.7,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "geckolib",
+       "tipo": "required",
+       "rango": "[4.7,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "rotten-creatures",
+   "titulo": "Rotten Creatures",
+   "projectID": 371033,
+   "fileID": 6677062,
+   "archivo": "rottencreatures-neoforge-1.21.1-1.1.2.jar",
+   "tipo": "release",
+   "fecha": "2025-06-21",
+   "bytes": 2608616,
+   "sha1": "c44de2c17018ffb8141ee68caaa4a71d979b96b2",
+   "licencia": "",
+   "autores": [
+    "fusionstudiomc",
+    "jonah_fuses",
+    "BlackGear"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/rotten-creatures",
+   "pilar": "fauna",
+   "porque": "Variantes de no-muertos por bioma (desierto, nieve, pantano, Nether) con comportamientos propios",
+   "mods": [
+    {
+     "modId": "rottencreatures",
+     "version": "1.1.2",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "platform",
+       "tipo": "required",
+       "rango": "[1.2.10.2,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "NeoForge",
+    "1.21.1",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1015112",
+   "titulo": "YUNG's Better Dungeons (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "projectID": 1015112,
+   "fileID": 5954804,
+   "archivo": "YungsBetterDungeons-1.21.1-NeoForge-5.1.4.jar",
+   "tipo": "release",
+   "fecha": "2024-12-01",
+   "bytes": 782160,
+   "sha1": "73a660c13063450e555e5e2c015ae24d606b32b4",
+   "licencia": "",
+   "autores": [
+    "YUNGNICKYOUNG",
+    "EveCommander"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons-neoforge",
+   "pilar": "estructuras",
+   "porque": "Rehace estructuras vanilla",
+   "mods": [
+    {
+     "modId": "betterdungeons",
+     "version": "1.21.1-NeoForge-5.1.4",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "yungsapi",
+       "tipo": "required",
+       "rango": "[1.21.1-NeoForge-5.1.3,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1015105",
+   "titulo": "YUNG's Better Strongholds (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "projectID": 1015105,
+   "fileID": 6272264,
+   "archivo": "YungsBetterStrongholds-1.21.1-NeoForge-5.1.3.jar",
+   "tipo": "release",
+   "fecha": "2025-03-06",
+   "bytes": 461244,
+   "sha1": "5d06a5850af7c577612d4592706a8e156bbe1cbf",
+   "licencia": "",
+   "autores": [
+    "YUNGNICKYOUNG",
+    "EveCommander"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds-neoforge",
+   "pilar": "estructuras",
+   "porque": "Rehace estructuras vanilla",
+   "mods": [
+    {
+     "modId": "betterstrongholds",
+     "version": "1.21.1-NeoForge-5.1.3",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "yungsapi",
+       "tipo": "required",
+       "rango": "[1.21.1-NeoForge-5.1.4,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1015096",
+   "titulo": "YUNG's Better Mineshafts (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "projectID": 1015096,
+   "fileID": 5812193,
+   "archivo": "YungsBetterMineshafts-1.21.1-NeoForge-5.1.1.jar",
+   "tipo": "release",
+   "fecha": "2024-10-14",
+   "bytes": 493967,
+   "sha1": "6a14e1d8201f068ca87ef8333e471c5378955906",
+   "licencia": "",
+   "autores": [
+    "YUNGNICKYOUNG"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-neoforge",
+   "pilar": "estructuras",
+   "porque": "Rehace estructuras vanilla",
+   "mods": [
+    {
+     "modId": "bettermineshafts",
+     "version": "1.21.1-NeoForge-5.1.1",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "yungsapi",
+       "tipo": "required",
+       "rango": "[1.21.1-NeoForge-5.1.2,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1015115",
+   "titulo": "YUNG's Better Ocean Monuments (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "projectID": 1015115,
+   "fileID": 5924487,
+   "archivo": "YungsBetterOceanMonuments-1.21.1-NeoForge-4.1.2.jar",
+   "tipo": "release",
+   "fecha": "2024-11-21",
+   "bytes": 1025571,
+   "sha1": "fba629defdb92ad99ec4f411895afb6e19555a18",
+   "licencia": "",
+   "autores": [
+    "YUNGNICKYOUNG",
+    "TeraBuildsStuff"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments-neoforge",
+   "pilar": "estructuras",
+   "porque": "Rehace estructuras vanilla",
+   "mods": [
+    {
+     "modId": "betteroceanmonuments",
+     "version": "1.21.1-NeoForge-4.1.2",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "yungsapi",
+       "tipo": "required",
+       "rango": "[1.21.1-NeoForge-5.1.3,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1015118",
+   "titulo": "YUNG's Better Nether Fortresses (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "projectID": 1015118,
+   "fileID": 6606621,
+   "archivo": "YungsBetterNetherFortresses-1.21.1-NeoForge-3.1.5.jar",
+   "tipo": "release",
+   "fecha": "2025-06-01",
+   "bytes": 609639,
+   "sha1": "4061ece2141475227646649046fc14c2da505922",
+   "licencia": "",
+   "autores": [
+    "YUNGNICKYOUNG",
+    "EveCommander"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses-neoforge",
+   "pilar": "estructuras",
+   "porque": "Rehace estructuras vanilla",
+   "mods": [
+    {
+     "modId": "betterfortresses",
+     "version": "1.21.1-NeoForge-3.1.5",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "yungsapi",
+       "tipo": "required",
+       "rango": "[1.21.1-NeoForge-5.1.4,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1015114",
+   "titulo": "YUNG's Better Desert Temples (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "projectID": 1015114,
+   "fileID": 6276955,
+   "archivo": "YungsBetterDesertTemples-1.21.1-NeoForge-4.1.5.jar",
+   "tipo": "release",
+   "fecha": "2025-03-07",
+   "bytes": 905839,
+   "sha1": "90529257dbd92558998c65178294bc7b2fd16a64",
+   "licencia": "",
+   "autores": [
+    "YUNGNICKYOUNG",
+    "TeraBuildsStuff"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples-neoforge",
+   "pilar": "estructuras",
+   "porque": "Rehace estructuras vanilla",
+   "mods": [
+    {
+     "modId": "betterdeserttemples",
+     "version": "1.21.1-NeoForge-4.1.5",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "yungsapi",
+       "tipo": "required",
+       "rango": "[1.21.1-NeoForge-5.1.4,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1015123",
+   "titulo": "YUNG's Better Jungle Temples (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "projectID": 1015123,
+   "fileID": 5924482,
+   "archivo": "YungsBetterJungleTemples-1.21.1-NeoForge-3.1.2.jar",
+   "tipo": "release",
+   "fecha": "2024-11-21",
+   "bytes": 795839,
+   "sha1": "d6b7ce6cf351b09cbd23147ff166c35cfdc572e8",
+   "licencia": "",
+   "autores": [
+    "YUNGNICKYOUNG",
+    "TeraBuildsStuff"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-jungle-temples-neoforge",
+   "pilar": "estructuras",
+   "porque": "Rehace estructuras vanilla",
+   "mods": [
+    {
+     "modId": "betterjungletemples",
+     "version": "1.21.1-NeoForge-3.1.2",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "yungsapi",
+       "tipo": "required",
+       "rango": "[1.21.1-NeoForge-5.1.3,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1015144",
+   "titulo": "YUNG's Better Witch Huts (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "projectID": 1015144,
+   "fileID": 5812532,
+   "archivo": "YungsBetterWitchHuts-1.21.1-NeoForge-4.1.1.jar",
+   "tipo": "release",
+   "fecha": "2024-10-14",
+   "bytes": 174789,
+   "sha1": "bbf6c91f4a2829c58bc024eaaab821986bc93de6",
+   "licencia": "",
+   "autores": [
+    "YUNGNICKYOUNG",
+    "EveCommander"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts-neoforge",
+   "pilar": "estructuras",
+   "porque": "Rehace estructuras vanilla",
+   "mods": [
+    {
+     "modId": "betterwitchhuts",
+     "version": "1.21.1-NeoForge-4.1.1",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "yungsapi",
+       "tipo": "required",
+       "rango": "[1.21.1-NeoForge-5.1.2,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1015127",
+   "titulo": "YUNG's Better End Island (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "projectID": 1015127,
+   "fileID": 6300968,
+   "archivo": "YungsBetterEndIsland-1.21.1-NeoForge-3.1.2.jar",
+   "tipo": "release",
+   "fecha": "2025-03-13",
+   "bytes": 398130,
+   "sha1": "832f2c17425debe74a9f267f4136f1a0f0221d19",
+   "licencia": "",
+   "autores": [
+    "YUNGNICKYOUNG",
+    "EveCommander"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-better-end-island-neoforge",
+   "pilar": "estructuras",
+   "porque": "Rehace el combate final del End",
+   "mods": [
+    {
+     "modId": "betterendisland",
+     "version": "1.21.1-NeoForge-3.1.2",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "yungsapi",
+       "tipo": "required",
+       "rango": "[1.21.1-NeoForge-5.1.4,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1015149",
+   "titulo": "YUNG's Bridges (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "projectID": 1015149,
+   "fileID": 5812553,
+   "archivo": "YungsBridges-1.21.1-NeoForge-5.1.1.jar",
+   "tipo": "release",
+   "fecha": "2024-10-14",
+   "bytes": 136820,
+   "sha1": "18099c2d54acd16bb8ab90a66f40fa16496d065e",
+   "licencia": "",
+   "autores": [
+    "YUNGNICKYOUNG"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-bridges-neoforge",
+   "pilar": "estructuras",
+   "porque": "Puentes sobre ríos",
+   "mods": [
+    {
+     "modId": "yungsbridges",
+     "version": "1.21.1-NeoForge-5.1.1",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "yungsapi",
+       "tipo": "required",
+       "rango": "[1.21.1-NeoForge-5.1.2,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1015146",
+   "titulo": "YUNG's Extras (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "projectID": 1015146,
+   "fileID": 5812546,
+   "archivo": "YungsExtras-1.21.1-NeoForge-5.1.1.jar",
+   "tipo": "release",
+   "fecha": "2024-10-14",
+   "bytes": 198183,
+   "sha1": "62833733aaf407f36bdacf648ed4b2ef9940662b",
+   "licencia": "",
+   "autores": [
+    "YUNGNICKYOUNG",
+    "EveCommander"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-extras-neoforge",
+   "pilar": "estructuras",
+   "porque": "Detalles pequeños",
+   "mods": [
+    {
+     "modId": "yungsextras",
+     "version": "1.21.1-NeoForge-5.1.1",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "yungsapi",
+       "tipo": "required",
+       "rango": "[1.21.1-NeoForge-5.1.2,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "442508",
+   "titulo": "When Dungeons Arise - Forge!",
+   "projectID": 442508,
+   "fileID": 7150870,
+   "archivo": "DungeonsArise-1.21.1-2.1.68-release.jar",
+   "tipo": "release",
+   "fecha": "2025-10-26",
+   "bytes": 11842679,
+   "sha1": "c651339154da7b9e9cf47a80fdef22c4d59cad5c",
+   "licencia": "",
+   "autores": [
+    "Aureljz",
+    "diamondtown_"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise",
+   "pilar": "estructuras",
+   "porque": "Mazmorras grandes",
+   "mods": [
+    {
+     "modId": "dungeons_arise",
+     "version": "2.1.68",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0-beta,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.21.1)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "when-dungeons-arise-seven-seas",
+   "titulo": "When Dungeons Arise - Seven Seas",
+   "projectID": 953637,
+   "fileID": 7142896,
+   "archivo": "DungeonsAriseSevenSeas-1.21.x-1.0.4-neoforge.jar",
+   "tipo": "release",
+   "fecha": "2025-10-24",
+   "bytes": 244981,
+   "sha1": "ac9edb266a1360e9e4c80ed0b2f931f1505307eb",
+   "licencia": "",
+   "autores": [
+    "Aureljz",
+    "Zephyrusjz"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise-seven-seas",
+   "pilar": "estructuras",
+   "porque": "Barcos y estructuras marinas",
+   "mods": [
+    {
+     "modId": "dungeons_arise_seven_seas",
+     "version": "1.0.4",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21,)",
+       "lado": "SERVER"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.20, 1.22)",
+       "lado": "SERVER"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.5",
+    "1.21.8",
+    "1.21.9",
+    "1.21.10",
+    "1.21.4",
+    "NeoForge",
+    "1.21.3",
+    "1.21.7",
+    "1.21.1",
+    "1.21.6",
+    "1.21.2"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "623908",
+   "titulo": "ChoiceTheorem's Overhauled Village",
+   "projectID": 623908,
+   "fileID": 7788733,
+   "archivo": "[Neoforge]ctov-3.6.3.jar",
+   "tipo": "release",
+   "fecha": "2026-03-21",
+   "bytes": 7139609,
+   "sha1": "c5fe733d743af20f84eb87dd75b5bb57684f3e05",
+   "licencia": "",
+   "autores": [
+    "ChoiceTheorem"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/choicetheorems-overhauled-village",
+   "pilar": "estructuras",
+   "porque": "Aldeas por bioma",
+   "mods": [
+    {
+     "modId": "ctov",
+     "version": "3.6.3",
+     "deps": [
+      {
+       "modId": "lithostitched",
+       "tipo": "required",
+       "rango": "[1.5,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "moogs-voyager-structures",
+   "titulo": "MVS - Moog's Voyager Structures",
+   "projectID": 656977,
+   "fileID": 8970306,
+   "archivo": "MoogsVoyagerStructures-universal-1.21-5.1.3.jar",
+   "tipo": "release",
+   "fecha": "2026-09-25",
+   "bytes": 2234287,
+   "sha1": "6759fa57891f731e54f865c13ffa0601a829b76a",
+   "licencia": "",
+   "autores": [
+    "finndog_123",
+    "olver____",
+    "TFA120",
+    "havococcultist"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/moogs-voyager-structures",
+   "pilar": "estructuras",
+   "porque": "Estructuras pequeñas y medianas",
+   "mods": [
+    {
+     "modId": "mvs",
+     "version": "5.1.3",
+     "deps": [
+      {
+       "modId": "moogs_structures",
+       "tipo": "required",
+       "rango": "[3.0.0,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Fabric",
+    "1.21.8",
+    "1.21.5",
+    "1.21.4",
+    "Forge",
+    "1.21.1",
+    "1.21.6",
+    "1.21.3",
+    "1.21.7",
+    "NeoForge",
+    "Server",
+    "1.21.2",
+    "1.21.9",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2",
+    "26.3"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "moogs-end-structures",
+   "titulo": "MES - Moog's End Structures",
+   "projectID": 892382,
+   "fileID": 8902211,
+   "archivo": "MoogsEndStructures-universal-1.21-2.1.1.jar",
+   "tipo": "release",
+   "fecha": "2026-09-17",
+   "bytes": 2285901,
+   "sha1": "ef5f57f0e5d06a2f8bec5c073e01ddb061ad477a",
+   "licencia": "",
+   "autores": [
+    "finndog_123"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/moogs-end-structures",
+   "pilar": "estructuras",
+   "porque": "Estructuras del End",
+   "mods": [
+    {
+     "modId": "mes",
+     "version": "2.1.1",
+     "deps": [
+      {
+       "modId": "moogs_structures",
+       "tipo": "required",
+       "rango": "[1.1.0,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Fabric",
+    "1.21.8",
+    "1.21.5",
+    "1.21.4",
+    "Forge",
+    "1.21.1",
+    "1.21.6",
+    "1.21.3",
+    "1.21.7",
+    "NeoForge",
+    "Server",
+    "1.21.2",
+    "1.21.9",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2",
+    "26.3"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "structory",
+   "titulo": "Structory",
+   "projectID": 636540,
+   "fileID": 8396883,
+   "archivo": "Structory_26.2_v1.3.7.jar",
+   "tipo": "release",
+   "fecha": "2026-07-08",
+   "bytes": 1261346,
+   "sha1": "8a9a1a1b3f74398310420b6fbe2c26ef142bed42",
+   "licencia": "",
+   "autores": [
+    "botanydev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/structory",
+   "pilar": "estructuras",
+   "porque": "Ruinas atmosféricas con poco botín",
+   "mods": [
+    {
+     "modId": "structory",
+     "version": "1.3.17",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Fabric",
+    "1.21.8",
+    "1.21.5",
+    "1.21.4",
+    "Forge",
+    "1.21.1",
+    "1.21.6",
+    "1.21.3",
+    "1.21.7",
+    "NeoForge",
+    "Quilt",
+    "1.21.2",
+    "1.21.9",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "explorify",
+   "titulo": "Explorify – Dungeons & Structures",
+   "projectID": 698309,
+   "fileID": 8082824,
+   "archivo": "Explorify v1.6.5.mod.jar",
+   "tipo": "release",
+   "fecha": "2026-05-13",
+   "bytes": 767884,
+   "sha1": "5fb28be29200a41b034e423d87823eb19ad651cd",
+   "licencia": "",
+   "autores": [
+    "bebebea_loste"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/explorify",
+   "pilar": "estructuras",
+   "porque": "Mazmorras pequeñas vanilla+",
+   "mods": [
+    {
+     "modId": "explorify",
+     "version": "1.6.5",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.20,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.20.2",
+    "Fabric",
+    "1.21.8",
+    "1.20.5",
+    "1.21.5",
+    "1.21.4",
+    "1.20.1",
+    "Forge",
+    "1.20",
+    "1.20.6",
+    "1.21.1",
+    "1.21.6",
+    "1.21.3",
+    "1.21.7",
+    "1.20.4",
+    "NeoForge",
+    "1.20.3",
+    "Quilt",
+    "1.21.2",
+    "1.21.9",
+    "1.21.10",
+    "1.21.11",
+    "26.1",
+    "26.1.1",
+    "26.1.2",
+    "26.2"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "better-archeology",
+   "titulo": "Better Archeology",
+   "projectID": 835687,
+   "fileID": 9099893,
+   "archivo": "betterarcheology-neoforge-1.21.1-1.3.9.jar",
+   "tipo": "release",
+   "fecha": "2026-10-08",
+   "bytes": 3106751,
+   "sha1": "c73d47ae658764ddd9977f509a317414d5faa1fa",
+   "licencia": "",
+   "autores": [
+    "ruven",
+    "Dunkellicht"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/better-archeology",
+   "pilar": "estructuras",
+   "porque": "Arqueología y coleccionismo",
+   "mods": [
+    {
+     "modId": "betterarcheology",
+     "version": "1.21.1-1.3.9",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "architectury",
+       "tipo": "required",
+       "rango": "[13.0.2,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "resourcefulconfig",
+       "tipo": "required",
+       "rango": "[3.0.3,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "lootr",
+   "titulo": "Lootr (Forge & NeoForge)",
+   "projectID": 361276,
+   "fileID": 8968561,
+   "archivo": "lootr-neoforge-1.21.1-1.11.38.127.jar",
+   "tipo": "release",
+   "fecha": "2026-09-25",
+   "bytes": 1075929,
+   "sha1": "7a305b581abd90e1a8b7c1bb5eb4511d2653aa58",
+   "licencia": "",
+   "autores": [
+    "Noobanidus",
+    "ZestyBlaze",
+    "embeddedt"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/lootr",
+   "pilar": "botin",
+   "porque": "Cofres por jugador",
+   "mods": [
+    {
+     "modId": "lootr",
+     "version": "1.21.1-1.11.38.127",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "1.21.1",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.195,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "sparse-structures",
+   "titulo": "Sparse Structures",
+   "projectID": 911437,
+   "fileID": 6456912,
+   "archivo": "sparsestructures-neoforge-1.21.1-3.0.jar",
+   "tipo": "release",
+   "fecha": "2025-04-23",
+   "bytes": 117743,
+   "sha1": "daa7235c52c822524e9a4edd8b382a68ec78b1f8",
+   "licencia": "",
+   "autores": [
+    "Maxence"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/sparse-structures",
+   "pilar": "botin",
+   "porque": "Separación global de estructuras",
+   "mods": [
+    {
+     "modId": "sparsestructures",
+     "version": "3.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.162,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1, 1.22)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "NeoForge",
+    "1.21.1",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "structure-layout-optimizer",
+   "titulo": "Structure Layout Optimizer",
+   "projectID": 1087831,
+   "fileID": 7439136,
+   "archivo": "structure_layout_optimizer-neoforge-1.0.12.jar",
+   "tipo": "release",
+   "fecha": "2026-01-09",
+   "bytes": 61777,
+   "sha1": "052c31cb9881c04c17d949345539aa8684f474bf",
+   "licencia": "",
+   "autores": [
+    "telepathicgrunt"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/structure-layout-optimizer",
+   "pilar": "rendimiento",
+   "porque": "Generación de estructuras grandes más rápida",
+   "mods": [
+    {
+     "modId": "structure_layout_optimizer",
+     "version": "1.0.12",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "*",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "resourcefulconfig",
+       "tipo": "required",
+       "rango": "*",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "lendercataclysm",
+   "titulo": "L_Ender 's Cataclysm",
+   "projectID": 551586,
+   "fileID": 8931182,
+   "archivo": "L_Ender's Cataclysm 1.21.1-3.33.jar",
+   "tipo": "release",
+   "fecha": "2026-09-20",
+   "bytes": 73375667,
+   "sha1": "f0310277167c82fd16a5c2bab220b5c5c262f133",
+   "licencia": "",
+   "autores": [
+    "mcl_ender"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/lendercataclysm",
+   "pilar": "jefes",
+   "porque": "Jefes de mazmorra",
+   "mods": [
+    {
+     "modId": "cataclysm",
+     "version": "3.33",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "1.21.1",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "curios",
+       "tipo": "required",
+       "rango": "[9.2.2+1.21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "lionfishapi",
+       "tipo": "required",
+       "rango": "3.1",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "mowzies-mobs",
+   "titulo": "Mowzie's Mobs",
+   "projectID": 250498,
+   "fileID": 7760267,
+   "archivo": "mowziesmobs-1.21.1-1.8.2.jar",
+   "tipo": "release",
+   "fecha": "2026-03-15",
+   "bytes": 36042925,
+   "sha1": "d64475cd77444b056ece6472c79d40293dc63c6c",
+   "licencia": "",
+   "autores": [
+    "bobmowzie",
+    "noonyeyzz",
+    "wadoo154",
+    "pau101",
+    "vakypanda"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/mowzies-mobs",
+   "pilar": "jefes",
+   "porque": "Jefes que aparecen en el mundo",
+   "mods": [
+    {
+     "modId": "mowziesmobs",
+     "version": "1.8.2",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.1,21.2)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.21.2)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "geckolib",
+       "tipo": "required",
+       "rango": "[4.8.3,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "bosses-of-mass-destruction-forge",
+   "titulo": "Bosses of Mass Destruction [Forge | NeoForge]",
+   "projectID": 941573,
+   "fileID": 8448640,
+   "archivo": "BOMD-NeoForge-1.21-1.3.3.jar",
+   "tipo": "release",
+   "fecha": "2026-07-17",
+   "bytes": 1952017,
+   "sha1": "446ff63afb858ad49149d24b72541739de83d38d",
+   "licencia": "",
+   "autores": [
+    "Cerbon"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/bosses-of-mass-destruction-forge",
+   "pilar": "jefes",
+   "porque": "Cuatro jefes con arena propia (port de Cerbon)",
+   "mods": [
+    {
+     "modId": "bosses_of_mass_destruction",
+     "version": "1.3.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "cerbons_api",
+       "tipo": "required",
+       "rango": "[1.2.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "cloth_config",
+       "tipo": "required",
+       "rango": "[15.0.140,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "geckolib",
+       "tipo": "required",
+       "rango": "[4.5.8,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "champions-unofficial",
+   "titulo": "Champions Unofficial",
+   "projectID": 1074990,
+   "fileID": 6923189,
+   "archivo": "champions-neoforge-1.21.1-2.1.11.3.jar",
+   "tipo": "release",
+   "fecha": "2025-08-24",
+   "bytes": 401075,
+   "sha1": "74172f99c239a4e9bf3afae49f9f2edebebd8510",
+   "licencia": "",
+   "autores": [
+    "kyogi",
+    "PickAID"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/champions-unofficial",
+   "pilar": "jefes",
+   "porque": "Élites raras: encuentros excepcionales",
+   "mods": [
+    {
+     "modId": "champions",
+     "version": "1.21.1-2.1.11.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "kubejs",
+       "tipo": "optional",
+       "rango": "[2101.7.1-build.181,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "NeoForge",
+    "1.21.1",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "better-combat-by-daedelus",
+   "titulo": "Better Combat [Fabric & Forge]",
+   "projectID": 639842,
+   "fileID": 8430183,
+   "archivo": "bettercombat-neoforge-2.4.0+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-07-14",
+   "bytes": 1045389,
+   "sha1": "bacbc8c86671663e9998b141c5732250c1f4d4fb",
+   "licencia": "",
+   "autores": [
+    "daedelus_dev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/better-combat-by-daedelus",
+   "pilar": "combate",
+   "porque": "Combate con patrones por tipo de arma",
+   "mods": [
+    {
+     "modId": "bettercombat",
+     "version": "2.4.0+1.21.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "playeranimator",
+       "tipo": "required",
+       "rango": "[1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "cloth_config",
+       "tipo": "required",
+       "rango": "[15.0.0,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "tiny_config",
+     "version": "3.1.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "combat-roll",
+   "titulo": "Combat Roll [Fabric & Forge]",
+   "projectID": 678036,
+   "fileID": 7348018,
+   "archivo": "combat_roll-neoforge-2.0.6+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2025-12-17",
+   "bytes": 193381,
+   "sha1": "8b9676996e2b49520ac29d92e6068089c5f40baa",
+   "licencia": "",
+   "autores": [
+    "daedelus_dev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/combat-roll",
+   "pilar": "combate",
+   "porque": "Esquiva",
+   "mods": [
+    {
+     "modId": "combat_roll",
+     "version": "2.0.6+1.21.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "playeranimator",
+       "tipo": "required",
+       "rango": "[1,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "spell-engine",
+   "titulo": "Spell Engine",
+   "projectID": 807653,
+   "fileID": 9011566,
+   "archivo": "spell_engine-neoforge-1.10.9+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-09-29",
+   "bytes": 4629624,
+   "sha1": "ca6deb6ee834f53b05bc09822ad706199c810da6",
+   "licencia": "",
+   "autores": [
+    "daedelus_dev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/spell-engine",
+   "pilar": "clases",
+   "porque": "Motor de hechizos",
+   "mods": [
+    {
+     "modId": "spell_engine",
+     "version": "1.10.9",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "cloth_config",
+       "tipo": "required",
+       "rango": "[15.0.130,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "playeranimator",
+       "tipo": "required",
+       "rango": "[1.9.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "spell_power",
+       "tipo": "required",
+       "rango": "[1.6.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "curios",
+       "tipo": "optional",
+       "rango": "*",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "tiny_config",
+     "version": "3.1.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "wizards",
+   "titulo": "Wizards (RPG Series)",
+   "projectID": 734325,
+   "fileID": 8982151,
+   "archivo": "wizards-neoforge-3.1.3+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-09-26",
+   "bytes": 4519814,
+   "sha1": "be5513169318245e03a21a6e769ce347a4669bf4",
+   "licencia": "",
+   "autores": [
+    "daedelus_dev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/wizards",
+   "pilar": "clases",
+   "porque": "Mago: arcano, fuego, escarcha",
+   "mods": [
+    {
+     "modId": "wizards",
+     "version": "3.1.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "armor_model_api",
+       "tipo": "required",
+       "rango": "[1.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "spell_engine",
+       "tipo": "required",
+       "rango": "[1.10.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "runes",
+       "tipo": "required",
+       "rango": "[1.3.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "structure_pool_api",
+       "tipo": "required",
+       "rango": "*",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "paladins-and-priests",
+   "titulo": "Paladins & Priests (RPG Series)",
+   "projectID": 856548,
+   "fileID": 8982136,
+   "archivo": "paladins-neoforge-3.1.3+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-09-26",
+   "bytes": 3115770,
+   "sha1": "0491f4e5c30c15c1aba0a82055ea60ff3b9805e1",
+   "licencia": "",
+   "autores": [
+    "daedelus_dev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/paladins-and-priests",
+   "pilar": "clases",
+   "porque": "Paladín y sacerdote",
+   "mods": [
+    {
+     "modId": "paladins",
+     "version": "3.1.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "armor_model_api",
+       "tipo": "required",
+       "rango": "[1.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "spell_engine",
+       "tipo": "required",
+       "rango": "[1.10.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "runes",
+       "tipo": "required",
+       "rango": "[1.3.1,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "shield_api",
+     "version": "2.1.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "archers",
+   "titulo": "Archers (RPG Series)",
+   "projectID": 932359,
+   "fileID": 8982143,
+   "archivo": "archers-neoforge-3.1.3+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-09-26",
+   "bytes": 903289,
+   "sha1": "75164980b2e88b5a1f1fffb7fdcffb51d2f7d8a4",
+   "licencia": "",
+   "autores": [
+    "daedelus_dev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/archers",
+   "pilar": "clases",
+   "porque": "Arquero",
+   "mods": [
+    {
+     "modId": "archers",
+     "version": "3.1.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.201,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "armor_model_api",
+       "tipo": "required",
+       "rango": "[1.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "spell_engine",
+       "tipo": "required",
+       "rango": "[1.10.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "bundleapi",
+       "tipo": "required",
+       "rango": "[1.1.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "ranged_weapon_api",
+       "tipo": "required",
+       "rango": "[2.3.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "curios",
+       "tipo": "optional",
+       "rango": "*",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "rogues-and-warriors",
+   "titulo": "Rogues & Warriors (RPG Series)",
+   "projectID": 1048409,
+   "fileID": 8982142,
+   "archivo": "rogues-neoforge-3.1.3+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-09-26",
+   "bytes": 1751945,
+   "sha1": "3d1071bc13298dba6142b7c39395e9bb73cca100",
+   "licencia": "",
+   "autores": [
+    "daedelus_dev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/rogues-and-warriors",
+   "pilar": "clases",
+   "porque": "Pícaro y guerrero",
+   "mods": [
+    {
+     "modId": "rogues",
+     "version": "3.1.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "armor_model_api",
+       "tipo": "required",
+       "rango": "[1.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "spell_engine",
+       "tipo": "required",
+       "rango": "[1.10.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "structure_pool_api",
+       "tipo": "required",
+       "rango": "*",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "arsenal-rpg-series",
+   "titulo": "Arsenal (RPG Series)",
+   "projectID": 1230054,
+   "fileID": 8694625,
+   "archivo": "arsenal-neoforge-1.5.0+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-08-20",
+   "bytes": 1224482,
+   "sha1": "60a4017c070443fe2e18b3c7cfe0385923696346",
+   "licencia": "",
+   "autores": [
+    "daedelus_dev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/arsenal-rpg-series",
+   "pilar": "equipo",
+   "porque": "Armas legendarias que se conquistan",
+   "mods": [
+    {
+     "modId": "arsenal",
+     "version": "1.5.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.201,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "spell_engine",
+       "tipo": "required",
+       "rango": "[1.10.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "ranged_weapon_api",
+       "tipo": "required",
+       "rango": "[2.3.0,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "shield_api",
+     "version": "2.1.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "artifacts",
+   "titulo": "Artifacts",
+   "projectID": 312353,
+   "fileID": 8791899,
+   "archivo": "artifacts-neoforge-13.2.5.jar",
+   "tipo": "release",
+   "fecha": "2026-09-02",
+   "bytes": 1086922,
+   "sha1": "fb6cd3be2d034dde369ffd7558c95c6daa44189e",
+   "licencia": "",
+   "autores": [
+    "ochotonida"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/artifacts",
+   "pilar": "equipo",
+   "porque": "Accesorios funcionales, no de daño",
+   "mods": [
+    {
+     "modId": "artifacts",
+     "version": "13.2.5",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.133-beta,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "1.21.1",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "expandability",
+     "version": "12.0.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[20,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.20.6,)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "supplementaries",
+   "titulo": "Supplementaries",
+   "projectID": 412082,
+   "fileID": 9211734,
+   "archivo": "supplementaries-1.21.1-4.0.2-neoforge.jar",
+   "tipo": "release",
+   "fecha": "2026-10-16",
+   "bytes": 13840377,
+   "sha1": "af25cb08a82c72b3fb67508071ce627714bd2b57",
+   "licencia": "",
+   "autores": [
+    "MehVahdJukaar"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/supplementaries",
+   "pilar": "construccion",
+   "porque": "Detalles funcionales",
+   "mods": [
+    {
+     "modId": "supplementaries",
+     "version": "1.21.1-4.0.2",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.247,]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "1.21.1",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "moonlight",
+       "tipo": "required",
+       "rango": "[1.21.1-3.6.4,]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "create",
+       "tipo": "optional",
+       "rango": "[6.0.0,]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "amendments",
+       "tipo": "optional",
+       "rango": "[1.21-2.0.0,]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "farmersdelight",
+       "tipo": "incompatible",
+       "rango": "[0,1.3.0)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "sodium",
+       "tipo": "incompatible",
+       "rango": "[0,0.8.12-beta.1)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "mixinsquared",
+     "version": "0.3.7",
+     "deps": [],
+     "incluido_en_jarjar": true
+    },
+    {
+     "modId": "sablecompanion",
+     "version": "1.6.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.80,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "amendments",
+   "titulo": "Amendments",
+   "projectID": 896746,
+   "fileID": 9122440,
+   "archivo": "amendments-1.21-2.1.11-neoforge.jar",
+   "tipo": "release",
+   "fecha": "2026-10-10",
+   "bytes": 1175215,
+   "sha1": "3d1ba6f88621e4f7f4264d262eb20a2d98bf1f59",
+   "licencia": "",
+   "autores": [
+    "plantspookable",
+    "MehVahdJukaar"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/amendments",
+   "pilar": "construccion",
+   "porque": "Complemento de Supplementaries",
+   "mods": [
+    {
+     "modId": "amendments",
+     "version": "1.21-2.1.11",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "*",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "moonlight",
+       "tipo": "required",
+       "rango": "[1.21.1-3.1.0c,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "every-compat",
+   "titulo": "Every Compat (Wood Good)",
+   "projectID": 628539,
+   "fileID": 9263267,
+   "archivo": "everycomp-1.21-2.11.55-neoforge.jar",
+   "tipo": "release",
+   "fecha": "2026-10-20",
+   "bytes": 2657174,
+   "sha1": "080156a386ebb9abc8af760dfd3806663e718311",
+   "licencia": "",
+   "autores": [
+    "MehVahdJukaar",
+    "xelbayria"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/every-compat",
+   "pilar": "construccion",
+   "porque": "Variantes de madera para maderas de mods",
+   "mods": [
+    {
+     "modId": "everycomp",
+     "version": "1.21-2.11.55",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "*",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "moonlight",
+       "tipo": "required",
+       "rango": "[1.21.1-3.1.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "create",
+       "tipo": "optional",
+       "rango": "[1.21.1-6.0.2,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "mcwdoors",
+       "tipo": "optional",
+       "rango": "[1.1.2,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "mcwtrpdoors",
+       "tipo": "optional",
+       "rango": "[1.1.4,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "blockus",
+       "tipo": "optional",
+       "rango": "[2.9.11,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "regions_unexplored",
+       "tipo": "optional",
+       "rango": "[0.6,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "handcrafted",
+   "titulo": "Handcrafted",
+   "projectID": 538214,
+   "fileID": 6330030,
+   "archivo": "handcrafted-neoforge-1.21.1-4.0.3.jar",
+   "tipo": "release",
+   "fecha": "2025-03-22",
+   "bytes": 7132842,
+   "sha1": "8ecd27f1d66f9b742cfae3c8ffa773765f574b52",
+   "licencia": "",
+   "autores": [
+    "terrariumearth",
+    "AlexNijjar",
+    "kekie6"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/handcrafted",
+   "pilar": "construccion",
+   "porque": "Muebles",
+   "mods": [
+    {
+     "modId": "handcrafted",
+     "version": "4.0.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "resourcefullib",
+       "tipo": "required",
+       "rango": "[3.0.0,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "macaws-roofs",
+   "titulo": "Macaw's Roofs",
+   "projectID": 352039,
+   "fileID": 6494399,
+   "archivo": "mcw-roofs-2.3.2-mc1.21.1neoforge.jar",
+   "tipo": "release",
+   "fecha": "2025-05-04",
+   "bytes": 1784829,
+   "sha1": "05806ff152fab56f7c1b4b215d772ea73611283d",
+   "licencia": "",
+   "autores": [
+    "sketch_macaw"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/macaws-roofs",
+   "pilar": "construccion",
+   "porque": "Tejados",
+   "mods": [
+    {
+     "modId": "mcwroofs",
+     "version": "2.3.2",
+     "deps": []
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "rechiseled",
+   "titulo": "Rechiseled",
+   "projectID": 558998,
+   "fileID": 8875899,
+   "archivo": "rechiseled-1.2.6-neoforge-mc1.21.jar",
+   "tipo": "release",
+   "fecha": "2026-09-13",
+   "bytes": 11526036,
+   "sha1": "a7ca83d2f99520233bfa9ce769a157fe05201639",
+   "licencia": "",
+   "autores": [
+    "SuperMartijn642"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/rechiseled",
+   "pilar": "construccion",
+   "porque": "Variantes de bloques",
+   "mods": [
+    {
+     "modId": "rechiseled",
+     "version": "1.2.6",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.78-beta,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.21.2)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "supermartijn642corelib",
+       "tipo": "required",
+       "rango": "[1.1.20,1.2.0)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "supermartijn642configlib",
+       "tipo": "required",
+       "rango": "[1.1.6,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "fusion",
+       "tipo": "required",
+       "rango": "[1.2.12,)",
+       "lado": "CLIENT"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "comforts",
+   "titulo": "Comforts",
+   "projectID": 276951,
+   "fileID": 7515858,
+   "archivo": "comforts-neoforge-9.0.5+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-01-24",
+   "bytes": 422658,
+   "sha1": "21d6bee3821d62fe3356c51fb1d697871a3087ff",
+   "licencia": "",
+   "autores": [
+    "TheIllusiveC4"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/comforts",
+   "pilar": "construccion",
+   "porque": "Sacos de dormir y hamacas",
+   "mods": [
+    {
+     "modId": "comforts",
+     "version": "9.0.5+1.21.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.143,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "spectrelib",
+     "version": "0.17.2+1.21",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.143,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "farmers-delight",
+   "titulo": "Farmer's Delight",
+   "projectID": 398521,
+   "fileID": 8765184,
+   "archivo": "FarmersDelight-1.21.1-1.3.4.jar",
+   "tipo": "release",
+   "fecha": "2026-08-29",
+   "bytes": 3160490,
+   "sha1": "27675ddfcb8cc37e6ea1ab6c15051c7949d94657",
+   "licencia": "",
+   "autores": [
+    "vectorwing"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/farmers-delight",
+   "pilar": "cocina",
+   "porque": "Cocina con efectos útiles",
+   "mods": [
+    {
+     "modId": "farmersdelight",
+     "version": "1.3.4",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.219,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "crafttweaker",
+       "tipo": "optional",
+       "rango": "[14.0.6,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "lets-do-farm-charm",
+   "titulo": "[Let's Do] Farm & Charm",
+   "projectID": 1038103,
+   "fileID": 9203717,
+   "archivo": "letsdo-farm_and_charm-neoforge-1.1.29.jar",
+   "tipo": "release",
+   "fecha": "2026-10-16",
+   "bytes": 3414667,
+   "sha1": "60b4e599fafc84fb6854d5ef771ee6ae8981a920",
+   "licencia": "",
+   "autores": [
+    "satisfy",
+    "Tsuyumori"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-farm-charm",
+   "pilar": "agricultura",
+   "porque": "Base de Let's Do",
+   "mods": [
+    {
+     "modId": "farm_and_charm",
+     "version": "1.1.29",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "architectury",
+       "tipo": "required",
+       "rango": "[13.0.8,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "foundation",
+       "tipo": "required",
+       "rango": "[1.0.7,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "foundation",
+     "version": "1.0.7",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "architectury",
+       "tipo": "required",
+       "rango": "[13.0.8,)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "lets-do-vinery",
+   "titulo": "[Let's Do] Vinery",
+   "projectID": 704465,
+   "fileID": 9203990,
+   "archivo": "letsdo-vinery-neoforge-1.5.6.jar",
+   "tipo": "release",
+   "fecha": "2026-10-16",
+   "bytes": 2570708,
+   "sha1": "2e2866ba9abdfff57509b291b76567054e1d5065",
+   "licencia": "",
+   "autores": [
+    "satisfy"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-vinery",
+   "pilar": "agricultura",
+   "porque": "Vino con envejecimiento",
+   "mods": [
+    {
+     "modId": "vinery",
+     "version": "1.5.6",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "architectury",
+       "tipo": "required",
+       "rango": "[13.0.8,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "foundation",
+       "tipo": "required",
+       "rango": "[1.0.7,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "foundation",
+     "version": "1.0.7",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "architectury",
+       "tipo": "required",
+       "rango": "[13.0.8,)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "lets-do-meadow",
+   "titulo": "[Let's Do] Meadow",
+   "projectID": 821483,
+   "fileID": 9248044,
+   "archivo": "letsdo-meadow-neoforge-1.4.10.jar",
+   "tipo": "release",
+   "fecha": "2026-10-18",
+   "bytes": 2965222,
+   "sha1": "dd30b394460c7994de8ab22e3ea0bf7d61fa42c6",
+   "licencia": "",
+   "autores": [
+    "satisfy"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-meadow",
+   "pilar": "ganaderia",
+   "porque": "Ganado de montaña y quesos",
+   "mods": [
+    {
+     "modId": "meadow",
+     "version": "1.4.10",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "architectury",
+       "tipo": "required",
+       "rango": "[13.0.8,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "foundation",
+       "tipo": "required",
+       "rango": "[1.0.9,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "foundation",
+     "version": "1.0.9",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "architectury",
+       "tipo": "required",
+       "rango": "[13.0.8,)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "951221",
+   "titulo": "[Let's Do] HerbalBrews",
+   "projectID": 951221,
+   "fileID": 8918021,
+   "archivo": "letsdo-herbalbrews-neoforge-1.1.4.jar",
+   "tipo": "release",
+   "fecha": "2026-09-19",
+   "bytes": 760078,
+   "sha1": "22cddc92a7bca8d9816de608355a8329566e44cb",
+   "licencia": "",
+   "autores": [
+    "satisfy"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-herbal-brews",
+   "pilar": "cocina",
+   "porque": "Tés e infusiones",
+   "mods": [
+    {
+     "modId": "herbalbrews",
+     "version": "1.1.4",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "architectury",
+       "tipo": "required",
+       "rango": "[13.0.0,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "445838",
+   "titulo": "Animal Feeding Trough [Fabric | Forge | Quilt | NeoForge]",
+   "projectID": 445838,
+   "fileID": 5617654,
+   "archivo": "animal_feeding_trough-1.1.2+1.21-neoforge.jar",
+   "tipo": "release",
+   "fecha": "2024-08-11",
+   "bytes": 229880,
+   "sha1": "6c29bbeab4b2c174d9f66d6a3e9ef4e136705c5b",
+   "licencia": "",
+   "autores": [
+    "Slexom"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/animal-feeding-trough",
+   "pilar": "ganaderia",
+   "porque": "Comederos",
+   "mods": [
+    {
+     "modId": "animal_feeding_trough",
+     "version": "1.1.2",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "architectury",
+       "tipo": "required",
+       "rango": "[13,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "tide",
+   "titulo": "Tide 2",
+   "projectID": 884685,
+   "fileID": 8570111,
+   "archivo": "tide-neoforge-1.21.1-2.1.1.jar",
+   "tipo": "release",
+   "fecha": "2026-08-03",
+   "bytes": 2155309,
+   "sha1": "6916fb787c0c3da859166b57a9aaac287d7ed144",
+   "licencia": "",
+   "autores": [
+    "Lightning64"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/tide",
+   "pilar": "pesca",
+   "porque": "Pesca por bioma con diario",
+   "mods": [
+    {
+     "modId": "tide",
+     "version": "2.1.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "1.21.1",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "cloth_config",
+       "tipo": "required",
+       "rango": "*",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "storage-drawers",
+   "titulo": "Storage Drawers",
+   "projectID": 223852,
+   "fileID": 6995432,
+   "archivo": "StorageDrawers-neoforge-1.21.1-13.11.4.jar",
+   "tipo": "release",
+   "fecha": "2025-09-14",
+   "bytes": 1131419,
+   "sha1": "5347db4d1150b132841bd124d1608f812bf8076f",
+   "licencia": "",
+   "autores": [
+    "Texelsaur"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/storage-drawers",
+   "pilar": "almacen",
+   "porque": "Almacén físico",
+   "mods": [
+    {
+     "modId": "storagedrawers",
+     "version": "13.11.4",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "sophisticated-backpacks",
+   "titulo": "Sophisticated Backpacks",
+   "projectID": 422301,
+   "fileID": 9259142,
+   "archivo": "sophisticatedbackpacks-1.21.1-3.26.13.2214.jar",
+   "tipo": "release",
+   "fecha": "2026-10-19",
+   "bytes": 1253533,
+   "sha1": "0b59a06352c0db1c126a2d6b6acc659ae14a8864",
+   "licencia": "",
+   "autores": [
+    "P3pp3rF1y"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-backpacks",
+   "pilar": "almacen",
+   "porque": "Mochilas por materiales hasta netherita (sustituye a Traveler's Backpack desde 0.1.1)",
+   "mods": [
+    {
+     "modId": "sophisticatedbackpacks",
+     "version": "3.26.13",
+     "deps": [
+      {
+       "modId": "sophisticatedcore",
+       "tipo": "required",
+       "rango": "[1.5.15,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.229,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.21.2)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "waystones",
+   "titulo": "Waystones",
+   "projectID": 245755,
+   "fileID": 8969751,
+   "archivo": "waystones-neoforge-1.21.1-21.1.46.jar",
+   "tipo": "release",
+   "fecha": "2026-09-25",
+   "bytes": 1223229,
+   "sha1": "75718161662d9ec957ba22e10e497788ec1687ba",
+   "licencia": "",
+   "autores": [
+    "BlayTheNinth"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/waystones",
+   "pilar": "exploracion",
+   "porque": "Viaje entre lugares descubiertos",
+   "mods": [
+    {
+     "modId": "waystones",
+     "version": "21.1.46",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21-beta,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "balm",
+       "tipo": "required",
+       "rango": "[21.0.39,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "open-parties-and-claims",
+   "titulo": "Open Parties and Claims",
+   "projectID": 636608,
+   "fileID": 9221991,
+   "archivo": "open-parties-and-claims-neoforge-1.21.1-0.33.0.jar",
+   "tipo": "beta",
+   "fecha": "2026-10-17",
+   "bytes": 1903256,
+   "sha1": "6075cf36ac8d70bd1fd870e0eb9ac84685388df7",
+   "licencia": "",
+   "autores": [
+    "xaero96"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/open-parties-and-claims",
+   "pilar": "bases",
+   "porque": "Protección de bases frente a explosiones, mobs y raids",
+   "mods": [
+    {
+     "modId": "openpartiesandclaims",
+     "version": "0.33.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0-beta, 21.2)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "create",
+       "tipo": "optional",
+       "rango": "[6.0.0,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "580555",
+   "titulo": "EMI",
+   "projectID": 580555,
+   "fileID": 8081408,
+   "archivo": "emi-1.1.24+1.21.1+neoforge.jar",
+   "tipo": "release",
+   "fecha": "2026-05-13",
+   "bytes": 1111538,
+   "sha1": "3fd494b37027dfbc7f78414d7cbf251c9eb6738a",
+   "licencia": "",
+   "autores": [
+    "EmilyPloszaj"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/emi",
+   "pilar": "interfaz",
+   "porque": "Recetas (EMI; JEI 19.64 declara minecraft [1.21,1.21.1) y pide mezz_config)",
+   "mods": [
+    {
+     "modId": "emi",
+     "version": "1.1.24+1.21.1+neoforge",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[20.4.72-beta,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "jade",
+   "titulo": "Jade 🔍",
+   "projectID": 324717,
+   "fileID": 8591319,
+   "archivo": "Jade-1.21.1-NeoForge-15.10.6.jar",
+   "tipo": "release",
+   "fecha": "2026-08-06",
+   "bytes": 726853,
+   "sha1": "88ee316e68900080b017f60c12162e2731924cf8",
+   "licencia": "",
+   "autores": [
+    "Snownee"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/jade",
+   "pilar": "interfaz",
+   "porque": "Información del bloque o criatura apuntado",
+   "mods": [
+    {
+     "modId": "jade",
+     "version": "15.10.6+neoforge",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.143, )",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "appleskin",
+   "titulo": "AppleSkin",
+   "projectID": 248787,
+   "fileID": 7854442,
+   "archivo": "appleskin-neoforge-mc1.21-3.0.9.jar",
+   "tipo": "release",
+   "fecha": "2026-04-01",
+   "bytes": 75804,
+   "sha1": "81cf0e668f991f83ac8820c386fbd6c9c3602246",
+   "licencia": "",
+   "autores": [
+    "squeek502"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/appleskin",
+   "pilar": "interfaz",
+   "porque": "Saciedad de la comida",
+   "mods": [
+    {
+     "modId": "appleskin",
+     "version": "3.0.9+mc1.21",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0-beta,)",
+       "lado": "CLIENT"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge",
+    "1.21.2"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "xaeros-minimap",
+   "titulo": "Xaero's Minimap",
+   "projectID": 263420,
+   "fileID": 9067173,
+   "archivo": "xaerominimap-neoforge-1.21.1-26.6.0.jar",
+   "tipo": "release",
+   "fecha": "2026-10-05",
+   "bytes": 2186351,
+   "sha1": "551e8e2aa3498b506cc949a74606cdc0380e5e00",
+   "licencia": "",
+   "autores": [
+    "xaero96"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap",
+   "pilar": "interfaz",
+   "porque": "Minimapa",
+   "mods": [
+    {
+     "modId": "xaerominimap",
+     "version": "26.6.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.110-beta,21.2.0)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "1.21.1",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "openpartiesandclaims",
+       "tipo": "optional",
+       "rango": "[0.32.4,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "xaeroworldmap",
+       "tipo": "optional",
+       "rango": "[1.44.0,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "xaerolib",
+     "version": "1.7.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.110-beta,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.21.1]",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "xaeros-world-map",
+   "titulo": "Xaero's World Map",
+   "projectID": 317780,
+   "fileID": 9067277,
+   "archivo": "xaeroworldmap-neoforge-1.21.1-1.47.0.jar",
+   "tipo": "release",
+   "fecha": "2026-10-05",
+   "bytes": 1427078,
+   "sha1": "2936c9cb9dfbdab145fe6f1e8ae2c68915246a5f",
+   "licencia": "",
+   "autores": [
+    "xaero96"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map",
+   "pilar": "interfaz",
+   "porque": "Mapa del mundo",
+   "mods": [
+    {
+     "modId": "xaeroworldmap",
+     "version": "1.47.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.110-beta, 21.2.0)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.21.2)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "openpartiesandclaims",
+       "tipo": "optional",
+       "rango": "[0.32.4,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "xaerominimap",
+       "tipo": "optional",
+       "rango": "[26.4.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "xaerobetterpvp",
+       "tipo": "optional",
+       "rango": "[26.4.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "xaerolib",
+       "tipo": "required",
+       "rango": "[1.0,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "xaerolib",
+     "version": "1.7.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.110-beta,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.21.1]",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "mouse-tweaks",
+   "titulo": "Mouse Tweaks",
+   "projectID": 60089,
+   "fileID": 5637846,
+   "archivo": "MouseTweaks-neoforge-mc1.21-2.26.1.jar",
+   "tipo": "release",
+   "fecha": "2024-08-17",
+   "bytes": 73938,
+   "sha1": "6dae57f4f50f7808d2ed9a18f6cd1c0d4640c6bc",
+   "licencia": "",
+   "autores": [
+    "YaLTeR"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks",
+   "pilar": "interfaz",
+   "porque": "Manejo de inventario",
+   "mods": [
+    {
+     "modId": "mousetweaks",
+     "version": "2.26.1",
+     "deps": []
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "enchantment-descriptions",
+   "titulo": "Enchantment Descriptions",
+   "projectID": 250419,
+   "fileID": 8693034,
+   "archivo": "enchdesc-neoforge-1.21.1-21.1.11.jar",
+   "tipo": "release",
+   "fecha": "2026-08-20",
+   "bytes": 82648,
+   "sha1": "4d453df785ac21e0e7389cba949f4fa460c3e267",
+   "licencia": "",
+   "autores": [
+    "DarkhaxDev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions",
+   "pilar": "interfaz",
+   "porque": "Explica encantamientos",
+   "mods": [
+    {
+     "modId": "enchdesc",
+     "version": "21.1.11",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.233,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "bookshelf",
+       "tipo": "required",
+       "rango": "[21.1, 21.2)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "prickle",
+       "tipo": "required",
+       "rango": "[21.1, 21.2)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "controlling",
+   "titulo": "Controlling",
+   "projectID": 250398,
+   "fileID": 6368976,
+   "archivo": "Controlling-neoforge-1.21.1-19.0.5.jar",
+   "tipo": "release",
+   "fecha": "2025-03-30",
+   "bytes": 77555,
+   "sha1": "8a34424fc1428778be2fdbfa4da67b21b70bcbfe",
+   "licencia": "",
+   "autores": [
+    "Jaredlll08"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/controlling",
+   "pilar": "interfaz",
+   "porque": "Buscar controles con muchos mods",
+   "mods": [
+    {
+     "modId": "controlling",
+     "version": "19.0.5",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.94,)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "searchables",
+       "tipo": "required",
+       "rango": "[1.0.1,)",
+       "lado": "CLIENT"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1015157",
+   "titulo": "Paxi (NeoForge) [1.20.4 - 1.21.1 ONLY]",
+   "projectID": 1015157,
+   "fileID": 6485740,
+   "archivo": "Paxi-1.21.1-NeoForge-5.1.3.jar",
+   "tipo": "release",
+   "fecha": "2025-05-01",
+   "bytes": 102980,
+   "sha1": "7140974a26a2cd79cdc7b85ab4e834916eacc7f1",
+   "licencia": "",
+   "autores": [
+    "YUNGNICKYOUNG"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/paxi-neoforge",
+   "pilar": "reglas",
+   "porque": "Carga el datapack global de reglas (sin raids ni patrullas)",
+   "mods": [
+    {
+     "modId": "paxi",
+     "version": "1.21.1-NeoForge-5.1.3",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "yungsapi",
+       "tipo": "required",
+       "rango": "[1.21.1-NeoForge-5.1.4,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "sodium",
+   "titulo": "Sodium",
+   "projectID": 394468,
+   "fileID": 8756580,
+   "archivo": "sodium-neoforge-0.8.13+mc1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-08-28",
+   "bytes": 1292934,
+   "sha1": "1757289be21ed18db5b0d90703fa3db1b2de5693",
+   "licencia": "",
+   "autores": [
+    "JellySquid"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/sodium",
+   "pilar": "rendimiento",
+   "porque": "Renderizado",
+   "mods": [
+    {
+     "modId": "sodium",
+     "version": "0.8.13+mc1.21.1",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "1.21.1",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.82,)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "embeddium",
+       "tipo": "incompatible",
+       "rango": "[0.0.1,)",
+       "lado": "CLIENT"
+      }
+     ]
+    },
+    {
+     "modId": "fabric_api_base",
+     "version": "0.4.42+d1308ded19",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.219,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.22)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    },
+    {
+     "modId": "fabric_block_view_api_v2",
+     "version": "1.0.10+9afaaf8c19",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.115,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.22)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    },
+    {
+     "modId": "fabric_renderer_api_v1",
+     "version": "3.4.1+9125b6dc19",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.219,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "fabric_api_base",
+       "tipo": "required",
+       "rango": "*",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    },
+    {
+     "modId": "fabric_rendering_data_attachment_v1",
+     "version": "0.3.48+73761d2e19",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.115,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "fabric_block_view_api_v2",
+       "tipo": "required",
+       "rango": "*",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    },
+    {
+     "modId": "sodium",
+     "version": "0.8.13+mc1.21.1",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "1.21.1",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.82,)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "embeddium",
+       "tipo": "incompatible",
+       "rango": "[0.0.1,)",
+       "lado": "CLIENT"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "lithium",
+   "titulo": "Lithium (Fabric/NeoForge)",
+   "projectID": 360438,
+   "fileID": 8330365,
+   "archivo": "lithium-neoforge-0.15.4+mc1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-06-27",
+   "bytes": 774220,
+   "sha1": "97212e45c963730bbfc7c44780df99317814c21b",
+   "licencia": "",
+   "autores": [
+    "JellySquid"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/lithium",
+   "pilar": "rendimiento",
+   "porque": "Lógica del juego",
+   "mods": [
+    {
+     "modId": "lithium",
+     "version": "0.15.4+mc1.21.1",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.21.1]",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "429235",
+   "titulo": "FerriteCore ((Neo)Forge)",
+   "projectID": 429235,
+   "fileID": 7524151,
+   "archivo": "ferritecore-7.0.3-neoforge.jar",
+   "tipo": "release",
+   "fecha": "2026-01-25",
+   "bytes": 121559,
+   "sha1": "9563692efb708b6b568df27a01ec52f6311928ef",
+   "licencia": "",
+   "autores": [
+    "malte0811"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/ferritecore",
+   "pilar": "rendimiento",
+   "porque": "Memoria",
+   "mods": [
+    {
+     "modId": "ferritecore",
+     "version": "7.0.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.218,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.22)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "modernfix",
+   "titulo": "ModernFix",
+   "projectID": 790626,
+   "fileID": 9101836,
+   "archivo": "modernfix-neoforge-5.27.26+mc1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-10-08",
+   "bytes": 611043,
+   "sha1": "69d468b70e53f6a014c778a81116a41a38fbab33",
+   "licencia": "",
+   "autores": [
+    "embeddedt"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/modernfix",
+   "pilar": "rendimiento",
+   "porque": "Carga y memoria",
+   "mods": [
+    {
+     "modId": "modernfix",
+     "version": "5.27.26+mc1.21.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.111-beta,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "jei",
+       "tipo": "optional",
+       "rango": "[15.8.0.11,)",
+       "lado": "CLIENT"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "448233",
+   "titulo": "Entity Culling Fabric/Forge",
+   "projectID": 448233,
+   "fileID": 9100286,
+   "archivo": "entityculling-neoforge-1.11.3-mc1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-10-08",
+   "bytes": 1510075,
+   "sha1": "f122f84f329793675b2625d51b77f990d7de3579",
+   "licencia": "",
+   "autores": [
+    "tr7zw"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/entityculling",
+   "pilar": "rendimiento",
+   "porque": "No dibuja entidades ocultas",
+   "mods": [
+    {
+     "modId": "entityculling",
+     "version": "1.11.3",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[20.2,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "transition",
+     "version": "1.0.26",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[20.2,)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    },
+    {
+     "modId": "trender",
+     "version": "1.0.17",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[20.2,)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "immediatelyfast",
+   "titulo": "ImmediatelyFast",
+   "projectID": 686911,
+   "fileID": 9165518,
+   "archivo": "ImmediatelyFast-NeoForge-1.6.15+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-10-13",
+   "bytes": 368896,
+   "sha1": "f991166f7c82b493481c876e3c83c9fac4159671",
+   "licencia": "",
+   "autores": [
+    "RaphiMC"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/immediatelyfast",
+   "pilar": "rendimiento",
+   "porque": "Renderizado inmediato",
+   "mods": [
+    {
+     "modId": "immediatelyfast",
+     "version": "1.6.15+1.21.1",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.21.1]",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0,)",
+       "lado": "CLIENT"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "critters-and-companions",
+   "titulo": "Critters and Companions",
+   "projectID": 574913,
+   "fileID": 8646976,
+   "archivo": "crittersandcompanions-neoforge-1.21.1-2.7.0.jar",
+   "tipo": "release",
+   "fecha": "2026-08-14",
+   "bytes": 2098079,
+   "sha1": "957286bd79fd0b735c2e9619a249dde77292ca06",
+   "licencia": "",
+   "autores": [
+    "joosh_7889",
+    "Lytho",
+    "AlexNijjar",
+    "possible_triangle",
+    "CodexAdrian",
+    "3xpl01t"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/critters-and-companions",
+   "pilar": "fauna",
+   "porque": "Fauna de ríos, bosques, jungla, nieve y océano en estilo vanilla (nutria, koi, panda rojo...)",
+   "mods": [
+    {
+     "modId": "crittersandcompanions",
+     "version": "2.7.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "architectury",
+       "tipo": "required",
+       "rango": "[13.0.11,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "geckolib",
+       "tipo": "required",
+       "rango": "[4.9.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "yet_another_config_lib_v3",
+       "tipo": "required",
+       "rango": "[3.6.1+1.21,)",
+       "lado": "CLIENT"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "in-control",
+   "titulo": "In Control!",
+   "projectID": 257356,
+   "fileID": 8790499,
+   "archivo": "incontrol-1.21-10.3.0.jar",
+   "tipo": "beta",
+   "fecha": "2026-09-02",
+   "bytes": 356782,
+   "sha1": "eb89f724834b393e9a76c404df642d930e50eb19",
+   "licencia": "",
+   "autores": [
+    "McJty"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/in-control",
+   "pilar": "reglas",
+   "porque": "Reglas de aparición por bioma/estructura/dimensión: reposición de fauna y dificultad regional (beta en 1.21.1)",
+   "mods": [
+    {
+     "modId": "incontrol",
+     "version": "1.21-10.3.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "lostcities",
+       "tipo": "optional",
+       "rango": "[1.21-8.2.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "kubejs",
+       "tipo": "optional",
+       "rango": "[2101,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "create",
+   "titulo": "Create",
+   "projectID": 328085,
+   "fileID": 7963363,
+   "archivo": "create-1.21.1-6.0.10.jar",
+   "tipo": "release",
+   "fecha": "2026-04-21",
+   "bytes": 19123767,
+   "sha1": "0e97e49837bed766e6f28a4c95b04885d6acc353",
+   "licencia": "",
+   "autores": [
+    "simibubi",
+    "IThundxr"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/create",
+   "pilar": "automatizacion",
+   "porque": "Construcción mecánica y automatización opcional (sin addons)",
+   "mods": [
+    {
+     "modId": "create",
+     "version": "6.0.10",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.219,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "flywheel",
+       "tipo": "required",
+       "rango": "[1.0.0,2.0)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "ponder",
+       "tipo": "required",
+       "rango": "[1.0.82,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "sodium",
+       "tipo": "optional",
+       "rango": "[0.6.9,)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "lithium",
+       "tipo": "optional",
+       "rango": "[0.14.7,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "journeymap",
+       "tipo": "optional",
+       "rango": "[1.21.1-6.0.0-beta.46,)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "xaeroworldmap",
+       "tipo": "optional",
+       "rango": "[1.40.2,)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "radium",
+       "tipo": "incompatible",
+       "rango": "*",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "palladium",
+       "tipo": "incompatible",
+       "rango": "*",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "flywheel",
+     "version": "1.0.6",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.21.2)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.66,)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "embeddium",
+       "tipo": "optional",
+       "rango": "[0.3.25,)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "sodium",
+       "tipo": "optional",
+       "rango": "[0.6.0-beta.2,)",
+       "lado": "CLIENT"
+      }
+     ],
+     "incluido_en_jarjar": true
+    },
+    {
+     "modId": "ponder",
+     "version": "1.0.82+mc1.21.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.206,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "flywheel",
+       "tipo": "required",
+       "rango": "[1.0.0,2.0)",
+       "lado": "CLIENT"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1635121",
+   "titulo": "Alex's Mobs Continued",
+   "projectID": 1635121,
+   "fileID": 9256253,
+   "archivo": "alexsmobs-2.2.4-neoforge+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-10-19",
+   "bytes": 27466197,
+   "sha1": "9e7c7e11be880cd6106819f6c7bed829e45b5754",
+   "licencia": "",
+   "autores": [
+    "CodxIO"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/alexs-mobs-continued",
+   "pilar": "fauna",
+   "porque": "Alex's Mobs Continued: ~90 animales y monstruos con modelo y comportamiento propios, ligados a su bioma",
+   "mods": [
+    {
+     "modId": "alexsmobs",
+     "version": "2.2.4",
+     "deps": [
+      {
+       "modId": "codxlib",
+       "tipo": "required",
+       "rango": "[1.6.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[1,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1645389",
+   "titulo": "Alex's Caves Continued",
+   "projectID": 1645389,
+   "fileID": 9256196,
+   "archivo": "alexscaves-1.1.3-neoforge+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-10-19",
+   "bytes": 75290877,
+   "sha1": "830099d350b8e80860a952e8491714ff7d78d957",
+   "licencia": "",
+   "autores": [
+    "CodxIO"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/alexs-caves-continued",
+   "pilar": "mundo",
+   "porque": "Alex's Caves Continued: seis biomas subterráneos raros con su fauna y peligros",
+   "mods": [
+    {
+     "modId": "alexscaves",
+     "version": "1.1.3",
+     "deps": [
+      {
+       "modId": "codxlib",
+       "tipo": "required",
+       "rango": "[1.3.6,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[1,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "iceandfire-ce",
+   "titulo": "IceAndFire Community Edition",
+   "projectID": 1040076,
+   "fileID": 9128508,
+   "archivo": "iceandfire-2.1.4.jar",
+   "tipo": "release",
+   "fecha": "2026-10-11",
+   "bytes": 20938104,
+   "sha1": "3bffc3a55369bba28db6c2f6a5e827b1c6ac8586",
+   "licencia": "",
+   "autores": [
+    "IAFEnvoy"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/iceandfire-ce",
+   "pilar": "fauna",
+   "porque": "Dragones y criaturas míticas en nidos y cuevas lejos del spawn (edición comunitaria mantenida)",
+   "mods": [
+    {
+     "modId": "iceandfire",
+     "version": "2.1.4",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.248,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "uranus",
+       "tipo": "required",
+       "rango": "[2.3.2,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "jupiter",
+       "tipo": "required",
+       "rango": "[2.3,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "integration",
+     "version": "0.2",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[0,)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "born-in-chaos",
+   "titulo": "Born in Chaos",
+   "projectID": 686437,
+   "fileID": 8268280,
+   "archivo": "born_in_chaos_[Neoforge]_1.21.1_1.7.6.jar",
+   "tipo": "release",
+   "fecha": "2026-06-17",
+   "bytes": 11842184,
+   "sha1": "73704f38ac368c03716f9cc8f537470d3b352fa2",
+   "licencia": "",
+   "autores": [
+    "mongoose_artist"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/born-in-chaos",
+   "pilar": "fauna",
+   "porque": "Monstruos nocturnos con mecánicas propias; limitados por entorno y sin eventos (ver purgatorio_criaturas)",
+   "mods": [
+    {
+     "modId": "born_in_chaos_v1",
+     "version": "1.7.6",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.65,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "geckolib",
+       "tipo": "optional",
+       "rango": "[0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "jei",
+       "tipo": "optional",
+       "rango": "[0,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "mobs-of-mythology",
+   "titulo": "Mobs of Mythology",
+   "projectID": 699989,
+   "fileID": 8269965,
+   "archivo": "mobs_of_mythology-neoforge-1.21.1-3.0.0.jar",
+   "tipo": "release",
+   "fecha": "2026-06-18",
+   "bytes": 1085666,
+   "sha1": "8de7c5b1204168e1a7e6d59dcbc167fe5803f0b2",
+   "licencia": "",
+   "autores": [
+    "Thrasos"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/mobs-of-mythology",
+   "pilar": "fauna",
+   "porque": "Pocas criaturas míticas (kobolds, dracos, basilisco, chupacabras) en biomas concretos",
+   "mods": [
+    {
+     "modId": "mobs_of_mythology",
+     "version": "3.0.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "architectury",
+       "tipo": "required",
+       "rango": "[13.0.2,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "azurelib",
+       "tipo": "required",
+       "rango": "[2.3.4,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "smartbrainlib",
+       "tipo": "required",
+       "rango": "[1.14.2,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "infernal-expansion-redux",
+   "titulo": "Infernal Expansion Redux",
+   "projectID": 1407992,
+   "fileID": 9264720,
+   "archivo": "infernalexp-neoforge-1.21.1-0.3.20.jar",
+   "tipo": "release",
+   "fecha": "2026-10-20",
+   "bytes": 11289073,
+   "sha1": "7619014e033ce8b28451b6693e2366978ac796c7",
+   "licencia": "",
+   "autores": [
+    "Nekomaster1000",
+    "evanbones",
+    "HellionGames",
+    "Lyof429"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/infernal-expansion-redux",
+   "pilar": "mundo",
+   "porque": "Nether: cañón de piedra luminosa y su fauna, sin rehacer la generación",
+   "mods": [
+    {
+     "modId": "infernalexp",
+     "version": "0.3.20",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.230,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1, 1.21.2)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "lithostitched",
+       "tipo": "required",
+       "rango": "*",
+       "lado": "SERVER"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "servercore",
+   "titulo": "ServerCore",
+   "projectID": 550579,
+   "fileID": 8312220,
+   "archivo": "servercore-neoforge-1.5.19+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-06-24",
+   "bytes": 1462674,
+   "sha1": "62ce692654e09271b5c55cbb3a1ef7606d067132",
+   "licencia": "",
+   "autores": [
+    "Wesley8081"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/servercore",
+   "pilar": "rendimiento",
+   "porque": "Servidor: consultas de bioma rápidas al hacer aparecer criaturas, rango de activación de IA (32 bloques) y tope de Glares",
+   "mods": [
+    {
+     "modId": "servercore",
+     "version": "1.5.19+1.21.1",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[20.2.86,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "more-mobgriefing-options",
+   "titulo": "More MobGriefing Options",
+   "projectID": 389013,
+   "fileID": 9035397,
+   "archivo": "MoreMobGriefingOptions-1.21.1-3.0.2.jar",
+   "tipo": "release",
+   "fecha": "2026-10-02",
+   "bytes": 42162,
+   "sha1": "66ccffd2ea26b86e409ae2ddb33255c1244e0d49",
+   "licencia": "",
+   "autores": [
+    "GeheimagentNr1"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/more-mobgriefing-options",
+   "pilar": "proteccion",
+   "porque": "mobGriefing por tipo de criatura: los hostiles no rompen bloques (creepers, endermans, Alex's Caves...) y aldeanos, ovejas y piglins conservan sus mecánicas",
+   "mods": [
+    {
+     "modId": "moremobgriefingoptions",
+     "version": "3.0.2",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.21.10]",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.8",
+    "1.21.5",
+    "1.21.4",
+    "1.21.1",
+    "1.21.6",
+    "1.21.3",
+    "1.21.7",
+    "NeoForge",
+    "Server",
+    "1.21.2",
+    "1.21.9",
+    "1.21.10"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "ambientsounds",
+   "titulo": "AmbientSounds 6",
+   "projectID": 254284,
+   "fileID": 9254776,
+   "archivo": "AmbientSounds_NEOFORGE_v6.3.11_mc1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-10-19",
+   "bytes": 84815086,
+   "sha1": "9762244f9c116c85a6af3469da686650ed455bb1",
+   "licencia": "",
+   "autores": [
+    "CreativeMD"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/ambientsounds",
+   "pilar": "ambiente",
+   "porque": "Sonido ambiental según bioma, altura y hora (solo cliente; volumen provisional 0,75)",
+   "mods": [
+    {
+     "modId": "ambientsounds",
+     "version": "6.3.11",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "creativecore",
+       "tipo": "required",
+       "rango": "[2.13.37,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "sound-physics-remastered",
+   "titulo": "Sound Physics Remastered",
+   "projectID": 535489,
+   "fileID": 7032247,
+   "archivo": "sound-physics-remastered-neoforge-1.21.1-1.5.1.jar",
+   "tipo": "alpha",
+   "fecha": "2025-09-25",
+   "bytes": 202454,
+   "sha1": "31cf754f9e5f62d1ca257f297e5dce394024696c",
+   "licencia": "",
+   "autores": [
+    "henkelmax"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered",
+   "pilar": "ambiente",
+   "porque": "Reverberación y oclusión del sonido (solo cliente; reverberación provisional 0,7)",
+   "mods": [
+    {
+     "modId": "sound_physics_remastered",
+     "version": "1.21.1-1.5.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0-beta,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "cloth_config",
+       "tipo": "optional",
+       "rango": "[15.0.127,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "voicechat",
+       "tipo": "optional",
+       "rango": "[1.21-2.3.0,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "fancymenu",
+   "titulo": "FancyMenu",
+   "projectID": 367706,
+   "fileID": 9002957,
+   "archivo": "fancymenu_neoforge_3.9.14_MC_1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-09-28",
+   "bytes": 25922080,
+   "sha1": "cafbef98afb4f60adea426b950c5452655040c40",
+   "licencia": "",
+   "autores": [
+    "Keksuccino"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/fancymenu",
+   "pilar": "identidad",
+   "porque": "Menú principal propio (capas, animación AFMA, botones con estilo propio), título e icono de la ventana (solo cliente)",
+   "mods": [
+    {
+     "modId": "fancymenu",
+     "version": "3.9.14",
+     "deps": [
+      {
+       "modId": "konkrete",
+       "tipo": "required",
+       "rango": "[1.9.4,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "melody",
+       "tipo": "required",
+       "rango": "[1.0.6,)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "findme",
+       "tipo": "optional",
+       "rango": "[1.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "rinku",
+       "tipo": "optional",
+       "rango": "[3.0.4,)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "drippyloadingscreen",
+       "tipo": "optional",
+       "rango": "[3.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "fancy_entity_renderer",
+       "tipo": "optional",
+       "rango": "[0.4.1,)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "watermedia",
+       "tipo": "optional",
+       "rango": "[3.0.0.22,)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.47,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "drippy-loading-screen",
+   "titulo": "Drippy Loading Screen",
+   "projectID": 511770,
+   "fileID": 8552907,
+   "archivo": "drippyloadingscreen_neoforge_3.1.5_MC_1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-08-01",
+   "bytes": 168632,
+   "sha1": "9d27991a7f5a551265692abf8ed40ece10ea1958",
+   "licencia": "",
+   "autores": [
+    "Keksuccino"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/drippy-loading-screen",
+   "pilar": "identidad",
+   "porque": "Pantallas de carga con la marca: carga temprana de NeoForge y carga de recursos (solo cliente)",
+   "mods": [
+    {
+     "modId": "drippyloadingscreen",
+     "version": "3.1.5",
+     "deps": [
+      {
+       "modId": "konkrete",
+       "tipo": "required",
+       "rango": "[1.9.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "fancymenu",
+       "tipo": "required",
+       "rango": "[3.9.9,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.47,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "countereds-terrain-slabs",
+   "titulo": "Countered's Terrain Slabs",
+   "projectID": 1125437,
+   "fileID": 8216091,
+   "archivo": "terrain_slabs-neoforge-3.1.2.jar",
+   "tipo": "release",
+   "fecha": "2026-06-08",
+   "bytes": 371794,
+   "sha1": "e29950d38f3eef292ba22c7bfa86c6dae11395df",
+   "licencia": "",
+   "autores": [
+    "Countered",
+    "Dusty_Dusty"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/countereds-terrain-slabs",
+   "pilar": "mundo",
+   "porque": "Losas naturales que suavizan pendientes y cuevas; +10 % de tiempo de generación, sin cambiar biomas ni estructuras (lab 0.5.0)",
+   "mods": [
+    {
+     "modId": "terrain_slabs",
+     "version": "3.1.2",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "architectury",
+       "tipo": "required",
+       "rango": "[13.0.8,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "midnightlib",
+     "version": "1.9.2",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[20.5,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.21.1]",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "countereds-smooth-steps",
+   "titulo": "Countered's Smooth Steps",
+   "projectID": 1510451,
+   "fileID": 8057041,
+   "archivo": "smooth_steps-neoforge-1.1.0.jar",
+   "tipo": "release",
+   "fecha": "2026-05-08",
+   "bytes": 63265,
+   "sha1": "5ab7e196b99ae7cd06e6f910ae0e88db9f8c659c",
+   "licencia": "",
+   "autores": [
+    "Countered"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/countereds-smooth-steps",
+   "pilar": "ambiente",
+   "porque": "Subida suave de escalones y losas al caminar, complemento de Terrain Slabs (solo cliente)",
+   "mods": [
+    {
+     "modId": "smooth_steps",
+     "version": "1.1.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "architectury",
+       "tipo": "required",
+       "rango": "[13.0.8,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "midnightlib",
+     "version": "1.9.2",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[20.5,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.21.1]",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "particular-reforged",
+   "titulo": "Particular ✨ Reforged",
+   "projectID": 1219053,
+   "fileID": 8662697,
+   "archivo": "particular-1.21.1-NeoForge-1.5.7.jar",
+   "tipo": "release",
+   "fecha": "2026-08-16",
+   "bytes": 315841,
+   "sha1": "d6d33e8233481ad8fc6f8c351f52783ed431a800",
+   "licencia": "",
+   "autores": [
+    "Project8gbDeRam"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/particular-reforged",
+   "pilar": "ambiente",
+   "porque": "Partículas ambientales: hojas, salpicaduras, cascadas (solo cliente; entra en servidores sin él)",
+   "mods": [
+    {
+     "modId": "particular",
+     "version": "1.5.7",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[4,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "iris",
+       "tipo": "optional",
+       "rango": "[0,)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "sable",
+       "tipo": "optional",
+       "rango": "[0,)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "tfc",
+       "tipo": "optional",
+       "rango": "[0,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "particle-rain",
+   "titulo": "Particle Rain",
+   "projectID": 421897,
+   "fileID": 9113934,
+   "archivo": "particlerain-4.0.2+1.21.1-neoforge.jar",
+   "tipo": "release",
+   "fecha": "2026-10-10",
+   "bytes": 623257,
+   "sha1": "444c6f221e57cca8e433702b18c4643faa82545a",
+   "licencia": "",
+   "autores": [
+    "PigCart"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/particle-rain",
+   "pilar": "ambiente",
+   "porque": "Lluvia y nieve con partículas (solo cliente)",
+   "mods": [
+    {
+     "modId": "particlerain",
+     "version": "4.0.2",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "*",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "936015",
+   "titulo": "Lithostitched",
+   "projectID": 936015,
+   "fileID": 9170709,
+   "archivo": "lithostitched-1.8.1-neoforge-21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-10-14",
+   "bytes": 1023751,
+   "sha1": "88cdded5b617e19b4d2676948b5550699de23578",
+   "licencia": "",
+   "autores": [
+    "Apollo",
+    "SmellyModder"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/lithostitched",
+   "pilar": "dependencia",
+   "porque": "requerido por terralith",
+   "mods": [
+    {
+     "modId": "lithostitched",
+     "version": "1.8.1",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "apollib",
+       "tipo": "required",
+       "rango": "[1.2.0,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "apollib",
+     "version": "1.2.0",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.21.1]",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "570073",
+   "titulo": "Resourceful Lib",
+   "projectID": 570073,
+   "fileID": 5973188,
+   "archivo": "resourcefullib-neoforge-1.21-3.0.12.jar",
+   "tipo": "release",
+   "fecha": "2024-12-08",
+   "bytes": 484332,
+   "sha1": "24389c8e48ff0e8594e4686b750c494c66a5f8df",
+   "licencia": "",
+   "autores": [
+    "ThatGravyBoat",
+    "epic_oreo"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/resourceful-lib",
+   "pilar": "dependencia",
+   "porque": "requerido por friendsandfoes",
+   "mods": [
+    {
+     "modId": "resourcefullib",
+     "version": "3.0.12",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0-beta,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "388172",
+   "titulo": "GeckoLib",
+   "projectID": 388172,
+   "fileID": 8893490,
+   "archivo": "geckolib-neoforge-1.21.1-4.9.3.jar",
+   "tipo": "release",
+   "fecha": "2026-09-16",
+   "bytes": 634531,
+   "sha1": "5cfe835472a5c5457ae9ac192d9d7b317454d5ac",
+   "licencia": "",
+   "autores": [
+    "Gecko",
+    "EliotL"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/geckolib",
+   "pilar": "dependencia",
+   "porque": "requerido por creeperoverhaul",
+   "mods": [
+    {
+     "modId": "geckolib",
+     "version": "4.9.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.150,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "geckoanimfix",
+       "tipo": "incompatible",
+       "rango": "*",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "714059",
+   "titulo": "Resourceful Config",
+   "projectID": 714059,
+   "fileID": 6467772,
+   "archivo": "resourcefulconfig-neoforge-1.21-3.0.11.jar",
+   "tipo": "release",
+   "fecha": "2025-04-26",
+   "bytes": 341009,
+   "sha1": "6bf2b6ea9c071c00a2abcdc552667fb6f7d21031",
+   "licencia": "",
+   "autores": [
+    "ThatGravyBoat",
+    "epic_oreo"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/resourceful-config",
+   "pilar": "dependencia",
+   "porque": "requerido por creeperoverhaul",
+   "mods": [
+    {
+     "modId": "resourcefulconfig",
+     "version": "3.0.11",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[20.5,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.20.5,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "997634",
+   "titulo": "Platform",
+   "projectID": 997634,
+   "fileID": 6677047,
+   "archivo": "platform-neoforge-1.21.1-1.2.10.2.jar",
+   "tipo": "release",
+   "fecha": "2025-06-21",
+   "bytes": 394248,
+   "sha1": "0cdfb25956b29fc555a46787e6ee5a82a7291ccf",
+   "licencia": "",
+   "autores": [
+    "BlackGear"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/platform",
+   "pilar": "dependencia",
+   "porque": "requerido por rottencreatures",
+   "mods": [
+    {
+     "modId": "platform",
+     "version": "1.2.10.2",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "NeoForge",
+    "1.21.1",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1015100",
+   "titulo": "YUNG's API (NeoForge) [1.20.4-1.21.1 ONLY]",
+   "projectID": 1015100,
+   "fileID": 8894736,
+   "archivo": "YungsApi-1.21.1-NeoForge-5.1.9.jar",
+   "tipo": "release",
+   "fecha": "2026-09-16",
+   "bytes": 413763,
+   "sha1": "2c4b740c8ad27bbcb2a21b85b64f011b809aed91",
+   "licencia": "",
+   "autores": [
+    "YUNGNICKYOUNG"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/yungs-api-neoforge",
+   "pilar": "dependencia",
+   "porque": "requerido por betterdungeons",
+   "mods": [
+    {
+     "modId": "yungsapi",
+     "version": "1.21.1-NeoForge-5.1.9",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1337167",
+   "titulo": "Moog's Structure Lib (moogs_structures)",
+   "projectID": 1337167,
+   "fileID": 9047179,
+   "archivo": "MoogsStructureLib-neoforge-1.21.1-3.4.2.jar",
+   "tipo": "release",
+   "fecha": "2026-10-03",
+   "bytes": 1094979,
+   "sha1": "c379b8d5dc1a4b1e8987da1052d6b4de81354d72",
+   "licencia": "",
+   "autores": [
+    "finndog_123"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/moogs-structure-lib",
+   "pilar": "dependencia",
+   "porque": "requerido por mvs",
+   "mods": [
+    {
+     "modId": "moogs_structures",
+     "version": "3.4.2",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.21.2)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.0-beta,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "419699",
+   "titulo": "Architectury API",
+   "projectID": 419699,
+   "fileID": 8492726,
+   "archivo": "architectury-13.0.11-neoforge.jar",
+   "tipo": "release",
+   "fecha": "2026-07-23",
+   "bytes": 584734,
+   "sha1": "008656a0702801174b8ec245ed7aad1921d6e9f1",
+   "licencia": "",
+   "autores": [
+    "shedaniel",
+    "Juicebus",
+    "MaxNeedsSnacks",
+    "st0x0ef"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/architectury-api",
+   "pilar": "dependencia",
+   "porque": "requerido por betterarcheology",
+   "mods": [
+    {
+     "modId": "architectury",
+     "version": "13.0.11",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.110-beta,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "309927",
+   "titulo": "Curios API",
+   "projectID": 309927,
+   "fileID": 6529130,
+   "archivo": "curios-neoforge-9.5.1+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2025-05-14",
+   "bytes": 410690,
+   "sha1": "418fcd42e3a7844c9bdc71c9b6401fdb3894e0c4",
+   "licencia": "",
+   "autores": [
+    "TheIllusiveC4"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/curios",
+   "pilar": "dependencia",
+   "porque": "requerido por cataclysm",
+   "mods": [
+    {
+     "modId": "curios",
+     "version": "9.5.1+1.21.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.60,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.22)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1001614",
+   "titulo": "Lionfish API",
+   "projectID": 1001614,
+   "fileID": 8345326,
+   "archivo": "lionfishapi-3.1.jar",
+   "tipo": "release",
+   "fecha": "2026-06-30",
+   "bytes": 91596,
+   "sha1": "353ca00ed118eb67cf11085abbbd699884722326",
+   "licencia": "",
+   "autores": [
+    "mcl_ender"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/lionfish-api",
+   "pilar": "dependencia",
+   "porque": "requerido por cataclysm",
+   "mods": [
+    {
+     "modId": "lionfishapi",
+     "version": "3.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.219,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "1.21.1",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "cerbons-api",
+   "titulo": "CERBON's API [Forge | Fabric | NeoForge]",
+   "projectID": 955605,
+   "fileID": 6483943,
+   "archivo": "CerbonsAPI-NeoForge-1.21-1.3.0.jar",
+   "tipo": "release",
+   "fecha": "2025-05-01",
+   "bytes": 250545,
+   "sha1": "3f0d3eed4633d9ef3a713de4b39ee4e683aa9389",
+   "licencia": "",
+   "autores": [
+    "Cerbon"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/cerbons-api",
+   "pilar": "dependencia",
+   "porque": "requerido por bosses_of_mass_destruction",
+   "mods": [
+    {
+     "modId": "cerbons_api",
+     "version": "1.3.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.22)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "348521",
+   "titulo": "Cloth Config API (Fabric/Forge/NeoForge)",
+   "projectID": 348521,
+   "fileID": 5729127,
+   "archivo": "cloth-config-15.0.140-neoforge.jar",
+   "tipo": "release",
+   "fecha": "2024-09-16",
+   "bytes": 1163890,
+   "sha1": "c3e5733ba4503b102589a026000fd5ce0212f6f2",
+   "licencia": "",
+   "autores": [
+    "shedaniel",
+    "LinkieIsBetterThanK9"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/cloth-config",
+   "pilar": "dependencia",
+   "porque": "requerido por bosses_of_mass_destruction",
+   "mods": [
+    {
+     "modId": "cloth_config",
+     "version": "15.0.140",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.110-beta,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "658587",
+   "titulo": "playerAnimator",
+   "projectID": 658587,
+   "fileID": 7389814,
+   "archivo": "player-animation-lib-forge-2.0.4+1.21.1.jar",
+   "tipo": "beta",
+   "fecha": "2025-12-28",
+   "bytes": 203149,
+   "sha1": "05be8ddcc78532b9a5520c718edc6c971cd0057c",
+   "licencia": "",
+   "autores": [
+    "KosmX"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/playeranimator",
+   "pilar": "dependencia",
+   "porque": "requerido por bettercombat",
+   "mods": [
+    {
+     "modId": "playeranimator",
+     "version": "2.0.4+1.21.1",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.21.2)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "771265",
+   "titulo": "Spell Power Attributes",
+   "projectID": 771265,
+   "fileID": 8634104,
+   "archivo": "spell_power-neoforge-1.6.0+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-08-12",
+   "bytes": 222955,
+   "sha1": "29a1f6bf29db1868b3b22f3a8cf287b26a429ab2",
+   "licencia": "",
+   "autores": [
+    "daedelus_dev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/spell-power",
+   "pilar": "dependencia",
+   "porque": "requerido por spell_engine",
+   "mods": [
+    {
+     "modId": "spell_power",
+     "version": "1.6.0+1.21.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "tiny_config",
+     "version": "3.1.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "armor-model-api",
+   "titulo": "Armor Model API",
+   "projectID": 1659764,
+   "fileID": 8793923,
+   "archivo": "armor_model_api-neoforge-1.1.0+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-09-02",
+   "bytes": 91856,
+   "sha1": "616a2e4578b4b41af2752459fd12b970fa4809c6",
+   "licencia": "",
+   "autores": [
+    "daedelus_dev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/armor-model-api",
+   "pilar": "dependencia",
+   "porque": "requerido por wizards",
+   "mods": [
+    {
+     "modId": "armor_model_api",
+     "version": "1.1.0+1.21.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "775518",
+   "titulo": "Runes",
+   "projectID": 775518,
+   "fileID": 8702937,
+   "archivo": "runes-neoforge-1.3.2+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-08-21",
+   "bytes": 329875,
+   "sha1": "9eb165234592574db6d57cc6deb6d252f822e53e",
+   "licencia": "",
+   "autores": [
+    "daedelus_dev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/rune-crafting",
+   "pilar": "dependencia",
+   "porque": "requerido por wizards",
+   "mods": [
+    {
+     "modId": "runes",
+     "version": "1.3.2+1.21.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "bundleapi",
+     "version": "1.1.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "927915",
+   "titulo": "Structure Pool API",
+   "projectID": 927915,
+   "fileID": 7145227,
+   "archivo": "structure_pool_api-neoforge-1.2.1+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2025-10-24",
+   "bytes": 140459,
+   "sha1": "5150191b29de8462705e5aa715c2554a5744dc7b",
+   "licencia": "",
+   "autores": [
+    "daedelus_dev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/structure-pool-api",
+   "pilar": "dependencia",
+   "porque": "requerido por wizards",
+   "mods": [
+    {
+     "modId": "structure_pool_api",
+     "version": "1.2.1+1.21.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "bundle-api",
+   "titulo": "Bundle API",
+   "projectID": 1189983,
+   "fileID": 7006149,
+   "archivo": "bundle-api-neoforge-1.1.0.jar",
+   "tipo": "release",
+   "fecha": "2025-09-17",
+   "bytes": 64124,
+   "sha1": "49ea32e2872c9738363eb76a97ce0553bd2ff756",
+   "licencia": "",
+   "autores": [
+    "TheRedBrain"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/bundle-api",
+   "pilar": "dependencia",
+   "porque": "requerido por archers",
+   "mods": [
+    {
+     "modId": "bundleapi",
+     "version": "1.1.0",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "962162",
+   "titulo": "Ranged Weapon API",
+   "projectID": 962162,
+   "fileID": 8723067,
+   "archivo": "ranged_weapon_api-neoforge-3.0.0+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-08-24",
+   "bytes": 163099,
+   "sha1": "74a47fd693e7eb45d9fc0fe8e9058c5d02e610b2",
+   "licencia": "",
+   "autores": [
+    "daedelus_dev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/ranged-weapon-api",
+   "pilar": "dependencia",
+   "porque": "requerido por archers",
+   "mods": [
+    {
+     "modId": "ranged_weapon_api",
+     "version": "3.0.0+1.21.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "499980",
+   "titulo": "Moonlight Lib",
+   "projectID": 499980,
+   "fileID": 9122548,
+   "archivo": "moonlight-1.21.1-3.7.2-neoforge.jar",
+   "tipo": "release",
+   "fecha": "2026-10-10",
+   "bytes": 2299162,
+   "sha1": "0da45e6bc941f4b9b18dda24f8d047431ddc7226",
+   "licencia": "",
+   "autores": [
+    "MehVahdJukaar",
+    "plantspookable"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/selene",
+   "pilar": "dependencia",
+   "porque": "requerido por supplementaries",
+   "mods": [
+    {
+     "modId": "moonlight",
+     "version": "1.21.1-3.7.2",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "codecui",
+     "version": "1.21.1-1.4.7",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "*",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1, 1.21.2)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "454372",
+   "titulo": "SuperMartijn642's Core Lib",
+   "projectID": 454372,
+   "fileID": 9083552,
+   "archivo": "supermartijn642corelib-1.1.25-neoforge-mc1.21.jar",
+   "tipo": "release",
+   "fecha": "2026-10-06",
+   "bytes": 562683,
+   "sha1": "60d45feac8cd2f0b497b013c7fd501b3ae8b6f6d",
+   "licencia": "",
+   "autores": [
+    "SuperMartijn642"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib",
+   "pilar": "dependencia",
+   "porque": "requerido por rechiseled",
+   "mods": [
+    {
+     "modId": "supermartijn642corelib",
+     "version": "1.1.25",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.102-beta,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.21.2)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "438332",
+   "titulo": "SuperMartijn642's Config Lib",
+   "projectID": 438332,
+   "fileID": 5546996,
+   "archivo": "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
+   "tipo": "release",
+   "fecha": "2024-07-19",
+   "bytes": 207514,
+   "sha1": "07452242e389975e8a88b97066f4bae6a4ebe574",
+   "licencia": "",
+   "autores": [
+    "SuperMartijn642"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib",
+   "pilar": "dependencia",
+   "porque": "requerido por rechiseled",
+   "mods": [
+    {
+     "modId": "supermartijn642configlib",
+     "version": "1.1.8",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.78-beta,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.22)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.5",
+    "1.21.8",
+    "Client",
+    "1.21.4",
+    "NeoForge",
+    "1.21.3",
+    "1.21.7",
+    "1.21.1",
+    "1.21.6",
+    "Server",
+    "1.21.2"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "854949",
+   "titulo": "Fusion (Connected Textures)",
+   "projectID": 854949,
+   "fileID": 9070353,
+   "archivo": "fusion-1.3.16-neoforge-mc1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-10-05",
+   "bytes": 947335,
+   "sha1": "c3cd7c2718583aa5a12e8502c6b92e050bad0c19",
+   "licencia": "",
+   "autores": [
+    "SuperMartijn642"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/fusion-connected-textures",
+   "pilar": "dependencia",
+   "porque": "requerido por rechiseled",
+   "mods": [
+    {
+     "modId": "fusion",
+     "version": "1.3.16",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.78-beta,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.21.2)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "618298",
+   "titulo": "Sophisticated Core",
+   "projectID": 618298,
+   "fileID": 9261203,
+   "archivo": "sophisticatedcore-1.21.1-1.5.16.2422.jar",
+   "tipo": "release",
+   "fecha": "2026-10-19",
+   "bytes": 1819621,
+   "sha1": "4bca960f3b9c925c5c4595d8662404d986cf052f",
+   "licencia": "",
+   "autores": [
+    "P3pp3rF1y"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/sophisticated-core",
+   "pilar": "dependencia",
+   "porque": "requerido por sophisticatedbackpacks",
+   "mods": [
+    {
+     "modId": "sophisticatedcore",
+     "version": "1.5.16",
+     "deps": [
+      {
+       "modId": "jei",
+       "tipo": "optional",
+       "rango": "[19.32.0.359,)",
+       "lado": "CLIENT"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.229,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.21.2)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "531761",
+   "titulo": "Balm",
+   "projectID": 531761,
+   "fileID": 8969738,
+   "archivo": "balm-neoforge-1.21.1-21.0.66.jar",
+   "tipo": "release",
+   "fecha": "2026-09-25",
+   "bytes": 783793,
+   "sha1": "dd3606a349f4a3c8fb5bd0ab22905675c02b0d74",
+   "licencia": "",
+   "autores": [
+    "BlayTheNinth"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/balm",
+   "pilar": "dependencia",
+   "porque": "requerido por waystones",
+   "mods": [
+    {
+     "modId": "balm",
+     "version": "21.0.66",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.82-beta,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "kuma_api",
+     "version": "21.0.8",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21-beta,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "228525",
+   "titulo": "Bookshelf",
+   "projectID": 228525,
+   "fileID": 7606240,
+   "archivo": "bookshelf-neoforge-1.21.1-21.1.81.jar",
+   "tipo": "release",
+   "fecha": "2026-02-10",
+   "bytes": 328813,
+   "sha1": "efc4cda6da4dd879f24d057ed0a6413764c9ba40",
+   "licencia": "",
+   "autores": [
+    "DarkhaxDev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/bookshelf",
+   "pilar": "dependencia",
+   "porque": "requerido por enchdesc",
+   "mods": [
+    {
+     "modId": "bookshelf",
+     "version": "21.1.81",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.209,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1, 1.22)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1023259",
+   "titulo": "Prickle",
+   "projectID": 1023259,
+   "fileID": 6961457,
+   "archivo": "prickle-neoforge-1.21.1-21.1.11.jar",
+   "tipo": "release",
+   "fecha": "2025-09-04",
+   "bytes": 84812,
+   "sha1": "5174059ecf97340a0de5ef211b938de26c4eaa36",
+   "licencia": "",
+   "autores": [
+    "DarkhaxDev"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/prickle",
+   "pilar": "dependencia",
+   "porque": "requerido por enchdesc",
+   "mods": [
+    {
+     "modId": "prickle",
+     "version": "21.1.11",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.61,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1, 1.22)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "NeoForge",
+    "1.21.1",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "858542",
+   "titulo": "Searchables",
+   "projectID": 858542,
+   "fileID": 5831692,
+   "archivo": "Searchables-neoforge-1.21.1-1.0.2.jar",
+   "tipo": "release",
+   "fecha": "2024-10-21",
+   "bytes": 77326,
+   "sha1": "5b8a0b43a474c066371b2e16f9bfb88622552a74",
+   "licencia": "",
+   "autores": [
+    "Jaredlll08"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/searchables",
+   "pilar": "dependencia",
+   "porque": "requerido por controlling",
+   "mods": [
+    {
+     "modId": "searchables",
+     "version": "1.0.2",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[4,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "667299",
+   "titulo": "YetAnotherConfigLib",
+   "projectID": 667299,
+   "fileID": 7437845,
+   "archivo": "yet_another_config_lib_v3-3.8.2+1.21.1-neoforge.jar",
+   "tipo": "release",
+   "fecha": "2026-01-09",
+   "bytes": 1118651,
+   "sha1": "fe270c9f6e0a8142cf316944087f5109cef08bbb",
+   "licencia": "",
+   "autores": [
+    "isXander"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/yacl",
+   "pilar": "dependencia",
+   "porque": "requerido por crittersandcompanions",
+   "mods": [
+    {
+     "modId": "yet_another_config_lib_v3",
+     "version": "3.8.2+1.21.1-neoforge",
+     "deps": []
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "1633207",
+   "titulo": "Codxlib",
+   "projectID": 1633207,
+   "fileID": 8893360,
+   "archivo": "codxlib-1.6.1-neoforge+1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-09-16",
+   "bytes": 193045,
+   "sha1": "d11c51c10d86420c4ba9a18ce42b5b7bbc1fd3ca",
+   "licencia": "",
+   "autores": [
+    "CodxIO"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/codxlib",
+   "pilar": "dependencia",
+   "porque": "requerido por alexsmobs",
+   "mods": [
+    {
+     "modId": "codxlib",
+     "version": "1.6.1",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "1.21.1",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[1,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "uranus",
+   "titulo": "Uranus",
+   "projectID": 1010827,
+   "fileID": 8587525,
+   "archivo": "uranus-2.4.1-bugfix-1.21.1-neoforge.jar",
+   "tipo": "release",
+   "fecha": "2026-08-06",
+   "bytes": 847836,
+   "sha1": "ccdb021d6eb0f0699a7113c814d3886eac458874",
+   "licencia": "",
+   "autores": [
+    "IAFEnvoy"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/uranus",
+   "pilar": "dependencia",
+   "porque": "requerido por iceandfire",
+   "mods": [
+    {
+     "modId": "uranus",
+     "version": "2.4.1-bugfix",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.21.2)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "architectury",
+       "tipo": "required",
+       "rango": "[0,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "architectury",
+     "version": "13.0.8",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.110-beta,)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "jupiter",
+   "titulo": "Jupiter",
+   "projectID": 1072905,
+   "fileID": 7738312,
+   "archivo": "jupiter-2.3.7-1.21.1-neoforge.jar",
+   "tipo": "release",
+   "fecha": "2026-03-10",
+   "bytes": 278988,
+   "sha1": "569fb484ea5c8e8d690945ad4cd132131a719751",
+   "licencia": "",
+   "autores": [
+    "IAFEnvoy"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/jupiter",
+   "pilar": "dependencia",
+   "porque": "requerido por iceandfire",
+   "mods": [
+    {
+     "modId": "jupiter",
+     "version": "2.3.7",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21],[1.21.1]",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "azurelib",
+   "titulo": "AzureLib",
+   "projectID": 817423,
+   "fileID": 9202756,
+   "archivo": "azurelib-neo-1.21.1-3.1.22.jar",
+   "tipo": "release",
+   "fecha": "2026-10-16",
+   "bytes": 972726,
+   "sha1": "2bdee83e6fea220113562fa0f10a6b7cacb01bde",
+   "licencia": "",
+   "autores": [
+    "AzureDoomC"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/azurelib",
+   "pilar": "dependencia",
+   "porque": "requerido por mobs_of_mythology",
+   "mods": [
+    {
+     "modId": "azurelib",
+     "version": "3.1.22",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1, 1.21.2)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "smartbrainlib",
+   "titulo": "SmartBrainLib (Forge/Fabric/Quilt)",
+   "projectID": 661293,
+   "fileID": 7055149,
+   "archivo": "SmartBrainLib-neoforge-1.21.1-1.16.11.jar",
+   "tipo": "release",
+   "fecha": "2025-10-01",
+   "bytes": 391053,
+   "sha1": "0310135a01eeceefbc7f1ab017498a65f3ad6836",
+   "licencia": "",
+   "autores": [
+    "Scimiguy"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/smartbrainlib",
+   "pilar": "dependencia",
+   "porque": "requerido por mobs_of_mythology",
+   "mods": [
+    {
+     "modId": "smartbrainlib",
+     "version": "1.16.11",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "creativecore",
+   "titulo": "CreativeCore",
+   "projectID": 257814,
+   "fileID": 9108041,
+   "archivo": "CreativeCore_NEOFORGE_v2.13.51_mc1.21.1.jar",
+   "tipo": "release",
+   "fecha": "2026-10-09",
+   "bytes": 1236490,
+   "sha1": "eb2242b3d4442ad4017ba0624a7f9588e778b157",
+   "licencia": "",
+   "autores": [
+    "CreativeMD"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/creativecore",
+   "pilar": "dependencia",
+   "porque": "requerido por ambientsounds",
+   "mods": [
+    {
+     "modId": "creativecore",
+     "version": "2.13.51",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.22)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "konkrete",
+   "titulo": "Konkrete",
+   "projectID": 410295,
+   "fileID": 5453385,
+   "archivo": "konkrete_neoforge_1.9.9_MC_1.21.jar",
+   "tipo": "release",
+   "fecha": "2024-06-21",
+   "bytes": 618842,
+   "sha1": "97771eb287d5ac7fe667d1df9493d5e54c8ca1fa",
+   "licencia": "",
+   "autores": [
+    "Keksuccino"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/konkrete",
+   "pilar": "dependencia",
+   "porque": "requerido por fancymenu",
+   "mods": [
+    {
+     "modId": "konkrete",
+     "version": "1.9.9",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.20-beta,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "melody",
+   "titulo": "Melody",
+   "projectID": 938643,
+   "fileID": 5453382,
+   "archivo": "melody_neoforge_1.0.10_MC_1.21.jar",
+   "tipo": "release",
+   "fecha": "2024-06-21",
+   "bytes": 36096,
+   "sha1": "e83052a92c4ca0016bcfe7f0207273983dc84698",
+   "licencia": "",
+   "autores": [
+    "Keksuccino"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/melody",
+   "pilar": "dependencia",
+   "porque": "requerido por fancymenu",
+   "mods": [
+    {
+     "modId": "melody",
+     "version": "1.0.10",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0.20-beta,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21",
+    "1.21.4",
+    "NeoForge",
+    "1.21.1"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "streams-reflowing",
+   "titulo": "Streams Reflowing",
+   "projectID": 1581408,
+   "fileID": 9216744,
+   "archivo": "StreamsReflowing-1.21.1-neoforge-2.15.2.jar",
+   "tipo": "release",
+   "fecha": "2026-10-16",
+   "bytes": 3035995,
+   "sha1": "4e1c4e542b589fd0d1212005dbbfa1af60201df4",
+   "licencia": "All Rights Reserved",
+   "autores": [
+    "nicejohn"
+   ],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/streams-reflowing",
+   "pilar": "mundo",
+   "porque": "Arroyos, ríos dinámicos, lagos y cascadas con corriente (hito 0.6.0)",
+   "mods": [
+    {
+     "modId": "streamsreflowing",
+     "version": "2.15.2",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.173,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.21.2)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "Client",
+    "1.21.1",
+    "NeoForge",
+    "Server"
+   ],
+   "es_neoforge": true,
+   "nota_0_6_0": "Añadida a mano sin la API de CurseForge (clave no disponible tras el reinicio del 23-10-2026); ID y archivo verificados con CFWidget y SHA-1 con Modrinth. Repasar con resolver.py cuando vuelva la clave."
+  },
+  {
+   "slug": "natures-spirit",
+   "titulo": "Nature's Spirit",
+   "projectID": 1044992,
+   "fileID": 9251843,
+   "archivo": "natures_spirit-2.3.1-1.21.1.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 18677573,
+   "sha1": "6436864387749117895e0d0a7e9a780180a9c674",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/natures-spirit",
+   "pilar": "mundo",
+   "porque": "Biomas de carácter (sabanas, chaparral, cipreses, secuoyas)",
+   "mods": [
+    {
+     "modId": "natures_spirit",
+     "version": "2.3.1-1.21.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.129,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "terrablender",
+       "tipo": "optional",
+       "rango": "[1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "lithostitched",
+       "tipo": "optional",
+       "rango": "[1,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "regions-unexplored",
+   "titulo": "Regions Unexplored",
+   "projectID": 659110,
+   "fileID": 9252522,
+   "archivo": "regions-unexplored-0.6.3-neoforge-21.1.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 6641783,
+   "sha1": "adf717dbb032ccaf7d100c0ba71bdea0fb21755a",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/regions-unexplored",
+   "pilar": "mundo",
+   "porque": "Biomas grandes y variados, también en el Nether",
+   "mods": [
+    {
+     "modId": "regions_unexplored",
+     "version": "0.6.3",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.21.1]",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "lithostitched",
+       "tipo": "required",
+       "rango": "[1.8.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "apollib",
+       "tipo": "required",
+       "rango": "[1.2.0,)",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "apollib",
+     "version": "1.2.0",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21, 1.21.1]",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "lets-do-bloomingnature",
+   "titulo": "[Let's Do] BloomingNature",
+   "projectID": 962885,
+   "fileID": 8914292,
+   "archivo": "letsdo-bloomingnature-neoforge-1.1.11.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 3156249,
+   "sha1": "44a84e69d3f64638d281675e27930daa6f7343fc",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/lets-do-bloomingnature",
+   "pilar": "mundo",
+   "porque": "Prados y bosques floridos (fijado a 1.1.11, la probada)",
+   "mods": [
+    {
+     "modId": "bloomingnature",
+     "version": "1.1.11",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "architectury",
+       "tipo": "required",
+       "rango": "[9.0.8,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "biomes-o-plenty",
+   "titulo": "Biomes O' Plenty",
+   "projectID": 220318,
+   "fileID": 8288121,
+   "archivo": "BiomesOPlenty-neoforge-1.21.1-21.1.0.14.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 22338157,
+   "sha1": "6a12e1a249d074fb18f07d1f141b80ca2885e2be",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/biomes-o-plenty",
+   "pilar": "mundo",
+   "porque": "Biomas de bosque, humedal y Nether",
+   "mods": [
+    {
+     "modId": "biomesoplenty",
+     "version": "21.1.0.14",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "optional",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "glitchcore",
+       "tipo": "optional",
+       "rango": "[2.1.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "terrablender",
+       "tipo": "optional",
+       "rango": "[4.1.0.0,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "promenade",
+   "titulo": "Promenade",
+   "projectID": 399648,
+   "fileID": 9128732,
+   "archivo": "promenade-neoforge-6.0.1.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 4819791,
+   "sha1": "17b2f49fd946bf4e58c9528cd550bbe41f5e6c54",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/promenade",
+   "pilar": "mundo",
+   "porque": "Biomas de carácter (sakura, cañón, humedal)",
+   "mods": [
+    {
+     "modId": "promenade",
+     "version": "6.0.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.21.2)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "biolith",
+       "tipo": "required",
+       "rango": "*",
+       "lado": "BOTH"
+      }
+     ]
+    },
+    {
+     "modId": "biolith",
+     "version": "3.0.12",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.22,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.21.2)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "nyctophobia-fabric",
+   "titulo": "Nyctophobia",
+   "projectID": 584511,
+   "fileID": 8709122,
+   "archivo": "nyctophobia-neoforge-mc1.21.1-2.0.0.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 331539,
+   "sha1": "3bb7a8adf35729bbc58405ec8b9c361e111c73c5",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/nyctophobia-fabric",
+   "pilar": "mundo",
+   "porque": "Bosque embrujado",
+   "mods": [
+    {
+     "modId": "nyctophobia",
+     "version": "2.0.0+mc1.21.1",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.21.2)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "terrablender",
+       "tipo": "required",
+       "rango": "[4.1.0.8,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "ecologics",
+   "titulo": "Ecologics",
+   "projectID": 570463,
+   "fileID": 8415537,
+   "archivo": "ecologics-1.21.1-2.3.7.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 1909490,
+   "sha1": "3cf395ba5facd56917accc6563f7819f4e39c941",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/ecologics",
+   "pilar": "mundo",
+   "porque": "Biomas de oasis y cocoteros (fijado a 2.3.7: la 2.3.8 exige NeoForge 21.1.264)",
+   "mods": [
+    {
+     "modId": "ecologics",
+     "version": "2.3.7",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.83,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "oh-the-biomes-weve-gone",
+   "titulo": "Oh The Biomes We've Gone",
+   "projectID": 1070751,
+   "fileID": 9114631,
+   "archivo": "Oh-The-Biomes-Weve-Gone-NeoForge-2.6.3.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 20493453,
+   "sha1": "693292b80590ea4cf3b4d3e180a6532eac71f546",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone",
+   "pilar": "mundo",
+   "porque": "Biomas fantásticos y de paisaje (hito 2)",
+   "mods": [
+    {
+     "modId": "biomeswevegone",
+     "version": "2.6.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.173,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "terrablender",
+       "tipo": "required",
+       "rango": "[4.1.0.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "corgilib",
+       "tipo": "required",
+       "rango": "[5.0.0.2,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "ohthetreesyoullgrow",
+       "tipo": "required",
+       "rango": "[5.3.5,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "geckolib",
+       "tipo": "required",
+       "rango": "[4.6,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "oh-the-trees-youll-grow",
+   "titulo": "Oh The Trees You'll Grow",
+   "projectID": 962544,
+   "fileID": 9113653,
+   "archivo": "Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.3.5.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 173921,
+   "sha1": "19e8cf3c1bd7abbcbb9f6e5152e2824723fa25ce",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/oh-the-trees-youll-grow",
+   "pilar": "mundo",
+   "porque": "Árboles y arbolado de Oh The Biomes We've Gone",
+   "mods": [
+    {
+     "modId": "ohthetreesyoullgrow",
+     "version": "5.3.5",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "incendium",
+   "titulo": "Incendium",
+   "projectID": 591388,
+   "fileID": 5962249,
+   "archivo": "Incendium_1.21.x_v5.4.4.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 4267528,
+   "sha1": "40da6da25ec45c4d88447733255e4281b6f22fef",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/incendium",
+   "pilar": "mundo",
+   "porque": "Nether ampliado (hito 2)",
+   "mods": [
+    {
+     "modId": "incendium",
+     "version": "5.4.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "optional",
+       "rango": "[21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21,1.22)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "hybrid-aquatic",
+   "titulo": "Hybrid Aquatic",
+   "projectID": 834427,
+   "fileID": 9063977,
+   "archivo": "hybrid_aquatic-neoforge-1.21.1-1.7.4.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 7338389,
+   "sha1": "9feffbffb1ce1a249b2002b5480ab9af56922aa6",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/hybrid-aquatic",
+   "pilar": "mundo",
+   "porque": "Biodiversidad oceánica (hito 2)",
+   "mods": [
+    {
+     "modId": "hybrid_aquatic",
+     "version": "1.7.4",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.150,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "geckolib",
+       "tipo": "required",
+       "rango": "[4.8.3,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "curios",
+       "tipo": "optional",
+       "rango": "[9.5.1,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "lithostitched",
+       "tipo": "required",
+       "rango": "[1.8.0,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "hapi",
+       "tipo": "required",
+       "rango": "[1.1.3,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "phantasm",
+   "titulo": "End's Phantasm",
+   "projectID": 565254,
+   "fileID": 6367800,
+   "archivo": "phantasm-1.0.3.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 6946958,
+   "sha1": "be63f824e61516500d242aa4a6df1445a5718a54",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/phantasm",
+   "pilar": "mundo",
+   "porque": "Biomas aditivos del End; conserva Nullscape (hito 2)",
+   "mods": [
+    {
+     "modId": "phantasm",
+     "version": "1.0.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1]",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "corgilib",
+   "titulo": "CorgiLib",
+   "projectID": 693313,
+   "fileID": 9113612,
+   "archivo": "Corgilib-NeoForge-1.21.1-5.0.0.10.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 309788,
+   "sha1": "78a1b2f0b4e2b816aeffb0e6a2cc0062aa343e46",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/corgilib",
+   "pilar": "dependencia",
+   "porque": "",
+   "mods": [
+    {
+     "modId": "corgilib",
+     "version": "5.0.0.10",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.0,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "hybrid-api",
+   "titulo": "Hybrid API [HAPI]",
+   "projectID": 883374,
+   "fileID": 9063597,
+   "archivo": "hapi-neoforge-1.21.1-1.1.3.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 688773,
+   "sha1": "18a1da3fba0b84ab6a17c74081feb2dd4aff2475",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/hybrid-api",
+   "pilar": "dependencia",
+   "porque": "",
+   "mods": [
+    {
+     "modId": "hapi",
+     "version": "1.1.3",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.150,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1, 1.22)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "geckolib",
+       "tipo": "required",
+       "rango": "[4.7.4,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "kotlin-for-forge",
+   "titulo": "Kotlin for Forge",
+   "projectID": 351264,
+   "fileID": 8335665,
+   "archivo": "kotlinforforge-5.12.0-all.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 7279276,
+   "sha1": "a2032c921e93a0ccb0db5d742167e3139c2de01b",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/kotlin-for-forge",
+   "pilar": "dependencia",
+   "porque": "",
+   "mods": [
+    {
+     "modId": "kotlinforforge",
+     "version": "5.12.0",
+     "deps": [
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.20.6,1.21.9)",
+       "lado": "BOTH"
+      }
+     ],
+     "incluido_en_jarjar": true
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "biolith",
+   "titulo": "Biolith",
+   "projectID": 852512,
+   "fileID": 8435635,
+   "archivo": "biolith-neoforge-3.0.14.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 218062,
+   "sha1": "8b041bce1cd0c5f5223c285784a3e8498273d6ea",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/biolith",
+   "pilar": "dependencia",
+   "porque": "",
+   "mods": [
+    {
+     "modId": "biolith",
+     "version": "3.0.14",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "required",
+       "rango": "[21.1.22,)",
+       "lado": "BOTH"
+      },
+      {
+       "modId": "minecraft",
+       "tipo": "required",
+       "rango": "[1.21.1,1.21.2)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "terrablender-neoforge",
+   "titulo": "TerraBlender (NeoForge)",
+   "projectID": 940057,
+   "fileID": 6054947,
+   "archivo": "TerraBlender-neoforge-1.21.1-4.1.0.8.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 120364,
+   "sha1": "2016eed89eac0eb0510d2190c3b0b80bf4346191",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/terrablender-neoforge",
+   "pilar": "dependencia",
+   "porque": "",
+   "mods": [
+    {
+     "modId": "terrablender",
+     "version": "${file.jarVersion}",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "optional",
+       "rango": "[20.4,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  },
+  {
+   "slug": "glitchcore",
+   "titulo": "GlitchCore",
+   "projectID": 955399,
+   "fileID": 8109792,
+   "archivo": "GlitchCore-neoforge-1.21.1-2.1.0.2.jar",
+   "tipo": "release",
+   "fecha": "",
+   "bytes": 90717,
+   "sha1": "a31c3f36330f19aa538add3d727782a62c9c30ad",
+   "licencia": "",
+   "autores": [],
+   "url": "https://www.curseforge.com/minecraft/mc-mods/glitchcore",
+   "pilar": "dependencia",
+   "porque": "",
+   "mods": [
+    {
+     "modId": "glitchcore",
+     "version": "2.1.0.2",
+     "deps": [
+      {
+       "modId": "neoforge",
+       "tipo": "optional",
+       "rango": "[21.1,)",
+       "lado": "BOTH"
+      }
+     ]
+    }
+   ],
+   "tamano_ok": true,
+   "etiquetas_cf": [
+    "1.21.1",
+    "NeoForge"
+   ],
+   "es_neoforge": true
+  }
+ ],
+ "rangos_neoforge": [
+  [
+   "nullscape",
+   "[21,)"
+  ],
+  [
+   "659011",
+   "[21.1,)"
+  ],
+  [
+   "galosphere",
+   "[21.1.213,)"
+  ],
+  [
+   "naturalist",
+   "[21.1.234,)"
+  ],
+  [
+   "friends-and-foes-forge",
+   "*"
+  ],
+  [
+   "creeper-overhaul",
+   "[21.0,)"
+  ],
+  [
+   "enderman-overhaul",
+   "[21,)"
+  ],
+  [
+   "rotten-creatures",
+   "[21.1,)"
+  ],
+  [
+   "1015112",
+   "[21.0.0,)"
+  ],
+  [
+   "1015105",
+   "[21.0.0,)"
+  ],
+  [
+   "1015096",
+   "[21.0.0,)"
+  ],
+  [
+   "1015115",
+   "[21.0.0,)"
+  ],
+  [
+   "1015118",
+   "[21.0.0,)"
+  ],
+  [
+   "1015114",
+   "[21.0.0,)"
+  ],
+  [
+   "1015123",
+   "[21.0.0,)"
+  ],
+  [
+   "1015144",
+   "[21.0.0,)"
+  ],
+  [
+   "1015127",
+   "[21.0.0,)"
+  ],
+  [
+   "1015149",
+   "[21.0.0,)"
+  ],
+  [
+   "1015146",
+   "[21.0.0,)"
+  ],
+  [
+   "442508",
+   "[21.0.0-beta,)"
+  ],
+  [
+   "when-dungeons-arise-seven-seas",
+   "[21,)"
+  ],
+  [
+   "623908",
+   "[21.0.0,)"
+  ],
+  [
+   "better-archeology",
+   "[21.0,)"
+  ],
+  [
+   "lootr",
+   "[21.1.195,)"
+  ],
+  [
+   "sparse-structures",
+   "[21.1.162,)"
+  ],
+  [
+   "structure-layout-optimizer",
+   "*"
+  ],
+  [
+   "lendercataclysm",
+   "[21.1.0,)"
+  ],
+  [
+   "mowzies-mobs",
+   "[21.1.1,21.2)"
+  ],
+  [
+   "bosses-of-mass-destruction-forge",
+   "[21.0,)"
+  ],
+  [
+   "champions-unofficial",
+   "[21.1.0,)"
+  ],
+  [
+   "better-combat-by-daedelus",
+   "[21.0,)"
+  ],
+  [
+   "combat-roll",
+   "[21.0,)"
+  ],
+  [
+   "spell-engine",
+   "[21.1,)"
+  ],
+  [
+   "wizards",
+   "[21.1,)"
+  ],
+  [
+   "paladins-and-priests",
+   "[21.1,)"
+  ],
+  [
+   "archers",
+   "[21.1.201,)"
+  ],
+  [
+   "rogues-and-warriors",
+   "[21.1,)"
+  ],
+  [
+   "arsenal-rpg-series",
+   "[21.1.201,)"
+  ],
+  [
+   "artifacts",
+   "[21.0.133-beta,)"
+  ],
+  [
+   "supplementaries",
+   "[21.1.247,]"
+  ],
+  [
+   "amendments",
+   "*"
+  ],
+  [
+   "every-compat",
+   "*"
+  ],
+  [
+   "handcrafted",
+   "[21,)"
+  ],
+  [
+   "rechiseled",
+   "[21.0.78-beta,)"
+  ],
+  [
+   "comforts",
+   "[21.0.143,)"
+  ],
+  [
+   "farmers-delight",
+   "[21.1.219,)"
+  ],
+  [
+   "lets-do-farm-charm",
+   "[21.1,)"
+  ],
+  [
+   "lets-do-vinery",
+   "[21.1,)"
+  ],
+  [
+   "lets-do-meadow",
+   "[21.1,)"
+  ],
+  [
+   "951221",
+   "[21.1.0,)"
+  ],
+  [
+   "445838",
+   "[21,)"
+  ],
+  [
+   "tide",
+   "[21,)"
+  ],
+  [
+   "storage-drawers",
+   "[21.0.0,)"
+  ],
+  [
+   "sophisticated-backpacks",
+   "[21.1.229,)"
+  ],
+  [
+   "waystones",
+   "[21-beta,)"
+  ],
+  [
+   "open-parties-and-claims",
+   "[21.0.0-beta, 21.2)"
+  ],
+  [
+   "580555",
+   "[20.4.72-beta,)"
+  ],
+  [
+   "jade",
+   "[21.0.143, )"
+  ],
+  [
+   "appleskin",
+   "[21.0.0-beta,)"
+  ],
+  [
+   "xaeros-minimap",
+   "[21.0.110-beta,21.2.0)"
+  ],
+  [
+   "xaeros-world-map",
+   "[21.0.110-beta, 21.2.0)"
+  ],
+  [
+   "enchantment-descriptions",
+   "[21.1.233,)"
+  ],
+  [
+   "controlling",
+   "[21.1.94,)"
+  ],
+  [
+   "1015157",
+   "[21.0.0,)"
+  ],
+  [
+   "sodium",
+   "[21.1.82,)"
+  ],
+  [
+   "429235",
+   "[21.1.218,)"
+  ],
+  [
+   "modernfix",
+   "[21.0.111-beta,)"
+  ],
+  [
+   "448233",
+   "[20.2,)"
+  ],
+  [
+   "immediatelyfast",
+   "[21.0.0,)"
+  ],
+  [
+   "critters-and-companions",
+   "[21.1,)"
+  ],
+  [
+   "in-control",
+   "[21.0,)"
+  ],
+  [
+   "create",
+   "[21.1.219,)"
+  ],
+  [
+   "1635121",
+   "[1,)"
+  ],
+  [
+   "1645389",
+   "[1,)"
+  ],
+  [
+   "iceandfire-ce",
+   "[21.1.248,)"
+  ],
+  [
+   "born-in-chaos",
+   "[21.1.65,)"
+  ],
+  [
+   "mobs-of-mythology",
+   "[21.0,)"
+  ],
+  [
+   "infernal-expansion-redux",
+   "[21.1.230,)"
+  ],
+  [
+   "servercore",
+   "[20.2.86,)"
+  ],
+  [
+   "more-mobgriefing-options",
+   "[21.1,)"
+  ],
+  [
+   "ambientsounds",
+   "[21.1,)"
+  ],
+  [
+   "sound-physics-remastered",
+   "[21.0.0-beta,)"
+  ],
+  [
+   "fancymenu",
+   "[21.1.47,)"
+  ],
+  [
+   "drippy-loading-screen",
+   "[21.1.47,)"
+  ],
+  [
+   "countereds-terrain-slabs",
+   "[21.1,)"
+  ],
+  [
+   "countereds-smooth-steps",
+   "[21.1,)"
+  ],
+  [
+   "particular-reforged",
+   "[4,)"
+  ],
+  [
+   "particle-rain",
+   "*"
+  ],
+  [
+   "570073",
+   "[21.0.0-beta,)"
+  ],
+  [
+   "388172",
+   "[21.1.150,)"
+  ],
+  [
+   "714059",
+   "[20.5,)"
+  ],
+  [
+   "997634",
+   "[21.1,)"
+  ],
+  [
+   "1015100",
+   "[21.0.0,)"
+  ],
+  [
+   "1337167",
+   "[21.0.0-beta,)"
+  ],
+  [
+   "419699",
+   "[21.0.110-beta,)"
+  ],
+  [
+   "309927",
+   "[21.1.60,)"
+  ],
+  [
+   "1001614",
+   "[21.1.219,)"
+  ],
+  [
+   "cerbons-api",
+   "[21.0,)"
+  ],
+  [
+   "348521",
+   "[21.0.110-beta,)"
+  ],
+  [
+   "771265",
+   "[21.1,)"
+  ],
+  [
+   "armor-model-api",
+   "[21.1,)"
+  ],
+  [
+   "775518",
+   "[21.1,)"
+  ],
+  [
+   "927915",
+   "[21.1,)"
+  ],
+  [
+   "bundle-api",
+   "[21.1,)"
+  ],
+  [
+   "962162",
+   "[21.1,)"
+  ],
+  [
+   "454372",
+   "[21.0.102-beta,)"
+  ],
+  [
+   "438332",
+   "[21.0.78-beta,)"
+  ],
+  [
+   "854949",
+   "[21.0.78-beta,)"
+  ],
+  [
+   "618298",
+   "[21.1.229,)"
+  ],
+  [
+   "531761",
+   "[21.0.82-beta,)"
+  ],
+  [
+   "228525",
+   "[21.1.209,)"
+  ],
+  [
+   "1023259",
+   "[21.1.61,)"
+  ],
+  [
+   "858542",
+   "[4,)"
+  ],
+  [
+   "1633207",
+   "[1,)"
+  ],
+  [
+   "uranus",
+   "[21,)"
+  ],
+  [
+   "jupiter",
+   "[1,)"
+  ],
+  [
+   "azurelib",
+   "[21,)"
+  ],
+  [
+   "smartbrainlib",
+   "[21.1.0,)"
+  ],
+  [
+   "creativecore",
+   "[21.1,)"
+  ],
+  [
+   "konkrete",
+   "[21.0.20-beta,)"
+  ],
+  [
+   "melody",
+   "[21.0.20-beta,)"
+  ]
+ ]
+}

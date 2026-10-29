@@ -1,0 +1,3 @@
+# PURG4TORY: el botón de configuración de Create sale del menú principal (sigue en Mods > Create > Config).
+[client]
+	mainMenuConfigButtonRow = 0

@@ -1,0 +1,19 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:or",
+    "values": [
+      "#c:is_jungle",
+      "minecraft:dark_forest",
+      "#c:is_spooky"
+    ]
+  },
+  "spawners": [
+    {
+      "type": "born_in_chaos_v1:mother_spider",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

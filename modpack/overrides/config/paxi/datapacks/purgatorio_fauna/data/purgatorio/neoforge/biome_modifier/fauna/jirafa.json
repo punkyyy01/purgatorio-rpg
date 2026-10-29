@@ -1,0 +1,28 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      {
+        "type": "neoforge:or",
+        "values": [
+          "#naturalist:has_giraffe"
+        ]
+      },
+      {
+        "type": "neoforge:not",
+        "value": "#c:is_snowy"
+      },
+      {
+        "type": "neoforge:not",
+        "value": "#c:is_icy"
+      }
+    ]
+  },
+  "spawners": {
+    "type": "naturalist:giraffe",
+    "weight": 8,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

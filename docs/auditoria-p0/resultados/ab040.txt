@@ -1,0 +1,147 @@
+# ab040
+20:30:57 mods de prueba: purg4tory_cauces-prueba.jar purg4tory_diagtick-0.1.0.jar  (sha cauces: 427cb66e96bd)
+20:32:44 mundo abierto; pid 1003153; diag /home/umbrel/dev/lab-p0/cli/diagtick/20261028-203211/
+20:32:47 vuelo cliente +X (servidor: 21.6 b/s fijo; cliente: W+esprint creativo), y=310, 900 s, distancia 32
+20:48:03 fin del vuelo; últimas posiciones SRV/CLI:
+20:48:01.641 CLI 19122.0 330.7 -288.0 fps=20 ms_desde_ultimo_tick=88046
+20:48:02.648 CLI 19122.0 330.7 -288.0 fps=20 ms_desde_ultimo_tick=89054
+20:48:11 SERVIDOR NO RESPONDE a los 8 s
+20:52:12 guardar y salir: NO terminó en 240 s
+20:52:48 resumen diag:
+20:32:11.195 inicio; dedicado=false hilo=Server thread
+20:32:20.425 minuto: ticks=1 mspt_medio=9113.1 max=9113ms >50ms=1 >250ms=1 >1s=1 >5s=1 chunks_cargados=1520
+20:32:44.715 orden: gamemode creative Pruebas
+20:32:44.720 orden: time set noon
+20:32:44.722 orden: gamerule doDaylightCycle false
+20:32:44.722 orden: weather clear
+20:32:44.723 orden: gamerule doWeatherCycle false
+20:32:44.723 orden: tp Pruebas ~ 330 ~ -90 0
+20:32:48.514 orden: !vuelo_cliente 900 0
+20:33:20.447 minuto: ticks=1066 mspt_medio=15.0 max=146ms >50ms=46 >250ms=0 >1s=0 >5s=0 chunks_cargados=2516
+20:34:51.520 minuto: ticks=327 mspt_medio=4.2 max=47ms >50ms=0 >250ms=0 >1s=0 >5s=0 chunks_cargados=4284
+20:36:32.632 minuto: ticks=8 mspt_medio=25.9 max=90ms >50ms=1 >250ms=0 >1s=0 >5s=0 chunks_cargados=6661
+20:38:04.369 minuto: ticks=8 mspt_medio=146.3 max=378ms >50ms=6 >250ms=1 >1s=0 >5s=0 chunks_cargados=6681
+20:39:14.225 minuto: ticks=8 mspt_medio=127.2 max=264ms >50ms=6 >250ms=1 >1s=0 >5s=0 chunks_cargados=6218
+20:40:21.718 minuto: ticks=8 mspt_medio=201.3 max=857ms >50ms=7 >250ms=1 >1s=0 >5s=0 chunks_cargados=5898
+20:41:22.480 minuto: ticks=4 mspt_medio=85.8 max=169ms >50ms=2 >250ms=0 >1s=0 >5s=0 chunks_cargados=6245
+20:42:59.288 minuto: ticks=4 mspt_medio=194.6 max=460ms >50ms=4 >250ms=1 >1s=0 >5s=0 chunks_cargados=7116
+20:45:43.437 minuto: ticks=4 mspt_medio=196.7 max=374ms >50ms=4 >250ms=1 >1s=0 >5s=0 chunks_cargados=8363
+20:47:48.542 vuelo terminado
+20:49:25.913 minuto: ticks=4 mspt_medio=320.8 max=643ms >50ms=4 >250ms=3 >1s=0 >5s=0 chunks_cargados=11357
+20:50:28.985 minuto: ticks=3 mspt_medio=996.8 max=2741ms >50ms=3 >250ms=1 >1s=1 >5s=0 chunks_cargados=5719
+20:52:37.435 minuto: ticks=1 mspt_medio=241.9 max=242ms >50ms=1 >250ms=0 >1s=0 >5s=0 chunks_cargados=8214
+20:52:46.621 parada (servidor detenido; guardado terminado)
+20:52:48 pausas >=0.5 s: 79; >=2 s: 42; suma: 1166.42 s; máx: 172.32 s
+20:52:48 esperas síncronas >50 ms: 1372; Can't keep up: 3; VIGÍA: 21
+20:52:48 FIN
+
+## análisis (analizar.py)
+pausas >=0.5 s: 79  suma 1166.4 s  máx 172.32 s
+  getChunkBlocking               n=  77 suma= 1159.5 s máx=172.32 s
+  ?                              n=   1 suma=    4.6 s máx=  4.62 s
+  DistanceManager                n=   1 suma=    2.4 s máx=  2.35 s
+pausas >= 2 s:
+  20:32:20.427   9.23 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:32:25.056   4.62 s  ?  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.wrapOperation$znh000$modernfix$waitLongerForTasks(MinecraftServer.java:2163)
+  20:34:01.061  15.12 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:34:04.689   2.05 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:34:51.521  45.08 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:34:56.438   2.30 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:35:42.458  46.02 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:35:45.201   2.75 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:35:48.546   2.43 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:36:32.640  44.10 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:36:34.819   2.18 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:36:37.935   2.45 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:37:19.892  41.95 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:37:22.308   2.42 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:37:26.950   3.88 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:38:04.379  37.42 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:38:10.216   3.60 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.wrapMethod$zzp000$purg4tory_diagtick$diagtick$medir(ServerChunkCache.java:359
+  20:38:41.247  31.00 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:38:46.203   2.77 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:39:14.229  28.03 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:39:20.149   3.63 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.wrapMethod$zzp000$purg4tory_diagtick$diagtick$medir(ServerChunkCache.java:359
+  20:39:43.933  23.78 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:39:50.215   4.05 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:40:21.723  31.51 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:40:24.163   2.44 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:40:27.805   2.89 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:41:22.490  54.68 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:41:29.648   7.17 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:41:37.655   6.64 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:42:59.293  81.64 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:43:17.066  17.78 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:43:19.570   2.50 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:43:26.854   7.28 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:45:43.439 136.59 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:46:19.271  35.83 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:46:33.603  12.68 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:49:25.919 172.32 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:50:10.589  44.67 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:50:12.716   2.13 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:50:28.995  16.28 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:52:37.476 128.45 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:52:39.796   2.35 s  DistanceManager  | MC-BOOTSTRAP/it.unimi.dsi.fastutil@8.5.12/it.unimi.dsi.fastutil.longs.LongOpenHashSet.contains(LongOpenHashSet.java:481)
+esperas síncronas >50 ms: 1372  suma 1266.0 s
+  n=1177  1070.8 s carga=false  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  n=  68    71.5 s carga=true  FluidInteractionRegistry$InteractionInformation.lambda$new$2 <- FluidInteractionRegistry.canInteract <- LiquidBlock.neighborChanged <- BlockBehaviour$BlockStateBase.handleNeighborChanged
+  n=  52    63.0 s carga=true  Entity.setPosRaw <- Entity.setPos <- Entity.move <- ServerGamePacketListenerImpl.handleMovePlayer
+  n=  58    45.6 s carga=true  CollectingNeighborUpdater$MultiNeighborUpdate.runNext <- CollectingNeighborUpdater.runUpdates <- CollectingNeighborUpdater.addAndRun <- CollectingNeighborUpdater.updateNeighborsAtExceptFromFacing
+  n=   1     9.0 s carga=true  ServerLevel.setChunkForced <- ForceLoadCommand.changeForceLoad <- ForceLoadCommand.lambda$register$3 <- ContextChain.runExecutable
+  n=  10     3.6 s carga=false  BlockCollisions.getChunk <- BlockCollisions.computeNext <- AbstractIterator.tryToComputeNext <- AbstractIterator.hasNext
+  n=   6     2.5 s carga=true  FishingInfoManager.scanForNearbyInformationalBlocks <- FishingInfoManager.addNearbyPlacedItems <- FishingInfoManager.getActiveInformationalItems <- FishingInfoManager.tick
+esperas >= 2 s:
+  20:32:20.315    9.0 s minecraft:full carga=true dist=2147483647  ServerLevel.setChunkForced <- ForceLoadCommand.changeForceLoad <- ForceLoadCommand.lambda$register$3 <- ContextChain.runExecutable
+  20:33:51.189    2.4 s minecraft:full carga=true dist=4  FluidInteractionRegistry$InteractionInformation.lambda$new$2 <- FluidInteractionRegistry.canInteract <- LiquidBlock.neighborChanged <- BlockBehaviour$BlockStateBase.handleNeighborChanged
+  20:33:55.333    2.1 s minecraft:full carga=true dist=5  FluidInteractionRegistry$InteractionInformation.lambda$new$2 <- FluidInteractionRegistry.canInteract <- LiquidBlock.neighborChanged <- BlockBehaviour$BlockStateBase.handleNeighborChanged
+  20:34:01.030   15.1 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:34:04.676    2.0 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:34:22.674    2.1 s minecraft:full carga=true dist=6  CollectingNeighborUpdater$MultiNeighborUpdate.runNext <- CollectingNeighborUpdater.runUpdates <- CollectingNeighborUpdater.addAndRun <- CollectingNeighborUpdater.updateNeighborsAtExceptFromFacing
+  20:34:29.043    3.1 s minecraft:full carga=true dist=8  FluidInteractionRegistry$InteractionInformation.lambda$new$2 <- FluidInteractionRegistry.canInteract <- LiquidBlock.neighborChanged <- BlockBehaviour$BlockStateBase.handleNeighborChanged
+  20:34:36.720    2.1 s minecraft:full carga=true dist=9  FluidInteractionRegistry$InteractionInformation.lambda$new$2 <- FluidInteractionRegistry.canInteract <- LiquidBlock.neighborChanged <- BlockBehaviour$BlockStateBase.handleNeighborChanged
+  20:34:44.269    2.2 s minecraft:full carga=true dist=10  FluidInteractionRegistry$InteractionInformation.lambda$new$2 <- FluidInteractionRegistry.canInteract <- LiquidBlock.neighborChanged <- BlockBehaviour$BlockStateBase.handleNeighborChanged
+  20:34:45.492   37.2 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:35:05.324    2.4 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:37:49.699    3.7 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:39:09.023    2.7 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:40:05.856    7.2 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:40:08.459    2.6 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:40:12.054    3.4 s minecraft:full carga=true dist=1  CollectingNeighborUpdater$MultiNeighborUpdate.runNext <- CollectingNeighborUpdater.runUpdates <- CollectingNeighborUpdater.addAndRun <- CollectingNeighborUpdater.updateNeighborsAtExceptFromFacing
+  20:40:12.268    3.8 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:40:15.492    2.5 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:40:56.681    6.5 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:41:09.030    3.3 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:41:20.222    9.8 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:41:26.928    3.0 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:41:29.186    2.3 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:41:34.835    2.2 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:42:25.959   13.6 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:43:01.795    2.5 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:43:12.645    7.8 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:43:47.810    4.3 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:44:25.978    2.1 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:44:31.574    5.6 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:44:46.732    5.4 s minecraft:full carga=true dist=0  Entity.setPosRaw <- Entity.setPos <- Entity.move <- ServerGamePacketListenerImpl.handleMovePlayer
+  20:44:48.770    2.0 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:45:11.632    2.0 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:46:18.623   19.1 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:46:24.990    2.8 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:46:30.951    2.7 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:47:07.538    2.0 s minecraft:full carga=true dist=3  FluidInteractionRegistry$InteractionInformation.lambda$new$2 <- FluidInteractionRegistry.canInteract <- LiquidBlock.neighborChanged <- BlockBehaviour$BlockStateBase.handleNeighborChanged
+  20:47:14.809    2.7 s minecraft:full carga=true dist=5  FluidInteractionRegistry$InteractionInformation.lambda$new$2 <- FluidInteractionRegistry.canInteract <- LiquidBlock.neighborChanged <- BlockBehaviour$BlockStateBase.handleNeighborChanged
+  20:47:24.632    2.4 s minecraft:full carga=true dist=7  CollectingNeighborUpdater$MultiNeighborUpdate.runNext <- CollectingNeighborUpdater.runUpdates <- CollectingNeighborUpdater.addAndRun <- CollectingNeighborUpdater.updateNeighborsAtExceptFromFacing
+  20:47:30.203    2.1 s minecraft:full carga=true dist=8  FluidInteractionRegistry$InteractionInformation.lambda$new$2 <- FluidInteractionRegistry.canInteract <- LiquidBlock.neighborChanged <- BlockBehaviour$BlockStateBase.handleNeighborChanged
+  20:47:30.465   25.2 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:47:45.150    3.0 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:48:48.136    4.6 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:50:25.963    2.1 s minecraft:full carga=true dist=0  Entity.setPosRaw <- Entity.setPos <- Entity.move <- ServerGamePacketListenerImpl.handleMovePlayer
+  20:50:36.513    2.9 s minecraft:full carga=true dist=0  Entity.setPosRaw <- Entity.setPos <- Entity.move <- ServerGamePacketListenerImpl.handleMovePlayer
+  20:51:28.486    2.3 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:51:37.944    3.9 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:51:50.546    2.0 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+  20:51:59.860    2.0 s minecraft:full carga=true dist=0  Entity.setPosRaw <- Entity.setPos <- Entity.move <- ServerGamePacketListenerImpl.handleMovePlayer
+  20:52:12.775    2.1 s minecraft:full carga=true dist=0  Entity.setPosRaw <- Entity.setPos <- Entity.move <- ServerGamePacketListenerImpl.handleMovePlayer
+  20:52:19.446    4.8 s minecraft:full carga=false dist=1  ChunkAwareBlockCollisionSweeper.nextSection <- ChunkAwareBlockCollisionSweeper.computeNext <- ChunkAwareBlockCollisionSweeper.computeNext <- AbstractIterator.tryToComputeNext
+
+## Cauces al parar

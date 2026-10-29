@@ -1,0 +1,19 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:or",
+    "values": [
+      "minecraft:dark_forest",
+      "#c:is_spooky",
+      "#c:is_snowy"
+    ]
+  },
+  "spawners": [
+    {
+      "type": "born_in_chaos_v1:bonescaller",
+      "weight": 5,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

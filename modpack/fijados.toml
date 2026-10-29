@@ -1,0 +1,45 @@
+# Archivos fijados a mano: clave = slug o ID de proyecto, valor = fileID de CurseForge.
+# Platform 1.2.10.2 es la versión con la que se publicó Rotten Creatures 1.1.2 (mismo día, mismo equipo).
+# Las 1.3 y 1.4 son posteriores y no consta que las hayan probado con Rotten Creatures.
+"997634" = 6677047
+# Every Compat: se mantiene la versión probada en 0.1.1 (la 2.11.55 salió durante el hito y no se ha probado).
+# 0.9.0-alfa.2: 2.11.55 (archivo 9263267, 2026-10-20). La 2.11.54 hace new de net.regions_unexplored.world.level.block.plant.tall.ShrubBlock,
+# clase que Regions Unexplored 0.6.3 ya no tiene (ahora block.type.shrub.ShrubBlock): «Every Compat encountered an Error» al abrir el menú.
+# La 2.11.55 lo corrige (#1343). Comprobado con un análisis estático de todas las clases de módulos contra los 153 jars.
+"every-compat" = 9263267
+# Champions Unofficial: la rama 1.21.1-2.1.x (2.1.11.3) tiene lista blanca real de mobs aptos
+# (allowChampionsList + etiqueta allow_champions). La rama 21.1.x (21.1.1.7) convierte en élite a
+# cualquier mob, también pasivos. Probado en laboratorio en el hito 0.2.0.
+"champions-unofficial" = 6923189
+# AzureLib: la última subida (3.1.23-alpha.2) está marcada como release pero es una alfa; se fija la 3.1.22.
+"azurelib" = 9202756
+# Hito 0.3.0: se mantienen las versiones probadas en 0.2.0 (salieron actualizaciones durante el hito).
+"amendments" = 9122440
+"sophisticated-backpacks" = 9259142
+# Hito 0.4.0: Sound Physics Remastered solo tiene betas/alfas para 1.21.1; se fija la 1.5.1 (sep 2025),
+# la más usada, en vez de la 1.5.2 beta publicada durante el hito.
+"sound-physics-remastered" = 7032247
+# Hito 0.4.0: se mantienen las versiones probadas en 0.3.0-alfa.4 (salieron actualizaciones durante el hito).
+"naturalist" = 9004373
+"618298" = 9261203
+# Identidad visual: versiones comprobadas en el cliente de pruebas (FancyMenu 3.9.14, Drippy 3.1.5, Konkrete 1.9.9, Melody 1.0.10).
+"fancymenu" = 9002957
+"drippy-loading-screen" = 8552907
+"konkrete" = 5453385
+"melody" = 5453382
+# Hito 0.5.0: versiones probadas en el laboratorio 0.5.0 (servidor dedicado + cliente gráfico, 2026-10-22).
+"countereds-terrain-slabs" = 8216091
+"countereds-smooth-steps" = 8057041
+"particular-reforged" = 8662697
+"particle-rain" = 9113934
+# Hito 0.6.0: Streams Reflowing 2.15.2 (16-10-2026), la versión perfilada en lab060. Cambiar de versión puede cambiar
+# los cauces de las placas aún no planificadas (discontinuidades en el borde con terreno ya generado).
+"streams-reflowing" = 9216744
+# Hito 2 (0.9.0): archivos probados en biomas-lab; no actualizar sin repetir el sondeo.
+"lets-do-bloomingnature" = 8914292   # 1.1.11 (la 1.1.12 salió después)
+"ecologics" = 8415537                # 2.3.7 (la 2.3.8 exige NeoForge 21.1.264; el pack usa 21.1.259)
+"natures-spirit" = 9251843
+"regions-unexplored" = 9252522
+"oh-the-biomes-weve-gone" = 9114631
+"hybrid-aquatic" = 9063977
+"phantasm" = 6367800

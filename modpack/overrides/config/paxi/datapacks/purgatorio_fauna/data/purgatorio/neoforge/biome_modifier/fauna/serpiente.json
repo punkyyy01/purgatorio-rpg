@@ -1,0 +1,30 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      {
+        "type": "neoforge:or",
+        "values": [
+          "#naturalist:has_snake",
+          "#naturalist:has_rattlesnake",
+          "#naturalist:has_coral_snake"
+        ]
+      },
+      {
+        "type": "neoforge:not",
+        "value": "#c:is_snowy"
+      },
+      {
+        "type": "neoforge:not",
+        "value": "#c:is_icy"
+      }
+    ]
+  },
+  "spawners": {
+    "type": "naturalist:snake",
+    "weight": 4,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

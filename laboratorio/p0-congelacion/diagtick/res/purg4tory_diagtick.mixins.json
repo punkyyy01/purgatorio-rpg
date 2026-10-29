@@ -1,0 +1,2 @@
+{ "required": true, "minVersion": "0.8", "package": "es.purg4tory.diagtick.mixin", "compatibilityLevel": "JAVA_21",
+  "mixins": ["EsperaChunkMixin"], "injectors": { "defaultRequire": 1 } }

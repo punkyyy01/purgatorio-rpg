@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "pack_format": 48,
+    "description": "PURG4TORY: arreglos de compatibilidad (Create 6.0.10 usa objetos de plata que Galosphere 1.5.5 ya no tiene: ahora es paladio)"
+  }
+}

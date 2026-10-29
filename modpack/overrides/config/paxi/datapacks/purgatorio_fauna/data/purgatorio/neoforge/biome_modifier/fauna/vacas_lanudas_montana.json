@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#meadow:spawns_highland_cow",
+  "spawners": {
+    "type": "meadow:wooly_cow",
+    "weight": 8,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

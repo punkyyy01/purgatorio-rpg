@@ -1,0 +1,465 @@
+# Selección de mods del modpack de cliente Purgatorio RPG (Minecraft 1.21.1, NeoForge).
+# Cada entrada es un proyecto de CurseForge (slug). Las dependencias que falten las detecta
+# herramientas/resolver.py leyendo los metadatos de cada jar y se añaden con pilar = "dependencia".
+
+[[mod]]
+slug = "tectonic"
+pilar = "mundo"
+porque = "Relieve a gran escala sin añadir biomas"
+[[mod]]
+slug = "terralith"
+pilar = "mundo"
+porque = "Biomas variados con bloques vanilla"
+[[mod]]
+slug = "nullscape"
+pilar = "mundo"
+porque = "Terreno del End"
+[[mod]]
+slug = "659011"
+pilar = "mundo"
+porque = "Ciudad antigua ampliada y el Otherside: zona de peligro extremo"
+[[mod]]
+slug = "galosphere"
+pilar = "mundo"
+porque = "Cuevas de cristal"
+
+[[mod]]
+slug = "naturalist"
+pilar = "fauna"
+porque = "Fauna realista ligada a biomas"
+[[mod]]
+slug = "friends-and-foes-forge"
+pilar = "fauna"
+porque = "Mobs de estilo vanilla"
+[[mod]]
+slug = "creeper-overhaul"
+pilar = "fauna"
+porque = "Un creeper por bioma: señal de riesgo"
+[[mod]]
+slug = "enderman-overhaul"
+pilar = "fauna"
+porque = "Enderman distinto por bioma, también en el Nether y el End (mismo estudio que Creeper Overhaul)"
+[[mod]]
+slug = "rotten-creatures"
+pilar = "fauna"
+porque = "Variantes de no-muertos por bioma (desierto, nieve, pantano, Nether) con comportamientos propios"
+[[mod]]
+slug = "1015112"
+pilar = "estructuras"
+porque = "Rehace estructuras vanilla"
+[[mod]]
+slug = "1015105"
+pilar = "estructuras"
+porque = "Rehace estructuras vanilla"
+[[mod]]
+slug = "1015096"
+pilar = "estructuras"
+porque = "Rehace estructuras vanilla"
+[[mod]]
+slug = "1015115"
+pilar = "estructuras"
+porque = "Rehace estructuras vanilla"
+[[mod]]
+slug = "1015118"
+pilar = "estructuras"
+porque = "Rehace estructuras vanilla"
+[[mod]]
+slug = "1015114"
+pilar = "estructuras"
+porque = "Rehace estructuras vanilla"
+[[mod]]
+slug = "1015123"
+pilar = "estructuras"
+porque = "Rehace estructuras vanilla"
+[[mod]]
+slug = "1015144"
+pilar = "estructuras"
+porque = "Rehace estructuras vanilla"
+[[mod]]
+slug = "1015127"
+pilar = "estructuras"
+porque = "Rehace el combate final del End"
+[[mod]]
+slug = "1015149"
+pilar = "estructuras"
+porque = "Puentes sobre ríos"
+[[mod]]
+slug = "1015146"
+pilar = "estructuras"
+porque = "Detalles pequeños"
+[[mod]]
+slug = "442508"
+pilar = "estructuras"
+porque = "Mazmorras grandes"
+[[mod]]
+slug = "when-dungeons-arise-seven-seas"
+pilar = "estructuras"
+porque = "Barcos y estructuras marinas"
+[[mod]]
+slug = "623908"
+pilar = "estructuras"
+porque = "Aldeas por bioma"
+[[mod]]
+slug = "moogs-voyager-structures"
+pilar = "estructuras"
+porque = "Estructuras pequeñas y medianas"
+[[mod]]
+slug = "moogs-end-structures"
+pilar = "estructuras"
+porque = "Estructuras del End"
+[[mod]]
+slug = "structory"
+pilar = "estructuras"
+porque = "Ruinas atmosféricas con poco botín"
+[[mod]]
+slug = "explorify"
+pilar = "estructuras"
+porque = "Mazmorras pequeñas vanilla+"
+[[mod]]
+slug = "better-archeology"
+pilar = "estructuras"
+porque = "Arqueología y coleccionismo"
+[[mod]]
+slug = "lootr"
+pilar = "botin"
+porque = "Cofres por jugador"
+[[mod]]
+slug = "sparse-structures"
+pilar = "botin"
+porque = "Separación global de estructuras"
+[[mod]]
+slug = "structure-layout-optimizer"
+pilar = "rendimiento"
+porque = "Generación de estructuras grandes más rápida"
+
+[[mod]]
+slug = "lendercataclysm"
+pilar = "jefes"
+porque = "Jefes de mazmorra"
+[[mod]]
+slug = "mowzies-mobs"
+pilar = "jefes"
+porque = "Jefes que aparecen en el mundo"
+[[mod]]
+slug = "bosses-of-mass-destruction-forge"
+pilar = "jefes"
+porque = "Cuatro jefes con arena propia (port de Cerbon)"
+[[mod]]
+slug = "champions-unofficial"
+pilar = "jefes"
+porque = "Élites raras: encuentros excepcionales"
+
+[[mod]]
+slug = "better-combat-by-daedelus"
+pilar = "combate"
+porque = "Combate con patrones por tipo de arma"
+[[mod]]
+slug = "combat-roll"
+pilar = "combate"
+porque = "Esquiva"
+[[mod]]
+slug = "spell-engine"
+pilar = "clases"
+porque = "Motor de hechizos"
+[[mod]]
+slug = "wizards"
+pilar = "clases"
+porque = "Mago: arcano, fuego, escarcha"
+[[mod]]
+slug = "paladins-and-priests"
+pilar = "clases"
+porque = "Paladín y sacerdote"
+[[mod]]
+slug = "archers"
+pilar = "clases"
+porque = "Arquero"
+[[mod]]
+slug = "rogues-and-warriors"
+pilar = "clases"
+porque = "Pícaro y guerrero"
+[[mod]]
+slug = "arsenal-rpg-series"
+pilar = "equipo"
+porque = "Armas legendarias que se conquistan"
+[[mod]]
+slug = "artifacts"
+pilar = "equipo"
+porque = "Accesorios funcionales, no de daño"
+
+[[mod]]
+slug = "supplementaries"
+pilar = "construccion"
+porque = "Detalles funcionales"
+[[mod]]
+slug = "amendments"
+pilar = "construccion"
+porque = "Complemento de Supplementaries"
+[[mod]]
+slug = "every-compat"
+pilar = "construccion"
+porque = "Variantes de madera para maderas de mods"
+[[mod]]
+slug = "handcrafted"
+pilar = "construccion"
+porque = "Muebles"
+[[mod]]
+slug = "macaws-roofs"
+pilar = "construccion"
+porque = "Tejados"
+[[mod]]
+slug = "rechiseled"
+pilar = "construccion"
+porque = "Variantes de bloques"
+[[mod]]
+slug = "comforts"
+pilar = "construccion"
+porque = "Sacos de dormir y hamacas"
+
+[[mod]]
+slug = "farmers-delight"
+pilar = "cocina"
+porque = "Cocina con efectos útiles"
+[[mod]]
+slug = "lets-do-farm-charm"
+pilar = "agricultura"
+porque = "Base de Let's Do"
+[[mod]]
+slug = "lets-do-vinery"
+pilar = "agricultura"
+porque = "Vino con envejecimiento"
+[[mod]]
+slug = "lets-do-meadow"
+pilar = "ganaderia"
+porque = "Ganado de montaña y quesos"
+[[mod]]
+slug = "951221"
+pilar = "cocina"
+porque = "Tés e infusiones"
+[[mod]]
+slug = "445838"
+pilar = "ganaderia"
+porque = "Comederos"
+[[mod]]
+slug = "tide"
+pilar = "pesca"
+porque = "Pesca por bioma con diario"
+
+[[mod]]
+slug = "storage-drawers"
+pilar = "almacen"
+porque = "Almacén físico"
+[[mod]]
+slug = "sophisticated-backpacks"
+pilar = "almacen"
+porque = "Mochilas por materiales hasta netherita (sustituye a Traveler's Backpack desde 0.1.1)"
+[[mod]]
+slug = "waystones"
+pilar = "exploracion"
+porque = "Viaje entre lugares descubiertos"
+[[mod]]
+slug = "open-parties-and-claims"
+pilar = "bases"
+porque = "Protección de bases frente a explosiones, mobs y raids"
+
+[[mod]]
+slug = "580555"
+pilar = "interfaz"
+porque = "Recetas (EMI; JEI 19.64 declara minecraft [1.21,1.21.1) y pide mezz_config)"
+[[mod]]
+slug = "jade"
+pilar = "interfaz"
+porque = "Información del bloque o criatura apuntado"
+[[mod]]
+slug = "appleskin"
+pilar = "interfaz"
+porque = "Saciedad de la comida"
+[[mod]]
+slug = "xaeros-minimap"
+pilar = "interfaz"
+porque = "Minimapa"
+[[mod]]
+slug = "xaeros-world-map"
+pilar = "interfaz"
+porque = "Mapa del mundo"
+[[mod]]
+slug = "mouse-tweaks"
+pilar = "interfaz"
+porque = "Manejo de inventario"
+[[mod]]
+slug = "enchantment-descriptions"
+pilar = "interfaz"
+porque = "Explica encantamientos"
+[[mod]]
+slug = "controlling"
+pilar = "interfaz"
+porque = "Buscar controles con muchos mods"
+[[mod]]
+slug = "1015157"
+pilar = "reglas"
+porque = "Carga el datapack global de reglas (sin raids ni patrullas)"
+
+[[mod]]
+slug = "sodium"
+pilar = "rendimiento"
+porque = "Renderizado"
+[[mod]]
+slug = "lithium"
+pilar = "rendimiento"
+porque = "Lógica del juego"
+[[mod]]
+slug = "429235"
+pilar = "rendimiento"
+porque = "Memoria"
+[[mod]]
+slug = "modernfix"
+pilar = "rendimiento"
+porque = "Carga y memoria"
+[[mod]]
+slug = "448233"
+pilar = "rendimiento"
+porque = "No dibuja entidades ocultas"
+[[mod]]
+slug = "immediatelyfast"
+pilar = "rendimiento"
+porque = "Renderizado inmediato"
+
+# --- Hito 0.2.0 (aprobados por el equipo para prueba) ---
+[[mod]]
+slug = "critters-and-companions"
+pilar = "fauna"
+porque = "Fauna de ríos, bosques, jungla, nieve y océano en estilo vanilla (nutria, koi, panda rojo...)"
+[[mod]]
+slug = "in-control"
+pilar = "reglas"
+porque = "Reglas de aparición por bioma/estructura/dimensión: reposición de fauna y dificultad regional (beta en 1.21.1)"
+[[mod]]
+slug = "create"
+pilar = "automatizacion"
+porque = "Construcción mecánica y automatización opcional (sin addons)"
+
+# --- Hito 0.3.0 (EN PRUEBAS, pendiente de decisión del equipo) ---
+# Ports de AlexModGuy: se usa la familia "Continued" (CodxIO/Lynk): mantenida (última versión 2026-10-19),
+# código fuente público, misma licencia que el original. No mezclar con los ports de Raguto ni con Citadel.
+[[mod]]
+slug = "1635121"
+pilar = "fauna"
+porque = "Alex's Mobs Continued: ~90 animales y monstruos con modelo y comportamiento propios, ligados a su bioma"
+[[mod]]
+slug = "1645389"
+pilar = "mundo"
+porque = "Alex's Caves Continued: seis biomas subterráneos raros con su fauna y peligros"
+[[mod]]
+slug = "iceandfire-ce"
+pilar = "fauna"
+porque = "Dragones y criaturas míticas en nidos y cuevas lejos del spawn (edición comunitaria mantenida)"
+[[mod]]
+slug = "born-in-chaos"
+pilar = "fauna"
+porque = "Monstruos nocturnos con mecánicas propias; limitados por entorno y sin eventos (ver purgatorio_criaturas)"
+[[mod]]
+slug = "mobs-of-mythology"
+pilar = "fauna"
+porque = "Pocas criaturas míticas (kobolds, dracos, basilisco, chupacabras) en biomas concretos"
+[[mod]]
+slug = "infernal-expansion-redux"
+pilar = "mundo"
+porque = "Nether: cañón de piedra luminosa y su fauna, sin rehacer la generación"
+[[mod]]
+slug = "servercore"
+pilar = "rendimiento"
+porque = "Servidor: consultas de bioma rápidas al hacer aparecer criaturas, rango de activación de IA (32 bloques) y tope de Glares"
+
+[[mod]]
+slug = "more-mobgriefing-options"
+pilar = "proteccion"
+porque = "mobGriefing por tipo de criatura: los hostiles no rompen bloques (creepers, endermans, Alex's Caves...) y aldeanos, ovejas y piglins conservan sus mecánicas"
+
+# Hito 0.4.0: ambiente sonoro (solo cliente; valores provisionales para comparar jugando).
+[[mod]]
+slug = "ambientsounds"
+pilar = "ambiente"
+porque = "Sonido ambiental según bioma, altura y hora (solo cliente; volumen provisional 0,75)"
+[[mod]]
+slug = "sound-physics-remastered"
+pilar = "ambiente"
+porque = "Reverberación y oclusión del sonido (solo cliente; reverberación provisional 0,7)"
+
+# Identidad visual PURG4TORY: Souls Grimore (solo cliente). Menú principal, pantallas de carga, título e icono de ventana.
+[[mod]]
+slug = "fancymenu"
+pilar = "identidad"
+porque = "Menú principal propio (capas, animación AFMA, botones con estilo propio), título e icono de la ventana (solo cliente)"
+[[mod]]
+slug = "drippy-loading-screen"
+pilar = "identidad"
+porque = "Pantallas de carga con la marca: carga temprana de NeoForge y carga de recursos (solo cliente)"
+[[mod]]
+slug = "countereds-terrain-slabs"
+pilar = "mundo"
+porque = "Losas naturales que suavizan pendientes y cuevas; +10 % de tiempo de generación, sin cambiar biomas ni estructuras (lab 0.5.0)"
+[[mod]]
+slug = "countereds-smooth-steps"
+pilar = "ambiente"
+porque = "Subida suave de escalones y losas al caminar, complemento de Terrain Slabs (solo cliente)"
+[[mod]]
+slug = "particular-reforged"
+pilar = "ambiente"
+porque = "Partículas ambientales: hojas, salpicaduras, cascadas (solo cliente; entra en servidores sin él)"
+[[mod]]
+slug = "particle-rain"
+pilar = "ambiente"
+porque = "Lluvia y nieve con partículas (solo cliente)"
+[[mod]]
+slug = "streams-reflowing"
+pilar = "mundo"
+porque = "Arroyos, ríos dinámicos, lagos y cascadas con corriente (hito 0.6.0: precisión LOW, sin rebioma; ver hito-0.6.0)"
+
+# Hito 2 de biodiversidad (0.9.0): combinación «h2sinbp» + End's Phantasm. Las bibliotecas las añade bloqueo.json como dependencias.
+[[mod]]
+slug = "natures-spirit"
+pilar = "mundo"
+porque = "Biomas de carácter (sabanas, chaparral, cipreses, secuoyas)"
+[[mod]]
+slug = "regions-unexplored"
+pilar = "mundo"
+porque = "Biomas grandes y variados, también en el Nether"
+[[mod]]
+slug = "lets-do-bloomingnature"
+pilar = "mundo"
+porque = "Prados y bosques floridos (fijado a 1.1.11, la probada)"
+[[mod]]
+slug = "biomes-o-plenty"
+pilar = "mundo"
+porque = "Biomas de bosque, humedal y Nether"
+[[mod]]
+slug = "promenade"
+pilar = "mundo"
+porque = "Biomas de carácter (sakura, cañón, humedal)"
+[[mod]]
+slug = "nyctophobia-fabric"
+pilar = "mundo"
+porque = "Bosque embrujado"
+[[mod]]
+slug = "ecologics"
+pilar = "mundo"
+porque = "Biomas de oasis y cocoteros (fijado a 2.3.7: la 2.3.8 exige NeoForge 21.1.264)"
+[[mod]]
+slug = "oh-the-biomes-weve-gone"
+pilar = "mundo"
+porque = "Biomas fantásticos y de paisaje (hito 2)"
+[[mod]]
+slug = "oh-the-trees-youll-grow"
+pilar = "mundo"
+porque = "Árboles y arbolado de Oh The Biomes We've Gone"
+[[mod]]
+slug = "incendium"
+pilar = "mundo"
+porque = "Nether ampliado (hito 2)"
+[[mod]]
+slug = "hybrid-aquatic"
+pilar = "mundo"
+porque = "Biodiversidad oceánica (hito 2)"
+[[mod]]
+slug = "phantasm"
+pilar = "mundo"
+porque = "Biomas aditivos del End; conserva Nullscape (hito 2)"

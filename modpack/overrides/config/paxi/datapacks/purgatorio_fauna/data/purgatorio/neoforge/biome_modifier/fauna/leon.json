@@ -1,0 +1,28 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      {
+        "type": "neoforge:or",
+        "values": [
+          "#naturalist:has_lion"
+        ]
+      },
+      {
+        "type": "neoforge:not",
+        "value": "#c:is_snowy"
+      },
+      {
+        "type": "neoforge:not",
+        "value": "#c:is_icy"
+      }
+    ]
+  },
+  "spawners": {
+    "type": "naturalist:lion",
+    "weight": 4,
+    "minCount": 2,
+    "maxCount": 4
+  }
+}

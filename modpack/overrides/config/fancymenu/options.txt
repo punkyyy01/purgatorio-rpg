@@ -1,0 +1,14 @@
+##[customization]
+
+B:modpack_mode = 'true';
+B:show_customization_overlay = 'false';
+
+
+##[window]
+
+B:show_custom_window_icon = 'true';
+S:custom_window_icon_16 = '/config/fancymenu/assets/purg4tory/icono_16.png';
+S:custom_window_icon_32 = '/config/fancymenu/assets/purg4tory/icono_32.png';
+S:custom_window_title = 'PURG4TORY: Souls Grimore';
+
+

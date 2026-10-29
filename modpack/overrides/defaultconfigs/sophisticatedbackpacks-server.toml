@@ -1,0 +1,4 @@
+# Purgatorio RPG: las mejoras activas (imán, recogida, cocina...) solo funcionan en la mochila
+# que se lleva puesta, no en todas las que haya en el inventario.
+[server.nerfs]
+	onlyWornBackpackTriggersUpgrades = true

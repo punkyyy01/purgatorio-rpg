@@ -1,0 +1,32 @@
+{
+ "display": {
+  "icon": {
+   "id": "minecraft:written_book"
+  },
+  "title": {
+   "text": "Bienvenido a PURG4TORY"
+  },
+  "description": {
+   "text": "Una guía opcional con lo básico"
+  },
+  "frame": "task",
+  "show_toast": true,
+  "announce_to_chat": false,
+  "hidden": true
+ },
+ "criteria": {
+  "entrada": {
+   "trigger": "minecraft:tick"
+  }
+ },
+ "requirements": [
+  [
+   "entrada"
+  ]
+ ],
+ "rewards": {
+  "loot": [
+   "purgatorio:bienvenida/guia"
+  ]
+ }
+}

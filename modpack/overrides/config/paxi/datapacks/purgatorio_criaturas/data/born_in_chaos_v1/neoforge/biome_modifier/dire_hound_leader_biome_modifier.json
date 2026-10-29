@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:or",
+    "values": [
+      "#c:is_taiga",
+      "#c:is_snowy"
+    ]
+  },
+  "spawners": [
+    {
+      "type": "born_in_chaos_v1:dire_hound_leader",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

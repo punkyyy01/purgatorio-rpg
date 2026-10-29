@@ -1,0 +1,57 @@
+# ab050
+20:52:48 mods de prueba: purg4tory_cauces-prueba.jar purg4tory_diagtick-0.1.0.jar  (sha cauces: 144f5ae2759f)
+20:54:39 mundo abierto; pid 1041049; diag /home/umbrel/dev/lab-p0/cli/diagtick/20261028-205406/
+20:54:42 vuelo cliente +X (servidor: 21.6 b/s fijo; cliente: W+esprint creativo), y=310, 900 s, distancia 32
+21:09:42 fin del vuelo; últimas posiciones SRV/CLI:
+21:09:42.590 SRV tick=18420 Pruebas 13940.0 330.7 -288.0 chunk_cargado=true tp_sin_confirmar=no
+21:09:42.963 CLI 13945.8 330.7 -288.0 fps=19 ms_desde_ultimo_tick=22
+21:09:51 servidor responde
+21:09:54 guardar y salir: limpio en 2 s
+21:09:58 resumen diag:
+20:54:06.692 inicio; dedicado=false hilo=Server thread
+20:54:15.324 minuto: ticks=1 mspt_medio=8530.3 max=8530ms >50ms=1 >250ms=1 >1s=1 >5s=1 chunks_cargados=1520
+20:54:39.784 orden: gamemode creative Pruebas
+20:54:39.790 orden: time set noon
+20:54:39.791 orden: gamerule doDaylightCycle false
+20:54:39.792 orden: weather clear
+20:54:39.793 orden: gamerule doWeatherCycle false
+20:54:39.793 orden: tp Pruebas ~ 330 ~ -90 0
+20:54:42.604 orden: !vuelo_cliente 900 0
+20:55:15.340 minuto: ticks=1114 mspt_medio=15.0 max=176ms >50ms=43 >250ms=0 >1s=0 >5s=0 chunks_cargados=2455
+20:56:15.384 minuto: ticks=1200 mspt_medio=5.5 max=98ms >50ms=24 >250ms=0 >1s=0 >5s=0 chunks_cargados=3291
+20:57:15.389 minuto: ticks=1201 mspt_medio=4.2 max=65ms >50ms=2 >250ms=0 >1s=0 >5s=0 chunks_cargados=3338
+20:58:15.443 minuto: ticks=1201 mspt_medio=4.3 max=60ms >50ms=1 >250ms=0 >1s=0 >5s=0 chunks_cargados=3369
+20:59:15.595 minuto: ticks=1200 mspt_medio=4.7 max=68ms >50ms=1 >250ms=0 >1s=0 >5s=0 chunks_cargados=3362
+21:00:15.601 minuto: ticks=1163 mspt_medio=4.2 max=110ms >50ms=1 >250ms=0 >1s=0 >5s=0 chunks_cargados=3321
+21:01:15.640 minuto: ticks=1201 mspt_medio=6.1 max=143ms >50ms=4 >250ms=0 >1s=0 >5s=0 chunks_cargados=3372
+21:02:15.642 minuto: ticks=1200 mspt_medio=4.8 max=73ms >50ms=3 >250ms=0 >1s=0 >5s=0 chunks_cargados=3344
+21:03:15.697 minuto: ticks=1201 mspt_medio=5.8 max=85ms >50ms=5 >250ms=0 >1s=0 >5s=0 chunks_cargados=3332
+21:04:15.704 minuto: ticks=1200 mspt_medio=5.4 max=48ms >50ms=0 >250ms=0 >1s=0 >5s=0 chunks_cargados=3363
+21:05:15.727 minuto: ticks=1200 mspt_medio=6.9 max=94ms >50ms=11 >250ms=0 >1s=0 >5s=0 chunks_cargados=3339
+21:06:15.739 minuto: ticks=1201 mspt_medio=5.3 max=74ms >50ms=8 >250ms=0 >1s=0 >5s=0 chunks_cargados=3337
+21:07:15.789 minuto: ticks=1201 mspt_medio=4.5 max=78ms >50ms=11 >250ms=0 >1s=0 >5s=0 chunks_cargados=3343
+21:08:15.838 minuto: ticks=1201 mspt_medio=4.9 max=76ms >50ms=13 >250ms=0 >1s=0 >5s=0 chunks_cargados=3356
+21:09:15.839 minuto: ticks=1199 mspt_medio=4.4 max=64ms >50ms=3 >250ms=0 >1s=0 >5s=0 chunks_cargados=3294
+21:09:42.636 vuelo terminado
+21:09:43.589 orden: say fin-de-prueba-ab050
+21:09:52.196 orden: !salir
+21:09:53.278 parada (servidor detenido; guardado terminado)
+21:09:58 pausas >=0.5 s: 3; >=2 s: 2; suma: 14.05 s; máx: 8.63 s
+21:09:58 esperas síncronas >50 ms: 1; Can't keep up: 2; VIGÍA: 0
+21:09:58 FIN
+
+## análisis (analizar.py)
+pausas >=0.5 s: 3  suma 14.1 s  máx 8.63 s
+  getChunkBlocking               n=   1 suma=    8.6 s máx=  8.63 s
+  ?                              n=   1 suma=    4.8 s máx=  4.75 s
+  Commands                       n=   1 suma=    0.7 s máx=  0.67 s
+pausas >= 2 s:
+  20:54:15.326   8.63 s  getChunkBlocking  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerChunkCache.getChunkBlocking(ServerChunkCache.java:3258)
+  20:54:20.082   4.75 s  ?  | TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.wrapOperation$znh000$modernfix$waitLongerForTasks(MinecraftServer.java:2163)
+esperas síncronas >50 ms: 1  suma 8.4 s
+  n=   1     8.4 s carga=true  ServerLevel.setChunkForced <- ForceLoadCommand.changeForceLoad <- ForceLoadCommand.lambda$register$3 <- ContextChain.runExecutable
+esperas >= 2 s:
+  20:54:15.236    8.4 s minecraft:full carga=true dist=2147483647  ServerLevel.setChunkForced <- ForceLoadCommand.changeForceLoad <- ForceLoadCommand.lambda$register$3 <- ContextChain.runExecutable
+
+## Cauces al parar
+al parar: cadenas de terreno nuevo: 8624 cargas síncronas evitadas, 574 reanudadas, 231 pendientes, 0 perdidas; consultas sin esperar: 1 esperas evitadas, «cargado» = listo: 172 respuestas no, movimiento a terreno listo: 1297 frenados

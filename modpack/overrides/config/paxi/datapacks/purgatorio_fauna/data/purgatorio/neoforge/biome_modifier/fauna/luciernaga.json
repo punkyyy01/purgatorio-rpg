@@ -1,0 +1,28 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:and",
+    "values": [
+      {
+        "type": "neoforge:or",
+        "values": [
+          "#naturalist:has_firefly"
+        ]
+      },
+      {
+        "type": "neoforge:not",
+        "value": "#c:is_snowy"
+      },
+      {
+        "type": "neoforge:not",
+        "value": "#c:is_icy"
+      }
+    ]
+  },
+  "spawners": {
+    "type": "naturalist:firefly",
+    "weight": 6,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

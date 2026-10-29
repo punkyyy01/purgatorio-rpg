@@ -1,0 +1,2953 @@
+#MobGriefing settings
+[mobGriefing]
+
+	[mobGriefing.mobGriefing]
+		#minecraft:allay mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:allay" = "DEFAULT"
+		#minecraft:area_effect_cloud mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:area_effect_cloud" = "DEFAULT"
+		#minecraft:armadillo mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:armadillo" = "DEFAULT"
+		#minecraft:armor_stand mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:armor_stand" = "DEFAULT"
+		#minecraft:arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:arrow" = "DEFAULT"
+		#minecraft:axolotl mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:axolotl" = "DEFAULT"
+		#minecraft:bat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:bat" = "DEFAULT"
+		#minecraft:bee mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:bee" = "DEFAULT"
+		#minecraft:blaze mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:blaze" = "FALSE"
+		#minecraft:block_display mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:block_display" = "DEFAULT"
+		#minecraft:boat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:boat" = "DEFAULT"
+		#minecraft:bogged mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:bogged" = "FALSE"
+		#minecraft:breeze mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:breeze" = "FALSE"
+		#minecraft:breeze_wind_charge mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:breeze_wind_charge" = "DEFAULT"
+		#minecraft:camel mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:camel" = "DEFAULT"
+		#minecraft:cat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:cat" = "DEFAULT"
+		#minecraft:cave_spider mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:cave_spider" = "FALSE"
+		#minecraft:chest_boat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:chest_boat" = "DEFAULT"
+		#minecraft:chest_minecart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:chest_minecart" = "DEFAULT"
+		#minecraft:chicken mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:chicken" = "DEFAULT"
+		#minecraft:cod mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:cod" = "DEFAULT"
+		#minecraft:command_block_minecart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:command_block_minecart" = "DEFAULT"
+		#minecraft:cow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:cow" = "DEFAULT"
+		#minecraft:creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:creeper" = "FALSE"
+		#minecraft:dolphin mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:dolphin" = "DEFAULT"
+		#minecraft:donkey mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:donkey" = "DEFAULT"
+		#minecraft:dragon_fireball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:dragon_fireball" = "DEFAULT"
+		#minecraft:drowned mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:drowned" = "FALSE"
+		#minecraft:egg mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:egg" = "DEFAULT"
+		#minecraft:elder_guardian mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:elder_guardian" = "FALSE"
+		#minecraft:end_crystal mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:end_crystal" = "DEFAULT"
+		#minecraft:ender_dragon mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:ender_dragon" = "FALSE"
+		#minecraft:ender_pearl mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:ender_pearl" = "DEFAULT"
+		#minecraft:enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:enderman" = "FALSE"
+		#minecraft:endermite mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:endermite" = "FALSE"
+		#minecraft:evoker mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:evoker" = "FALSE"
+		#minecraft:evoker_fangs mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:evoker_fangs" = "DEFAULT"
+		#minecraft:experience_bottle mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:experience_bottle" = "DEFAULT"
+		#minecraft:experience_orb mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:experience_orb" = "DEFAULT"
+		#minecraft:eye_of_ender mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:eye_of_ender" = "DEFAULT"
+		#minecraft:falling_block mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:falling_block" = "DEFAULT"
+		#minecraft:firework_rocket mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:firework_rocket" = "DEFAULT"
+		#minecraft:fox mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:fox" = "DEFAULT"
+		#minecraft:frog mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:frog" = "DEFAULT"
+		#minecraft:furnace_minecart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:furnace_minecart" = "DEFAULT"
+		#minecraft:ghast mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:ghast" = "FALSE"
+		#minecraft:giant mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:giant" = "FALSE"
+		#minecraft:glow_item_frame mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:glow_item_frame" = "DEFAULT"
+		#minecraft:glow_squid mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:glow_squid" = "DEFAULT"
+		#minecraft:goat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:goat" = "DEFAULT"
+		#minecraft:guardian mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:guardian" = "FALSE"
+		#minecraft:hoglin mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:hoglin" = "FALSE"
+		#minecraft:hopper_minecart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:hopper_minecart" = "DEFAULT"
+		#minecraft:horse mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:horse" = "DEFAULT"
+		#minecraft:husk mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:husk" = "FALSE"
+		#minecraft:illusioner mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:illusioner" = "FALSE"
+		#minecraft:interaction mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:interaction" = "DEFAULT"
+		#minecraft:iron_golem mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:iron_golem" = "DEFAULT"
+		#minecraft:item mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:item" = "DEFAULT"
+		#minecraft:item_display mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:item_display" = "DEFAULT"
+		#minecraft:item_frame mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:item_frame" = "DEFAULT"
+		#minecraft:ominous_item_spawner mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:ominous_item_spawner" = "DEFAULT"
+		#minecraft:fireball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:fireball" = "DEFAULT"
+		#minecraft:leash_knot mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:leash_knot" = "DEFAULT"
+		#minecraft:lightning_bolt mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:lightning_bolt" = "DEFAULT"
+		#minecraft:llama mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:llama" = "DEFAULT"
+		#minecraft:llama_spit mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:llama_spit" = "DEFAULT"
+		#minecraft:magma_cube mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:magma_cube" = "FALSE"
+		#minecraft:marker mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:marker" = "DEFAULT"
+		#minecraft:minecart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:minecart" = "DEFAULT"
+		#minecraft:mooshroom mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:mooshroom" = "DEFAULT"
+		#minecraft:mule mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:mule" = "DEFAULT"
+		#minecraft:ocelot mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:ocelot" = "DEFAULT"
+		#minecraft:painting mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:painting" = "DEFAULT"
+		#minecraft:panda mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:panda" = "DEFAULT"
+		#minecraft:parrot mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:parrot" = "DEFAULT"
+		#minecraft:phantom mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:phantom" = "FALSE"
+		#minecraft:pig mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:pig" = "DEFAULT"
+		#minecraft:piglin mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:piglin" = "DEFAULT"
+		#minecraft:piglin_brute mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:piglin_brute" = "DEFAULT"
+		#minecraft:pillager mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:pillager" = "FALSE"
+		#minecraft:polar_bear mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:polar_bear" = "DEFAULT"
+		#minecraft:potion mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:potion" = "DEFAULT"
+		#minecraft:pufferfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:pufferfish" = "DEFAULT"
+		#minecraft:rabbit mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:rabbit" = "DEFAULT"
+		#minecraft:ravager mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:ravager" = "FALSE"
+		#minecraft:salmon mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:salmon" = "DEFAULT"
+		#minecraft:sheep mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:sheep" = "DEFAULT"
+		#minecraft:shulker mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:shulker" = "FALSE"
+		#minecraft:shulker_bullet mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:shulker_bullet" = "DEFAULT"
+		#minecraft:silverfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:silverfish" = "FALSE"
+		#minecraft:skeleton mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:skeleton" = "FALSE"
+		#minecraft:skeleton_horse mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:skeleton_horse" = "DEFAULT"
+		#minecraft:slime mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:slime" = "FALSE"
+		#minecraft:small_fireball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:small_fireball" = "DEFAULT"
+		#minecraft:sniffer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:sniffer" = "DEFAULT"
+		#minecraft:snow_golem mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:snow_golem" = "DEFAULT"
+		#minecraft:snowball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:snowball" = "DEFAULT"
+		#minecraft:spawner_minecart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:spawner_minecart" = "DEFAULT"
+		#minecraft:spectral_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:spectral_arrow" = "DEFAULT"
+		#minecraft:spider mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:spider" = "FALSE"
+		#minecraft:squid mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:squid" = "DEFAULT"
+		#minecraft:stray mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:stray" = "FALSE"
+		#minecraft:strider mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:strider" = "DEFAULT"
+		#minecraft:tadpole mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:tadpole" = "DEFAULT"
+		#minecraft:text_display mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:text_display" = "DEFAULT"
+		#minecraft:tnt mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:tnt" = "DEFAULT"
+		#minecraft:tnt_minecart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:tnt_minecart" = "DEFAULT"
+		#minecraft:trader_llama mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:trader_llama" = "DEFAULT"
+		#minecraft:trident mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:trident" = "DEFAULT"
+		#minecraft:tropical_fish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:tropical_fish" = "DEFAULT"
+		#minecraft:turtle mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:turtle" = "DEFAULT"
+		#minecraft:vex mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:vex" = "FALSE"
+		#minecraft:villager mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:villager" = "DEFAULT"
+		#minecraft:vindicator mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:vindicator" = "FALSE"
+		#minecraft:wandering_trader mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:wandering_trader" = "DEFAULT"
+		#minecraft:warden mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:warden" = "FALSE"
+		#minecraft:wind_charge mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:wind_charge" = "DEFAULT"
+		#minecraft:witch mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:witch" = "FALSE"
+		#minecraft:wither mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:wither" = "FALSE"
+		#minecraft:wither_skeleton mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:wither_skeleton" = "FALSE"
+		#minecraft:wither_skull mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:wither_skull" = "FALSE"
+		#minecraft:wolf mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:wolf" = "DEFAULT"
+		#minecraft:zoglin mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:zoglin" = "FALSE"
+		#minecraft:zombie mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:zombie" = "FALSE"
+		#minecraft:zombie_horse mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:zombie_horse" = "DEFAULT"
+		#minecraft:zombie_villager mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:zombie_villager" = "FALSE"
+		#minecraft:zombified_piglin mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:zombified_piglin" = "FALSE"
+		#minecraft:player mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:player" = "DEFAULT"
+		#minecraft:fishing_bobber mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"minecraft:fishing_bobber" = "DEFAULT"
+		#alexsmobs:grizzly_bear mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:grizzly_bear" = "DEFAULT"
+		#alexsmobs:roadrunner mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:roadrunner" = "DEFAULT"
+		#alexsmobs:bone_serpent mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:bone_serpent" = "FALSE"
+		#alexsmobs:bone_serpent_part mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:bone_serpent_part" = "FALSE"
+		#alexsmobs:gazelle mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:gazelle" = "DEFAULT"
+		#alexsmobs:crocodile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:crocodile" = "DEFAULT"
+		#alexsmobs:fly mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:fly" = "DEFAULT"
+		#alexsmobs:hummingbird mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:hummingbird" = "DEFAULT"
+		#alexsmobs:orca mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:orca" = "DEFAULT"
+		#alexsmobs:sunbird mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:sunbird" = "DEFAULT"
+		#alexsmobs:gorilla mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:gorilla" = "DEFAULT"
+		#alexsmobs:crimson_mosquito mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:crimson_mosquito" = "FALSE"
+		#alexsmobs:mosquito_spit mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:mosquito_spit" = "DEFAULT"
+		#alexsmobs:rattlesnake mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:rattlesnake" = "DEFAULT"
+		#alexsmobs:endergrade mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:endergrade" = "DEFAULT"
+		#alexsmobs:hammerhead_shark mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:hammerhead_shark" = "DEFAULT"
+		#alexsmobs:shark_tooth_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:shark_tooth_arrow" = "DEFAULT"
+		#alexsmobs:lobster mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:lobster" = "DEFAULT"
+		#alexsmobs:komodo_dragon mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:komodo_dragon" = "DEFAULT"
+		#alexsmobs:capuchin_monkey mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:capuchin_monkey" = "DEFAULT"
+		#alexsmobs:tossed_item mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:tossed_item" = "DEFAULT"
+		#alexsmobs:centipede_head mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:centipede_head" = "FALSE"
+		#alexsmobs:centipede_body mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:centipede_body" = "DEFAULT"
+		#alexsmobs:centipede_tail mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:centipede_tail" = "DEFAULT"
+		#alexsmobs:warped_toad mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:warped_toad" = "DEFAULT"
+		#alexsmobs:moose mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:moose" = "DEFAULT"
+		#alexsmobs:mimicube mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:mimicube" = "FALSE"
+		#alexsmobs:raccoon mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:raccoon" = "DEFAULT"
+		#alexsmobs:blobfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:blobfish" = "DEFAULT"
+		#alexsmobs:seal mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:seal" = "DEFAULT"
+		#alexsmobs:cockroach mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:cockroach" = "DEFAULT"
+		#alexsmobs:cockroach_egg mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:cockroach_egg" = "DEFAULT"
+		#alexsmobs:shoebill mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:shoebill" = "DEFAULT"
+		#alexsmobs:elephant mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:elephant" = "DEFAULT"
+		#alexsmobs:soul_vulture mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:soul_vulture" = "FALSE"
+		#alexsmobs:snow_leopard mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:snow_leopard" = "DEFAULT"
+		#alexsmobs:spectre mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:spectre" = "DEFAULT"
+		#alexsmobs:crow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:crow" = "DEFAULT"
+		#alexsmobs:alligator_snapping_turtle mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:alligator_snapping_turtle" = "DEFAULT"
+		#alexsmobs:mungus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:mungus" = "DEFAULT"
+		#alexsmobs:mantis_shrimp mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:mantis_shrimp" = "DEFAULT"
+		#alexsmobs:guster mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:guster" = "FALSE"
+		#alexsmobs:sand_shot mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:sand_shot" = "DEFAULT"
+		#alexsmobs:gust mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:gust" = "DEFAULT"
+		#alexsmobs:warped_mosco mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:warped_mosco" = "FALSE"
+		#alexsmobs:hemolymph mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:hemolymph" = "DEFAULT"
+		#alexsmobs:straddler mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:straddler" = "FALSE"
+		#alexsmobs:stradpole mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:stradpole" = "DEFAULT"
+		#alexsmobs:straddleboard mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:straddleboard" = "DEFAULT"
+		#alexsmobs:emu mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:emu" = "DEFAULT"
+		#alexsmobs:emu_egg mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:emu_egg" = "DEFAULT"
+		#alexsmobs:platypus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:platypus" = "DEFAULT"
+		#alexsmobs:dropbear mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:dropbear" = "FALSE"
+		#alexsmobs:tasmanian_devil mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:tasmanian_devil" = "DEFAULT"
+		#alexsmobs:kangaroo mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:kangaroo" = "DEFAULT"
+		#alexsmobs:cachalot_whale mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:cachalot_whale" = "DEFAULT"
+		#alexsmobs:cachalot_echo mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:cachalot_echo" = "DEFAULT"
+		#alexsmobs:leafcutter_ant mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:leafcutter_ant" = "DEFAULT"
+		#alexsmobs:enderiophage mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:enderiophage" = "DEFAULT"
+		#alexsmobs:enderiophage_rocket mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:enderiophage_rocket" = "DEFAULT"
+		#alexsmobs:bald_eagle mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:bald_eagle" = "DEFAULT"
+		#alexsmobs:tiger mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:tiger" = "DEFAULT"
+		#alexsmobs:tarantula_hawk mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:tarantula_hawk" = "DEFAULT"
+		#alexsmobs:void_worm mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:void_worm" = "FALSE"
+		#alexsmobs:void_worm_part mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:void_worm_part" = "FALSE"
+		#alexsmobs:void_worm_shot mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:void_worm_shot" = "DEFAULT"
+		#alexsmobs:void_portal mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:void_portal" = "DEFAULT"
+		#alexsmobs:frilled_shark mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:frilled_shark" = "DEFAULT"
+		#alexsmobs:mimic_octopus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:mimic_octopus" = "DEFAULT"
+		#alexsmobs:seagull mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:seagull" = "DEFAULT"
+		#alexsmobs:froststalker mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:froststalker" = "DEFAULT"
+		#alexsmobs:ice_shard mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:ice_shard" = "DEFAULT"
+		#alexsmobs:tusklin mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:tusklin" = "DEFAULT"
+		#alexsmobs:laviathan mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:laviathan" = "DEFAULT"
+		#alexsmobs:cosmaw mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:cosmaw" = "DEFAULT"
+		#alexsmobs:toucan mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:toucan" = "DEFAULT"
+		#alexsmobs:maned_wolf mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:maned_wolf" = "DEFAULT"
+		#alexsmobs:anaconda mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:anaconda" = "DEFAULT"
+		#alexsmobs:anaconda_part mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:anaconda_part" = "DEFAULT"
+		#alexsmobs:vine_lasso mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:vine_lasso" = "DEFAULT"
+		#alexsmobs:anteater mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:anteater" = "DEFAULT"
+		#alexsmobs:rocky_roller mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:rocky_roller" = "FALSE"
+		#alexsmobs:flutter mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:flutter" = "DEFAULT"
+		#alexsmobs:pollen_ball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:pollen_ball" = "DEFAULT"
+		#alexsmobs:gelada_monkey mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:gelada_monkey" = "DEFAULT"
+		#alexsmobs:jerboa mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:jerboa" = "DEFAULT"
+		#alexsmobs:terrapin mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:terrapin" = "DEFAULT"
+		#alexsmobs:comb_jelly mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:comb_jelly" = "DEFAULT"
+		#alexsmobs:cosmic_cod mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:cosmic_cod" = "DEFAULT"
+		#alexsmobs:bunfungus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:bunfungus" = "DEFAULT"
+		#alexsmobs:bison mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:bison" = "DEFAULT"
+		#alexsmobs:giant_squid mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:giant_squid" = "DEFAULT"
+		#alexsmobs:squid_grapple mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:squid_grapple" = "DEFAULT"
+		#alexsmobs:sea_bear mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:sea_bear" = "DEFAULT"
+		#alexsmobs:devils_hole_pupfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:devils_hole_pupfish" = "DEFAULT"
+		#alexsmobs:catfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:catfish" = "DEFAULT"
+		#alexsmobs:flying_fish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:flying_fish" = "DEFAULT"
+		#alexsmobs:skelewag mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:skelewag" = "FALSE"
+		#alexsmobs:rain_frog mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:rain_frog" = "DEFAULT"
+		#alexsmobs:potoo mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:potoo" = "DEFAULT"
+		#alexsmobs:mudskipper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:mudskipper" = "DEFAULT"
+		#alexsmobs:mud_ball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:mud_ball" = "DEFAULT"
+		#alexsmobs:rhinoceros mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:rhinoceros" = "DEFAULT"
+		#alexsmobs:sugar_glider mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:sugar_glider" = "DEFAULT"
+		#alexsmobs:farseer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:farseer" = "FALSE"
+		#alexsmobs:skreecher mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:skreecher" = "DEFAULT"
+		#alexsmobs:underminer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:underminer" = "DEFAULT"
+		#alexsmobs:murmur mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:murmur" = "FALSE"
+		#alexsmobs:murmur_head mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:murmur_head" = "FALSE"
+		#alexsmobs:tendon_segment mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:tendon_segment" = "DEFAULT"
+		#alexsmobs:skunk mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:skunk" = "DEFAULT"
+		#alexsmobs:fart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:fart" = "DEFAULT"
+		#alexsmobs:banana_slug mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:banana_slug" = "DEFAULT"
+		#alexsmobs:blue_jay mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:blue_jay" = "DEFAULT"
+		#alexsmobs:caiman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:caiman" = "DEFAULT"
+		#alexsmobs:triops mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexsmobs:triops" = "DEFAULT"
+		#infernalexp:glowsilk_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"infernalexp:glowsilk_arrow" = "FALSE"
+		#infernalexp:voline mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"infernalexp:voline" = "FALSE"
+		#infernalexp:throwable_fire_charge mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"infernalexp:throwable_fire_charge" = "FALSE"
+		#infernalexp:glowsilk_moth mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"infernalexp:glowsilk_moth" = "FALSE"
+		#infernalexp:glowsquito mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"infernalexp:glowsquito" = "FALSE"
+		#infernalexp:blindsight mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"infernalexp:blindsight" = "FALSE"
+		#infernalexp:warpbeetle mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"infernalexp:warpbeetle" = "FALSE"
+		#infernalexp:throwable_magma_cream mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"infernalexp:throwable_magma_cream" = "FALSE"
+		#rogues:bear_trap mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"rogues:bear_trap" = "DEFAULT"
+		#galosphere:palladium_bomb mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"galosphere:palladium_bomb" = "DEFAULT"
+		#galosphere:sparkle mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"galosphere:sparkle" = "DEFAULT"
+		#galosphere:spectre mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"galosphere:spectre" = "DEFAULT"
+		#galosphere:glow_flare mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"galosphere:glow_flare" = "DEFAULT"
+		#galosphere:spectre_flare mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"galosphere:spectre_flare" = "DEFAULT"
+		#galosphere:specterpillar mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"galosphere:specterpillar" = "DEFAULT"
+		#galosphere:spectator_vision mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"galosphere:spectator_vision" = "DEFAULT"
+		#galosphere:berserker mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"galosphere:berserker" = "FALSE"
+		#galosphere:preserved mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"galosphere:preserved" = "FALSE"
+		#galosphere:pink_salt_pillar mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"galosphere:pink_salt_pillar" = "DEFAULT"
+		#galosphere:pink_salt_shard mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"galosphere:pink_salt_shard" = "DEFAULT"
+		#galosphere:mole mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"galosphere:mole" = "DEFAULT"
+		#galosphere:rope_dart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"galosphere:rope_dart" = "DEFAULT"
+		#galosphere:weapon_rack mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"galosphere:weapon_rack" = "DEFAULT"
+		#naturalist:alligator mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:alligator" = "DEFAULT"
+		#naturalist:ant mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:ant" = "DEFAULT"
+		#naturalist:anglerfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:anglerfish" = "DEFAULT"
+		#naturalist:ray mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:ray" = "DEFAULT"
+		#naturalist:blobfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:blobfish" = "DEFAULT"
+		#naturalist:piranha mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:piranha" = "DEFAULT"
+		#naturalist:bass mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:bass" = "DEFAULT"
+		#naturalist:bear mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:bear" = "DEFAULT"
+		#naturalist:black_bear mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:black_bear" = "DEFAULT"
+		#naturalist:bird mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:bird" = "DEFAULT"
+		#naturalist:boar mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:boar" = "DEFAULT"
+		#naturalist:butterfly mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:butterfly" = "DEFAULT"
+		#naturalist:capybara mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:capybara" = "DEFAULT"
+		#naturalist:caterpillar mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:caterpillar" = "DEFAULT"
+		#naturalist:catfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:catfish" = "DEFAULT"
+		#naturalist:clam mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:clam" = "DEFAULT"
+		#naturalist:crab mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:crab" = "DEFAULT"
+		#naturalist:deer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:deer" = "DEFAULT"
+		#naturalist:dragonfly mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:dragonfly" = "DEFAULT"
+		#naturalist:duck mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:duck" = "DEFAULT"
+		#naturalist:duck_egg mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:duck_egg" = "DEFAULT"
+		#naturalist:dirt_trail mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:dirt_trail" = "DEFAULT"
+		#naturalist:carried_food mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:carried_food" = "DEFAULT"
+		#naturalist:elephant mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:elephant" = "DEFAULT"
+		#naturalist:firefly mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:firefly" = "DEFAULT"
+		#naturalist:giant_isopod mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:giant_isopod" = "DEFAULT"
+		#naturalist:giraffe mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:giraffe" = "DEFAULT"
+		#naturalist:great_white_shark mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:great_white_shark" = "DEFAULT"
+		#naturalist:hedgehog mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:hedgehog" = "DEFAULT"
+		#naturalist:hippo mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:hippo" = "DEFAULT"
+		#naturalist:jellyfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:jellyfish" = "DEFAULT"
+		#naturalist:komodo_dragon mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:komodo_dragon" = "DEFAULT"
+		#naturalist:lion mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:lion" = "DEFAULT"
+		#naturalist:lizard mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:lizard" = "DEFAULT"
+		#naturalist:lizard_tail mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:lizard_tail" = "DEFAULT"
+		#naturalist:mammoth mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:mammoth" = "DEFAULT"
+		#naturalist:mole mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:mole" = "DEFAULT"
+		#naturalist:ostrich mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:ostrich" = "DEFAULT"
+		#naturalist:desert_scorpion mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:desert_scorpion" = "DEFAULT"
+		#naturalist:jungle_scorpion mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:jungle_scorpion" = "DEFAULT"
+		#naturalist:rat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:rat" = "DEFAULT"
+		#naturalist:rhino mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:rhino" = "DEFAULT"
+		#naturalist:snail mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:snail" = "DEFAULT"
+		#naturalist:snake mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:snake" = "DEFAULT"
+		#naturalist:starfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:starfish" = "DEFAULT"
+		#naturalist:tiger mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:tiger" = "DEFAULT"
+		#naturalist:tortoise mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:tortoise" = "DEFAULT"
+		#naturalist:turkey mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:turkey" = "DEFAULT"
+		#naturalist:vulture mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:vulture" = "DEFAULT"
+		#naturalist:zebra mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:zebra" = "DEFAULT"
+		#naturalist:whale mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"naturalist:whale" = "DEFAULT"
+		#sophisticatedbackpacks:everlasting_backpack_item mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"sophisticatedbackpacks:everlasting_backpack_item" = "DEFAULT"
+		#supplementaries:pearl_marker mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"supplementaries:pearl_marker" = "DEFAULT"
+		#supplementaries:dispenser_minecart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"supplementaries:dispenser_minecart" = "DEFAULT"
+		#supplementaries:hat_stand mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"supplementaries:hat_stand" = "DEFAULT"
+		#supplementaries:pignata mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"supplementaries:pignata" = "DEFAULT"
+		#supplementaries:red_merchant mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"supplementaries:red_merchant" = "DEFAULT"
+		#supplementaries:plunderer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"supplementaries:plunderer" = "DEFAULT"
+		#supplementaries:falling_urn mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"supplementaries:falling_urn" = "DEFAULT"
+		#supplementaries:falling_ash mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"supplementaries:falling_ash" = "DEFAULT"
+		#supplementaries:falling_sack mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"supplementaries:falling_sack" = "DEFAULT"
+		#supplementaries:brick_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"supplementaries:brick_projectile" = "DEFAULT"
+		#supplementaries:slimeball_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"supplementaries:slimeball_projectile" = "DEFAULT"
+		#supplementaries:bomb mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"supplementaries:bomb" = "DEFAULT"
+		#supplementaries:cannonball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"supplementaries:cannonball" = "DEFAULT"
+		#supplementaries:rope_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"supplementaries:rope_arrow" = "DEFAULT"
+		#supplementaries:slingshot_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"supplementaries:slingshot_projectile" = "DEFAULT"
+		#supplementaries:cannon_boat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"supplementaries:cannon_boat" = "DEFAULT"
+		#farmersdelight:rotten_tomato mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"farmersdelight:rotten_tomato" = "DEFAULT"
+		#handcrafted:seat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"handcrafted:seat" = "DEFAULT"
+		#handcrafted:fancy_painting mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"handcrafted:fancy_painting" = "DEFAULT"
+		#cataclysm:ender_golem mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:ender_golem" = "FALSE"
+		#cataclysm:ender_guardian mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:ender_guardian" = "FALSE"
+		#cataclysm:netherite_monstrosity mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:netherite_monstrosity" = "FALSE"
+		#cataclysm:netherite_ministrosity mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:netherite_ministrosity" = "FALSE"
+		#cataclysm:lava_bomb mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:lava_bomb" = "FALSE"
+		#cataclysm:flare_bomb mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:flare_bomb" = "FALSE"
+		#cataclysm:flame_jet mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:flame_jet" = "FALSE"
+		#cataclysm:lightning_storm mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:lightning_storm" = "FALSE"
+		#cataclysm:ignis mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:ignis" = "FALSE"
+		#cataclysm:ender_guardian_bullet mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:ender_guardian_bullet" = "FALSE"
+		#cataclysm:void_rune mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:void_rune" = "FALSE"
+		#cataclysm:abyss_mine mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:abyss_mine" = "FALSE"
+		#cataclysm:endermaptera mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:endermaptera" = "FALSE"
+		#cataclysm:deepling mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:deepling" = "FALSE"
+		#cataclysm:deepling_brute mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:deepling_brute" = "FALSE"
+		#cataclysm:deepling_angler mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:deepling_angler" = "FALSE"
+		#cataclysm:deepling_priest mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:deepling_priest" = "FALSE"
+		#cataclysm:deepling_warlock mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:deepling_warlock" = "FALSE"
+		#cataclysm:abyss_mark mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:abyss_mark" = "FALSE"
+		#cataclysm:lionfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:lionfish" = "FALSE"
+		#cataclysm:coral_golem mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:coral_golem" = "FALSE"
+		#cataclysm:coralssus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:coralssus" = "FALSE"
+		#cataclysm:ignited_revenant mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:ignited_revenant" = "FALSE"
+		#cataclysm:ignited_berserker mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:ignited_berserker" = "FALSE"
+		#cataclysm:the_harbinger mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:the_harbinger" = "FALSE"
+		#cataclysm:the_watcher mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:the_watcher" = "FALSE"
+		#cataclysm:the_prowler mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:the_prowler" = "FALSE"
+		#cataclysm:the_leviathan mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:the_leviathan" = "FALSE"
+		#cataclysm:the_baby_leviathan mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:the_baby_leviathan" = "FALSE"
+		#cataclysm:void_scatter_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:void_scatter_arrow" = "FALSE"
+		#cataclysm:poison_dart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:poison_dart" = "FALSE"
+		#cataclysm:phantom_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:phantom_arrow" = "FALSE"
+		#cataclysm:phantom_halberd mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:phantom_halberd" = "FALSE"
+		#cataclysm:void_shard mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:void_shard" = "FALSE"
+		#cataclysm:blazing_bone mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:blazing_bone" = "FALSE"
+		#cataclysm:lionfish_spike mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:lionfish_spike" = "FALSE"
+		#cataclysm:urchin_spike mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:urchin_spike" = "FALSE"
+		#cataclysm:spark mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:spark" = "FALSE"
+		#cataclysm:screen_shake mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:screen_shake" = "FALSE"
+		#cataclysm:sky_color mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:sky_color" = "FALSE"
+		#cataclysm:cm_falling_block mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:cm_falling_block" = "FALSE"
+		#cataclysm:ignis_fireball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:ignis_fireball" = "FALSE"
+		#cataclysm:ignis_abyss_fireball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:ignis_abyss_fireball" = "FALSE"
+		#cataclysm:wither_smoke_effect mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:wither_smoke_effect" = "FALSE"
+		#cataclysm:lightning_area_effect mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:lightning_area_effect" = "FALSE"
+		#cataclysm:flame_strike mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:flame_strike" = "FALSE"
+		#cataclysm:bolt_strike mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:bolt_strike" = "FALSE"
+		#cataclysm:wave mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:wave" = "FALSE"
+		#cataclysm:storm_serpent mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:storm_serpent" = "FALSE"
+		#cataclysm:ashen_breath mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:ashen_breath" = "FALSE"
+		#cataclysm:wall_watcher mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:wall_watcher" = "FALSE"
+		#cataclysm:death_laser_beam mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:death_laser_beam" = "FALSE"
+		#cataclysm:abyss_blast mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:abyss_blast" = "FALSE"
+		#cataclysm:mini_abyss_blast mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:mini_abyss_blast" = "FALSE"
+		#cataclysm:portal_abyss_blast mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:portal_abyss_blast" = "FALSE"
+		#cataclysm:laser_beam mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:laser_beam" = "FALSE"
+		#cataclysm:wither_missile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:wither_missile" = "FALSE"
+		#cataclysm:wither_homing_missile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:wither_homing_missile" = "FALSE"
+		#cataclysm:wither_howitzer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:wither_howitzer" = "FALSE"
+		#cataclysm:accretion mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:accretion" = "FALSE"
+		#cataclysm:abyss_orb mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:abyss_orb" = "FALSE"
+		#cataclysm:void_howitzer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:void_howitzer" = "FALSE"
+		#cataclysm:eye_of_dungeon mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:eye_of_dungeon" = "FALSE"
+		#cataclysm:void_vortex mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:void_vortex" = "FALSE"
+		#cataclysm:the_leviathan_tongue mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:the_leviathan_tongue" = "FALSE"
+		#cataclysm:tidal_tentacle mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:tidal_tentacle" = "FALSE"
+		#cataclysm:tidal_hook mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:tidal_hook" = "FALSE"
+		#cataclysm:scylla_ceraunus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:scylla_ceraunus" = "FALSE"
+		#cataclysm:player_ceraunus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:player_ceraunus" = "FALSE"
+		#cataclysm:brontes mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:brontes" = "FALSE"
+		#cataclysm:abyss_portal mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:abyss_portal" = "FALSE"
+		#cataclysm:abyss_blast_portal mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:abyss_blast_portal" = "FALSE"
+		#cataclysm:coral_spear mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:coral_spear" = "FALSE"
+		#cataclysm:coral_bardiche mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:coral_bardiche" = "FALSE"
+		#cataclysm:dimensional_rift mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:dimensional_rift" = "FALSE"
+		#cataclysm:amethyst_crab mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:amethyst_crab" = "FALSE"
+		#cataclysm:earthquake mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:earthquake" = "FALSE"
+		#cataclysm:amethyst_cluster_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:amethyst_cluster_projectile" = "FALSE"
+		#cataclysm:ancient_remnant mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:ancient_remnant" = "FALSE"
+		#cataclysm:modern_remnant mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:modern_remnant" = "FALSE"
+		#cataclysm:koboleton mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:koboleton" = "FALSE"
+		#cataclysm:kobolediator mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:kobolediator" = "FALSE"
+		#cataclysm:wadjet mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:wadjet" = "FALSE"
+		#cataclysm:sandstorm mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:sandstorm" = "FALSE"
+		#cataclysm:sandstorm_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:sandstorm_projectile" = "FALSE"
+		#cataclysm:cursed_sandstorm mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:cursed_sandstorm" = "FALSE"
+		#cataclysm:ancient_desert_stele mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:ancient_desert_stele" = "FALSE"
+		#cataclysm:maledictus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:maledictus" = "FALSE"
+		#cataclysm:draugr mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:draugr" = "FALSE"
+		#cataclysm:royal_draugr mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:royal_draugr" = "FALSE"
+		#cataclysm:elite_draugr mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:elite_draugr" = "FALSE"
+		#cataclysm:aptrgangr mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:aptrgangr" = "FALSE"
+		#cataclysm:axe_blade mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:axe_blade" = "FALSE"
+		#cataclysm:hippocamtus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:hippocamtus" = "FALSE"
+		#cataclysm:cindaria mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:cindaria" = "FALSE"
+		#cataclysm:clawdian mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:clawdian" = "FALSE"
+		#cataclysm:scylla mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:scylla" = "FALSE"
+		#cataclysm:urchinkin mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:urchinkin" = "FALSE"
+		#cataclysm:drowned_host mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:drowned_host" = "FALSE"
+		#cataclysm:symbiocto mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:symbiocto" = "FALSE"
+		#cataclysm:octo_ink mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:octo_ink" = "FALSE"
+		#cataclysm:water_spear mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:water_spear" = "FALSE"
+		#cataclysm:lightning_spear mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"cataclysm:lightning_spear" = "FALSE"
+		#deeperdarker:boat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"deeperdarker:boat" = "DEFAULT"
+		#deeperdarker:chest_boat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"deeperdarker:chest_boat" = "DEFAULT"
+		#deeperdarker:angler_fish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"deeperdarker:angler_fish" = "DEFAULT"
+		#deeperdarker:anger_pot mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"deeperdarker:anger_pot" = "FALSE"
+		#deeperdarker:fear_pot mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"deeperdarker:fear_pot" = "FALSE"
+		#deeperdarker:sorrow_pot mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"deeperdarker:sorrow_pot" = "FALSE"
+		#deeperdarker:sculk_centipede mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"deeperdarker:sculk_centipede" = "FALSE"
+		#deeperdarker:sculk_leech mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"deeperdarker:sculk_leech" = "FALSE"
+		#deeperdarker:sculk_snapper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"deeperdarker:sculk_snapper" = "FALSE"
+		#deeperdarker:shattered mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"deeperdarker:shattered" = "FALSE"
+		#deeperdarker:shriek_worm mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"deeperdarker:shriek_worm" = "FALSE"
+		#deeperdarker:sludge mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"deeperdarker:sludge" = "FALSE"
+		#deeperdarker:stalker mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"deeperdarker:stalker" = "DEFAULT"
+		#foundation:chair mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"foundation:chair" = "DEFAULT"
+		#vinery:dark_cherry_boat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"vinery:dark_cherry_boat" = "DEFAULT"
+		#vinery:dark_cherry_chest_boat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"vinery:dark_cherry_chest_boat" = "DEFAULT"
+		#vinery:mule mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"vinery:mule" = "DEFAULT"
+		#vinery:wandering_winemaker mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"vinery:wandering_winemaker" = "DEFAULT"
+		#meadow:pine_boat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"meadow:pine_boat" = "DEFAULT"
+		#meadow:pine_chest_boat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"meadow:pine_chest_boat" = "DEFAULT"
+		#meadow:water_buffalo mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"meadow:water_buffalo" = "DEFAULT"
+		#meadow:wooly_cow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"meadow:wooly_cow" = "DEFAULT"
+		#tide:fishing_bobber mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:fishing_bobber" = "DEFAULT"
+		#tide:fishing_bobber_accessor mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:fishing_bobber_accessor" = "DEFAULT"
+		#tide:star_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:star_arrow" = "DEFAULT"
+		#tide:loot_crate mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:loot_crate" = "DEFAULT"
+		#tide:slimy_salmon mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:slimy_salmon" = "DEFAULT"
+		#tide:devils_hole_pupfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:devils_hole_pupfish" = "DEFAULT"
+		#tide:white_crappie mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:white_crappie" = "DEFAULT"
+		#tide:marstilus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:marstilus" = "DEFAULT"
+		#tide:blossom_bass mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:blossom_bass" = "DEFAULT"
+		#tide:catfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:catfish" = "DEFAULT"
+		#tide:mackerel mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:mackerel" = "DEFAULT"
+		#tide:anglerfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:anglerfish" = "DEFAULT"
+		#tide:angelfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:angelfish" = "DEFAULT"
+		#tide:warped_guppy mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:warped_guppy" = "DEFAULT"
+		#tide:dripstone_darter mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:dripstone_darter" = "DEFAULT"
+		#tide:aquathorn mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:aquathorn" = "DEFAULT"
+		#tide:deep_blue mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:deep_blue" = "DEFAULT"
+		#tide:inferno_guppy mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:inferno_guppy" = "DEFAULT"
+		#tide:pike mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:pike" = "DEFAULT"
+		#tide:guppy mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:guppy" = "DEFAULT"
+		#tide:ash_perch mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:ash_perch" = "DEFAULT"
+		#tide:carp mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:carp" = "DEFAULT"
+		#tide:frostbite_flounder mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:frostbite_flounder" = "DEFAULT"
+		#tide:alpha_fish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:alpha_fish" = "DEFAULT"
+		#tide:mantyvern mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:mantyvern" = "DEFAULT"
+		#tide:bedrock_bug mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:bedrock_bug" = "DEFAULT"
+		#tide:vengeance mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:vengeance" = "DEFAULT"
+		#tide:dutchman_sock mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:dutchman_sock" = "DEFAULT"
+		#tide:endergazer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:endergazer" = "DEFAULT"
+		#tide:blue_neonfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:blue_neonfish" = "DEFAULT"
+		#tide:mooneye mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:mooneye" = "DEFAULT"
+		#tide:soulscale mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:soulscale" = "DEFAULT"
+		#tide:obsidian_pike mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:obsidian_pike" = "DEFAULT"
+		#tide:spore_stalker mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:spore_stalker" = "DEFAULT"
+		#tide:amber_rockfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:amber_rockfish" = "DEFAULT"
+		#tide:ender_glider mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:ender_glider" = "DEFAULT"
+		#tide:largemouth_bass mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:largemouth_bass" = "DEFAULT"
+		#tide:coelacanth mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:coelacanth" = "DEFAULT"
+		#tide:mahi_mahi mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:mahi_mahi" = "DEFAULT"
+		#tide:arapaima mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:arapaima" = "DEFAULT"
+		#tide:gilded_minnow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:gilded_minnow" = "DEFAULT"
+		#tide:sturgeon mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:sturgeon" = "DEFAULT"
+		#tide:pale_clubfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:pale_clubfish" = "DEFAULT"
+		#tide:magma_mackerel mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:magma_mackerel" = "DEFAULT"
+		#tide:enderfin mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:enderfin" = "DEFAULT"
+		#tide:brook_trout mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:brook_trout" = "DEFAULT"
+		#tide:cave_eel mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:cave_eel" = "DEFAULT"
+		#tide:sand_tiger_shark mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:sand_tiger_shark" = "DEFAULT"
+		#tide:anchovy mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:anchovy" = "DEFAULT"
+		#tide:great_white_shark mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:great_white_shark" = "DEFAULT"
+		#tide:voidseeker mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:voidseeker" = "DEFAULT"
+		#tide:sailfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:sailfish" = "DEFAULT"
+		#tide:dragon_fish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:dragon_fish" = "DEFAULT"
+		#tide:witherfin mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:witherfin" = "DEFAULT"
+		#tide:ocean_perch mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:ocean_perch" = "DEFAULT"
+		#tide:glowfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:glowfish" = "DEFAULT"
+		#tide:bluegill mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:bluegill" = "DEFAULT"
+		#tide:cave_crawler mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:cave_crawler" = "DEFAULT"
+		#tide:crimson_fangjaw mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:crimson_fangjaw" = "DEFAULT"
+		#tide:shadow_shark mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:shadow_shark" = "DEFAULT"
+		#tide:bedrock_tetra mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:bedrock_tetra" = "DEFAULT"
+		#tide:iron_tetra mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:iron_tetra" = "DEFAULT"
+		#tide:deep_grouper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:deep_grouper" = "DEFAULT"
+		#tide:sun_emblem mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:sun_emblem" = "DEFAULT"
+		#tide:shadow_snapper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:shadow_snapper" = "DEFAULT"
+		#tide:chasm_eel mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:chasm_eel" = "DEFAULT"
+		#tide:elytrout mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:elytrout" = "DEFAULT"
+		#tide:sleepy_carp mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:sleepy_carp" = "DEFAULT"
+		#tide:pentapus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:pentapus" = "DEFAULT"
+		#tide:walleye mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:walleye" = "DEFAULT"
+		#tide:windbass mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:windbass" = "DEFAULT"
+		#tide:bull_shark mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:bull_shark" = "DEFAULT"
+		#tide:yellow_perch mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:yellow_perch" = "DEFAULT"
+		#tide:blazing_swordfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:blazing_swordfish" = "DEFAULT"
+		#tide:swordfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:swordfish" = "DEFAULT"
+		#tide:red_snapper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:red_snapper" = "DEFAULT"
+		#tide:lapis_lanternfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:lapis_lanternfish" = "DEFAULT"
+		#tide:luminescent_jellyfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:luminescent_jellyfish" = "DEFAULT"
+		#tide:red_40 mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:red_40" = "DEFAULT"
+		#tide:neptune_koi mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:neptune_koi" = "DEFAULT"
+		#tide:crystal_shrimp mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:crystal_shrimp" = "DEFAULT"
+		#tide:volcano_tuna mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:volcano_tuna" = "DEFAULT"
+		#tide:violet_carp mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:violet_carp" = "DEFAULT"
+		#tide:smallmouth_bass mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:smallmouth_bass" = "DEFAULT"
+		#tide:echo_snapper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:echo_snapper" = "DEFAULT"
+		#tide:nephrosilu mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:nephrosilu" = "DEFAULT"
+		#tide:black_crappie mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:black_crappie" = "DEFAULT"
+		#tide:shooting_starfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:shooting_starfish" = "DEFAULT"
+		#tide:tuna mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:tuna" = "DEFAULT"
+		#tide:snatcher_squid mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:snatcher_squid" = "DEFAULT"
+		#tide:crystalline_carp mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:crystalline_carp" = "DEFAULT"
+		#tide:saturn_cuttlefish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:saturn_cuttlefish" = "DEFAULT"
+		#tide:midas_fish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:midas_fish" = "DEFAULT"
+		#tide:rainbow_trout mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:rainbow_trout" = "DEFAULT"
+		#tide:snook mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:snook" = "DEFAULT"
+		#tide:chorus_cod mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:chorus_cod" = "DEFAULT"
+		#tide:judgment_fish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:judgment_fish" = "DEFAULT"
+		#tide:ember_koi mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:ember_koi" = "DEFAULT"
+		#tide:darkness_eater mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:darkness_eater" = "DEFAULT"
+		#tide:flounder mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:flounder" = "DEFAULT"
+		#tide:manta_ray mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:manta_ray" = "DEFAULT"
+		#tide:abyss_angler mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:abyss_angler" = "DEFAULT"
+		#tide:uranias_pisces mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:uranias_pisces" = "DEFAULT"
+		#tide:pluto_snail mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:pluto_snail" = "DEFAULT"
+		#tide:mirage_catfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:mirage_catfish" = "DEFAULT"
+		#tide:incandescent_larva mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"tide:incandescent_larva" = "DEFAULT"
+		#mowziesmobs:foliaath mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:foliaath" = "FALSE"
+		#mowziesmobs:baby_foliaath mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:baby_foliaath" = "FALSE"
+		#mowziesmobs:ferrous_wroughtnaut mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:ferrous_wroughtnaut" = "FALSE"
+		#mowziesmobs:umvuthana_follower_raptor mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:umvuthana_follower_raptor" = "FALSE"
+		#mowziesmobs:umvuthana_follower_player mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:umvuthana_follower_player" = "FALSE"
+		#mowziesmobs:umvuthana_crane_player mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:umvuthana_crane_player" = "FALSE"
+		#mowziesmobs:umvuthana mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:umvuthana" = "FALSE"
+		#mowziesmobs:umvuthana_raptor mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:umvuthana_raptor" = "FALSE"
+		#mowziesmobs:umvuthana_crane mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:umvuthana_crane" = "FALSE"
+		#mowziesmobs:umvuthi mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:umvuthi" = "FALSE"
+		#mowziesmobs:frostmaw mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:frostmaw" = "FALSE"
+		#mowziesmobs:grottol mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:grottol" = "FALSE"
+		#mowziesmobs:lantern mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:lantern" = "DEFAULT"
+		#mowziesmobs:naga mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:naga" = "FALSE"
+		#mowziesmobs:sculptor mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:sculptor" = "FALSE"
+		#mowziesmobs:bluff mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:bluff" = "FALSE"
+		#mowziesmobs:elokosa_follower_howler mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:elokosa_follower_howler" = "FALSE"
+		#mowziesmobs:elokosa_howler mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:elokosa_howler" = "FALSE"
+		#mowziesmobs:sunstrike mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:sunstrike" = "FALSE"
+		#mowziesmobs:solar_beam mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:solar_beam" = "FALSE"
+		#mowziesmobs:boulder_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:boulder_projectile" = "FALSE"
+		#mowziesmobs:rock_sling mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:rock_sling" = "FALSE"
+		#mowziesmobs:boulder_platform mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:boulder_platform" = "FALSE"
+		#mowziesmobs:boulder_platform_crumbling mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:boulder_platform_crumbling" = "FALSE"
+		#mowziesmobs:pillar mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:pillar" = "FALSE"
+		#mowziesmobs:pillar_sculptor mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:pillar_sculptor" = "FALSE"
+		#mowziesmobs:pillar_piece mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:pillar_piece" = "FALSE"
+		#mowziesmobs:axe_attack mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:axe_attack" = "FALSE"
+		#mowziesmobs:ice_breath mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:ice_breath" = "FALSE"
+		#mowziesmobs:ice_ball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:ice_ball" = "FALSE"
+		#mowziesmobs:frozen_controller mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:frozen_controller" = "FALSE"
+		#mowziesmobs:dart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:dart" = "FALSE"
+		#mowziesmobs:poison_ball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:poison_ball" = "FALSE"
+		#mowziesmobs:super_nova mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:super_nova" = "FALSE"
+		#mowziesmobs:falling_block mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:falling_block" = "FALSE"
+		#mowziesmobs:block_swapper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:block_swapper" = "FALSE"
+		#mowziesmobs:block_swapper_tunneling mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:block_swapper_tunneling" = "FALSE"
+		#mowziesmobs:camera_shake mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:camera_shake" = "FALSE"
+		#mowziesmobs:fissure mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:fissure" = "FALSE"
+		#mowziesmobs:fissure_piece mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:fissure_piece" = "FALSE"
+		#mowziesmobs:earth_spike mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mowziesmobs:earth_spike" = "FALSE"
+		#amendments:medium_dragon_fireball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"amendments:medium_dragon_fireball" = "DEFAULT"
+		#amendments:medium_fireball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"amendments:medium_fireball" = "DEFAULT"
+		#amendments:falling_lantern mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"amendments:falling_lantern" = "DEFAULT"
+		#mobs_of_mythology:automaton mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mobs_of_mythology:automaton" = "FALSE"
+		#mobs_of_mythology:chupacabra mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mobs_of_mythology:chupacabra" = "FALSE"
+		#mobs_of_mythology:kobold mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mobs_of_mythology:kobold" = "FALSE"
+		#mobs_of_mythology:kobold_warrior mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mobs_of_mythology:kobold_warrior" = "FALSE"
+		#mobs_of_mythology:drake mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mobs_of_mythology:drake" = "FALSE"
+		#mobs_of_mythology:sporeling mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mobs_of_mythology:sporeling" = "FALSE"
+		#mobs_of_mythology:basilisk mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"mobs_of_mythology:basilisk" = "FALSE"
+		#artifacts:mimic mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"artifacts:mimic" = "DEFAULT"
+		#spell_engine:spell_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"spell_engine:spell_projectile" = "DEFAULT"
+		#spell_engine:spell_area_effect mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"spell_engine:spell_area_effect" = "DEFAULT"
+		#spell_engine:spell_model_effect mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"spell_engine:spell_model_effect" = "DEFAULT"
+		#champions:enkindling_bullet mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"champions:enkindling_bullet" = "DEFAULT"
+		#champions:arctic_bullet mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"champions:arctic_bullet" = "DEFAULT"
+		#iceandfire:dragon_egg mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:dragon_egg" = "FALSE"
+		#iceandfire:dragon_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:dragon_arrow" = "FALSE"
+		#iceandfire:dragon_skull mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:dragon_skull" = "FALSE"
+		#iceandfire:fire_dragon mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:fire_dragon" = "DEFAULT"
+		#iceandfire:ice_dragon mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:ice_dragon" = "DEFAULT"
+		#iceandfire:lightning_dragon mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:lightning_dragon" = "DEFAULT"
+		#iceandfire:fire_dragon_charge mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:fire_dragon_charge" = "FALSE"
+		#iceandfire:ice_dragon_charge mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:ice_dragon_charge" = "FALSE"
+		#iceandfire:lightning_dragon_charge mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:lightning_dragon_charge" = "FALSE"
+		#iceandfire:hippogryph_egg mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:hippogryph_egg" = "FALSE"
+		#iceandfire:hippogryph mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:hippogryph" = "DEFAULT"
+		#iceandfire:stone_statue mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:stone_statue" = "DEFAULT"
+		#iceandfire:gorgon mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:gorgon" = "DEFAULT"
+		#iceandfire:pixie mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:pixie" = "DEFAULT"
+		#iceandfire:cyclops mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:cyclops" = "DEFAULT"
+		#iceandfire:siren mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:siren" = "DEFAULT"
+		#iceandfire:hippocampus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:hippocampus" = "DEFAULT"
+		#iceandfire:deathworm mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:deathworm" = "DEFAULT"
+		#iceandfire:deathworm_egg mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:deathworm_egg" = "FALSE"
+		#iceandfire:cockatrice mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:cockatrice" = "DEFAULT"
+		#iceandfire:cockatrice_egg mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:cockatrice_egg" = "FALSE"
+		#iceandfire:stymphalian_bird mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:stymphalian_bird" = "DEFAULT"
+		#iceandfire:stymphalian_feather mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:stymphalian_feather" = "FALSE"
+		#iceandfire:stymphalian_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:stymphalian_arrow" = "FALSE"
+		#iceandfire:troll mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:troll" = "FALSE"
+		#iceandfire:amphithere mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:amphithere" = "DEFAULT"
+		#iceandfire:amphithere_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:amphithere_arrow" = "FALSE"
+		#iceandfire:sea_serpent mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:sea_serpent" = "DEFAULT"
+		#iceandfire:sea_serpent_bubbles mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:sea_serpent_bubbles" = "FALSE"
+		#iceandfire:sea_serpent_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:sea_serpent_arrow" = "FALSE"
+		#iceandfire:chain_tie mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:chain_tie" = "FALSE"
+		#iceandfire:pixie_charge mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:pixie_charge" = "FALSE"
+		#iceandfire:tide_trident mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:tide_trident" = "FALSE"
+		#iceandfire:mob_skull mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:mob_skull" = "FALSE"
+		#iceandfire:dread_thrall mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:dread_thrall" = "FALSE"
+		#iceandfire:dread_ghoul mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:dread_ghoul" = "FALSE"
+		#iceandfire:dread_beast mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:dread_beast" = "FALSE"
+		#iceandfire:dread_scuttler mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:dread_scuttler" = "FALSE"
+		#iceandfire:dread_lich mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:dread_lich" = "FALSE"
+		#iceandfire:dread_lich_skull mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:dread_lich_skull" = "FALSE"
+		#iceandfire:dread_knight mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:dread_knight" = "FALSE"
+		#iceandfire:dread_horse mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:dread_horse" = "FALSE"
+		#iceandfire:hydra mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:hydra" = "DEFAULT"
+		#iceandfire:hydra_breath mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:hydra_breath" = "FALSE"
+		#iceandfire:hydra_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:hydra_arrow" = "FALSE"
+		#iceandfire:ghost mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:ghost" = "FALSE"
+		#iceandfire:ghost_sword mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"iceandfire:ghost_sword" = "FALSE"
+		#bosses_of_mass_destruction:lich mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"bosses_of_mass_destruction:lich" = "FALSE"
+		#bosses_of_mass_destruction:blue_fireball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"bosses_of_mass_destruction:blue_fireball" = "FALSE"
+		#bosses_of_mass_destruction:comet mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"bosses_of_mass_destruction:comet" = "FALSE"
+		#bosses_of_mass_destruction:soul_star mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"bosses_of_mass_destruction:soul_star" = "FALSE"
+		#bosses_of_mass_destruction:charged_ender_pearl mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"bosses_of_mass_destruction:charged_ender_pearl" = "FALSE"
+		#bosses_of_mass_destruction:obsidilith mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"bosses_of_mass_destruction:obsidilith" = "FALSE"
+		#bosses_of_mass_destruction:gauntlet mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"bosses_of_mass_destruction:gauntlet" = "FALSE"
+		#bosses_of_mass_destruction:void_blossom mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"bosses_of_mass_destruction:void_blossom" = "FALSE"
+		#bosses_of_mass_destruction:spore_ball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"bosses_of_mass_destruction:spore_ball" = "FALSE"
+		#bosses_of_mass_destruction:petal_blade mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"bosses_of_mass_destruction:petal_blade" = "FALSE"
+		#farm_and_charm:rotten_tomato mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"farm_and_charm:rotten_tomato" = "DEFAULT"
+		#farm_and_charm:cart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"farm_and_charm:cart" = "DEFAULT"
+		#farm_and_charm:plow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"farm_and_charm:plow" = "DEFAULT"
+		#farm_and_charm:seeder mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"farm_and_charm:seeder" = "DEFAULT"
+		#friendsandfoes:barnacle mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"friendsandfoes:barnacle" = "FALSE"
+		#friendsandfoes:copper_golem mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"friendsandfoes:copper_golem" = "DEFAULT"
+		#friendsandfoes:crab mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"friendsandfoes:crab" = "DEFAULT"
+		#friendsandfoes:glare mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"friendsandfoes:glare" = "DEFAULT"
+		#friendsandfoes:iceologer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"friendsandfoes:iceologer" = "FALSE"
+		#friendsandfoes:illusioner mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"friendsandfoes:illusioner" = "FALSE"
+		#friendsandfoes:ice_chunk mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"friendsandfoes:ice_chunk" = "DEFAULT"
+		#friendsandfoes:mauler mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"friendsandfoes:mauler" = "DEFAULT"
+		#friendsandfoes:moobloom mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"friendsandfoes:moobloom" = "DEFAULT"
+		#friendsandfoes:penguin mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"friendsandfoes:penguin" = "DEFAULT"
+		#friendsandfoes:rascal mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"friendsandfoes:rascal" = "DEFAULT"
+		#friendsandfoes:tuff_golem mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"friendsandfoes:tuff_golem" = "DEFAULT"
+		#friendsandfoes:wildfire mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"friendsandfoes:wildfire" = "FALSE"
+		#friendsandfoes:player_illusion mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"friendsandfoes:player_illusion" = "DEFAULT"
+		#born_in_chaos_v1:decrepit_skeleton mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:decrepit_skeleton" = "FALSE"
+		#born_in_chaos_v1:skeleton_demoman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:skeleton_demoman" = "FALSE"
+		#born_in_chaos_v1:decaying_zombie mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:decaying_zombie" = "FALSE"
+		#born_in_chaos_v1:baby_skeleton mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:baby_skeleton" = "FALSE"
+		#born_in_chaos_v1:baby_skeleton_minion mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:baby_skeleton_minion" = "FALSE"
+		#born_in_chaos_v1:controlled_baby_skeleton mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:controlled_baby_skeleton" = "FALSE"
+		#born_in_chaos_v1:barrel_zombie mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:barrel_zombie" = "FALSE"
+		#born_in_chaos_v1:phantom_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:phantom_creeper" = "FALSE"
+		#born_in_chaos_v1:phantom_creeper_copy mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:phantom_creeper_copy" = "FALSE"
+		#born_in_chaos_v1:door_knight mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:door_knight" = "FALSE"
+		#born_in_chaos_v1:restless_spirit mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:restless_spirit" = "FALSE"
+		#born_in_chaos_v1:skeleton_thrasher mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:skeleton_thrasher" = "FALSE"
+		#born_in_chaos_v1:pumpkin_spirit mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:pumpkin_spirit" = "FALSE"
+		#born_in_chaos_v1:seared_spirit mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:seared_spirit" = "FALSE"
+		#born_in_chaos_v1:firelight mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:firelight" = "FALSE"
+		#born_in_chaos_v1:diamond_termite mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:diamond_termite" = "FALSE"
+		#born_in_chaos_v1:bonescaller mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:bonescaller" = "FALSE"
+		#born_in_chaos_v1:bone_imp mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:bone_imp" = "FALSE"
+		#born_in_chaos_v1:bone_imp_minion mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:bone_imp_minion" = "FALSE"
+		#born_in_chaos_v1:supreme_bonescaller mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:supreme_bonescaller" = "FALSE"
+		#born_in_chaos_v1:supreme_bonescaller_stage_2 mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:supreme_bonescaller_stage_2" = "FALSE"
+		#born_in_chaos_v1:dark_vortex mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:dark_vortex" = "FALSE"
+		#born_in_chaos_v1:dread_hound mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:dread_hound" = "FALSE"
+		#born_in_chaos_v1:fallen_chaos_knight mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:fallen_chaos_knight" = "FALSE"
+		#born_in_chaos_v1:scarlet_persecutor mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:scarlet_persecutor" = "FALSE"
+		#born_in_chaos_v1:spirit_guide mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:spirit_guide" = "FALSE"
+		#born_in_chaos_v1:spirit_guide_assistant mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:spirit_guide_assistant" = "FALSE"
+		#born_in_chaos_v1:zombie_clown mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:zombie_clown" = "FALSE"
+		#born_in_chaos_v1:mr_pumpkin mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:mr_pumpkin" = "FALSE"
+		#born_in_chaos_v1:mr_pumpkin_controlled mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:mr_pumpkin_controlled" = "FALSE"
+		#born_in_chaos_v1:sir_pumpkinhead mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:sir_pumpkinhead" = "FALSE"
+		#born_in_chaos_v1:felsteed mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:felsteed" = "FALSE"
+		#born_in_chaos_v1:sir_pumpkinhead_without_horse mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:sir_pumpkinhead_without_horse" = "FALSE"
+		#born_in_chaos_v1:sir_the_headless mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:sir_the_headless" = "FALSE"
+		#born_in_chaos_v1:pumpkinhead mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:pumpkinhead" = "FALSE"
+		#born_in_chaos_v1:riding_felsteed mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:riding_felsteed" = "FALSE"
+		#born_in_chaos_v1:decaying_zombie_not_despawn mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:decaying_zombie_not_despawn" = "FALSE"
+		#born_in_chaos_v1:door_knight_not_despawn mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:door_knight_not_despawn" = "FALSE"
+		#born_in_chaos_v1:bonescaller_not_despawn mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:bonescaller_not_despawn" = "FALSE"
+		#born_in_chaos_v1:supreme_bonescaller_not_despawn mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:supreme_bonescaller_not_despawn" = "FALSE"
+		#born_in_chaos_v1:skeleton_thrasher_not_despawn mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:skeleton_thrasher_not_despawn" = "FALSE"
+		#born_in_chaos_v1:dread_hound_not_despawn mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:dread_hound_not_despawn" = "FALSE"
+		#born_in_chaos_v1:firelight_not_despawn mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:firelight_not_despawn" = "FALSE"
+		#born_in_chaos_v1:zombie_clown_not_despawn mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:zombie_clown_not_despawn" = "FALSE"
+		#born_in_chaos_v1:seared_spirit_not_despawn mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:seared_spirit_not_despawn" = "FALSE"
+		#born_in_chaos_v1:dire_hound_leader mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:dire_hound_leader" = "FALSE"
+		#born_in_chaos_v1:maggot mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:maggot" = "FALSE"
+		#born_in_chaos_v1:corpse_fly mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:corpse_fly" = "FALSE"
+		#born_in_chaos_v1:bloody_gadfly mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:bloody_gadfly" = "FALSE"
+		#born_in_chaos_v1:corpse_fish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:corpse_fish" = "DEFAULT"
+		#born_in_chaos_v1:zombie_fisherman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:zombie_fisherman" = "FALSE"
+		#born_in_chaos_v1:swarmer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:swarmer" = "FALSE"
+		#born_in_chaos_v1:thornshell_crab mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:thornshell_crab" = "DEFAULT"
+		#born_in_chaos_v1:glutton_fish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:glutton_fish" = "DEFAULT"
+		#born_in_chaos_v1:zombie_bruiser mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:zombie_bruiser" = "FALSE"
+		#born_in_chaos_v1:pumpkin_bomb mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:pumpkin_bomb" = "FALSE"
+		#born_in_chaos_v1:senor_pumpkin mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:senor_pumpkin" = "FALSE"
+		#born_in_chaos_v1:lord_pumpkinhead mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:lord_pumpkinhead" = "FALSE"
+		#born_in_chaos_v1:lords_felsteed mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:lords_felsteed" = "FALSE"
+		#born_in_chaos_v1:lord_pumpkinhead_withouta_horse mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:lord_pumpkinhead_withouta_horse" = "FALSE"
+		#born_in_chaos_v1:lord_the_headless mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:lord_the_headless" = "FALSE"
+		#born_in_chaos_v1:lord_pumpkinhead_head mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:lord_pumpkinhead_head" = "FALSE"
+		#born_in_chaos_v1:infernal_spirit mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:infernal_spirit" = "FALSE"
+		#born_in_chaos_v1:riding_lords_felsteed mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:riding_lords_felsteed" = "FALSE"
+		#born_in_chaos_v1:staffof_magic_arrows_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:staffof_magic_arrows_projectile" = "FALSE"
+		#born_in_chaos_v1:staffof_blindness_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:staffof_blindness_projectile" = "FALSE"
+		#born_in_chaos_v1:pumpkin_staff_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:pumpkin_staff_projectile" = "FALSE"
+		#born_in_chaos_v1:staffof_magic_arrows_2_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:staffof_magic_arrows_2_projectile" = "FALSE"
+		#born_in_chaos_v1:pumpkin_staff_2_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:pumpkin_staff_2_projectile" = "FALSE"
+		#born_in_chaos_v1:intoxicatind_bomb_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:intoxicatind_bomb_projectile" = "FALSE"
+		#born_in_chaos_v1:pumpkin_pistol_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:pumpkin_pistol_projectile" = "FALSE"
+		#born_in_chaos_v1:pumpkin_pistol_2_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:pumpkin_pistol_2_projectile" = "FALSE"
+		#born_in_chaos_v1:zombie_lumberjack mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:zombie_lumberjack" = "FALSE"
+		#born_in_chaos_v1:siamese_skeletons mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:siamese_skeletons" = "FALSE"
+		#born_in_chaos_v1:siamese_skeletonsleft mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:siamese_skeletonsleft" = "FALSE"
+		#born_in_chaos_v1:siamese_skeletonsright mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:siamese_skeletonsright" = "FALSE"
+		#born_in_chaos_v1:missioner mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:missioner" = "FALSE"
+		#born_in_chaos_v1:missionary_charge mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:missionary_charge" = "FALSE"
+		#born_in_chaos_v1:stimulating_bombprojectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:stimulating_bombprojectile" = "FALSE"
+		#born_in_chaos_v1:phantom_bomb_entity mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:phantom_bomb_entity" = "FALSE"
+		#born_in_chaos_v1:phantom_bomb_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:phantom_bomb_projectile" = "FALSE"
+		#born_in_chaos_v1:controlled_spiritual_assistant mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:controlled_spiritual_assistant" = "FALSE"
+		#born_in_chaos_v1:spiritof_chaos mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:spiritof_chaos" = "FALSE"
+		#born_in_chaos_v1:lifestealer mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:lifestealer" = "FALSE"
+		#born_in_chaos_v1:lifestealer_true_form mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:lifestealer_true_form" = "FALSE"
+		#born_in_chaos_v1:baby_spider mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:baby_spider" = "FALSE"
+		#born_in_chaos_v1:mother_spider mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:mother_spider" = "FALSE"
+		#born_in_chaos_v1:baby_spider_controlled mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:baby_spider_controlled" = "FALSE"
+		#born_in_chaos_v1:nightmare_stalker mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:nightmare_stalker" = "FALSE"
+		#born_in_chaos_v1:pumpkin_dunce mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:pumpkin_dunce" = "DEFAULT"
+		#born_in_chaos_v1:mrs_pumpkin mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:mrs_pumpkin" = "FALSE"
+		#born_in_chaos_v1:pumpkin_bruiser mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:pumpkin_bruiser" = "FALSE"
+		#born_in_chaos_v1:krampus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:krampus" = "FALSE"
+		#born_in_chaos_v1:krampus_henchman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:krampus_henchman" = "FALSE"
+		#born_in_chaos_v1:missionary_raider mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:missionary_raider" = "FALSE"
+		#born_in_chaos_v1:rotten_easter_egg_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:rotten_easter_egg_projectile" = "FALSE"
+		#born_in_chaos_v1:spiritual_easter_egg_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:spiritual_easter_egg_projectile" = "FALSE"
+		#born_in_chaos_v1:monstrous_easter_egg_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"born_in_chaos_v1:monstrous_easter_egg_projectile" = "FALSE"
+		#alexscaves:boat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:boat" = "FALSE"
+		#alexscaves:chest_boat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:chest_boat" = "FALSE"
+		#alexscaves:moving_metal_block mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:moving_metal_block" = "FALSE"
+		#alexscaves:teletor mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:teletor" = "FALSE"
+		#alexscaves:magnetic_weapon mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:magnetic_weapon" = "FALSE"
+		#alexscaves:magnetron mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:magnetron" = "FALSE"
+		#alexscaves:boundroid mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:boundroid" = "FALSE"
+		#alexscaves:boundroid_winch mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:boundroid_winch" = "FALSE"
+		#alexscaves:ferrouslime mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:ferrouslime" = "FALSE"
+		#alexscaves:notor mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:notor" = "DEFAULT"
+		#alexscaves:quarry_smasher mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:quarry_smasher" = "FALSE"
+		#alexscaves:seeking_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:seeking_arrow" = "FALSE"
+		#alexscaves:subterranodon mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:subterranodon" = "FALSE"
+		#alexscaves:vallumraptor mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:vallumraptor" = "FALSE"
+		#alexscaves:grottoceratops mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:grottoceratops" = "FALSE"
+		#alexscaves:trilocaris mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:trilocaris" = "DEFAULT"
+		#alexscaves:tremorsaurus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:tremorsaurus" = "FALSE"
+		#alexscaves:relicheirus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:relicheirus" = "FALSE"
+		#alexscaves:luxtructosaurus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:luxtructosaurus" = "FALSE"
+		#alexscaves:tephra mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:tephra" = "FALSE"
+		#alexscaves:atlatitan mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:atlatitan" = "FALSE"
+		#alexscaves:falling_tree_block mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:falling_tree_block" = "FALSE"
+		#alexscaves:crushed_block mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:crushed_block" = "FALSE"
+		#alexscaves:limestone_spear mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:limestone_spear" = "FALSE"
+		#alexscaves:extinction_spear mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:extinction_spear" = "FALSE"
+		#alexscaves:dinosaur_spirit mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:dinosaur_spirit" = "FALSE"
+		#alexscaves:nuclear_explosion mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:nuclear_explosion" = "FALSE"
+		#alexscaves:nuclear_bomb mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:nuclear_bomb" = "FALSE"
+		#alexscaves:nucleeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:nucleeper" = "FALSE"
+		#alexscaves:radgill mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:radgill" = "DEFAULT"
+		#alexscaves:brainiac mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:brainiac" = "FALSE"
+		#alexscaves:thrown_waste_drum mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:thrown_waste_drum" = "FALSE"
+		#alexscaves:gammaroach mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:gammaroach" = "DEFAULT"
+		#alexscaves:raycat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:raycat" = "FALSE"
+		#alexscaves:cinder_brick mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:cinder_brick" = "FALSE"
+		#alexscaves:tremorzilla mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:tremorzilla" = "FALSE"
+		#alexscaves:lanternfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:lanternfish" = "DEFAULT"
+		#alexscaves:sea_pig mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:sea_pig" = "FALSE"
+		#alexscaves:submarine mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:submarine" = "FALSE"
+		#alexscaves:hullbreaker mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:hullbreaker" = "DEFAULT"
+		#alexscaves:gossamer_worm mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:gossamer_worm" = "FALSE"
+		#alexscaves:tripodfish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:tripodfish" = "FALSE"
+		#alexscaves:deep_one mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:deep_one" = "FALSE"
+		#alexscaves:ink_bomb mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:ink_bomb" = "FALSE"
+		#alexscaves:deep_one_knight mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:deep_one_knight" = "FALSE"
+		#alexscaves:deep_one_mage mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:deep_one_mage" = "FALSE"
+		#alexscaves:water_bolt mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:water_bolt" = "FALSE"
+		#alexscaves:wave mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:wave" = "FALSE"
+		#alexscaves:mine_guardian mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:mine_guardian" = "FALSE"
+		#alexscaves:mine_guardian_anchor mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:mine_guardian_anchor" = "FALSE"
+		#alexscaves:depth_charge mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:depth_charge" = "FALSE"
+		#alexscaves:floater mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:floater" = "FALSE"
+		#alexscaves:guano mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:guano" = "FALSE"
+		#alexscaves:falling_guano mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:falling_guano" = "FALSE"
+		#alexscaves:gloomoth mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:gloomoth" = "DEFAULT"
+		#alexscaves:underzealot mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:underzealot" = "FALSE"
+		#alexscaves:watcher mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:watcher" = "FALSE"
+		#alexscaves:corrodent mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:corrodent" = "FALSE"
+		#alexscaves:vesper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:vesper" = "FALSE"
+		#alexscaves:forsaken mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:forsaken" = "FALSE"
+		#alexscaves:beholder_eye mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:beholder_eye" = "FALSE"
+		#alexscaves:desolate_dagger mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:desolate_dagger" = "FALSE"
+		#alexscaves:burrowing_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:burrowing_arrow" = "FALSE"
+		#alexscaves:dark_arrow mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:dark_arrow" = "FALSE"
+		#alexscaves:sweetish_fish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:sweetish_fish" = "DEFAULT"
+		#alexscaves:caniac mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:caniac" = "FALSE"
+		#alexscaves:gumbeeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:gumbeeper" = "FALSE"
+		#alexscaves:gumball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:gumball" = "FALSE"
+		#alexscaves:candicorn mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:candicorn" = "FALSE"
+		#alexscaves:gum_worm mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:gum_worm" = "FALSE"
+		#alexscaves:gum_worm_segment mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:gum_worm_segment" = "FALSE"
+		#alexscaves:caramel_cube mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:caramel_cube" = "FALSE"
+		#alexscaves:melted_caramel mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:melted_caramel" = "FALSE"
+		#alexscaves:gummy_bear mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:gummy_bear" = "FALSE"
+		#alexscaves:licowitch mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:licowitch" = "FALSE"
+		#alexscaves:spinning_peppermint mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:spinning_peppermint" = "FALSE"
+		#alexscaves:sugar_staff_hex mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:sugar_staff_hex" = "FALSE"
+		#alexscaves:gingerbread_man mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:gingerbread_man" = "FALSE"
+		#alexscaves:thrown_ice_cream_scoop mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:thrown_ice_cream_scoop" = "FALSE"
+		#alexscaves:falling_frostmint mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:falling_frostmint" = "FALSE"
+		#alexscaves:candy_cane_hook mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:candy_cane_hook" = "FALSE"
+		#alexscaves:soda_bottle_rocket mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:soda_bottle_rocket" = "FALSE"
+		#alexscaves:frostmint_spear mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"alexscaves:frostmint_spear" = "FALSE"
+		#endermanoverhaul:badlands_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:badlands_enderman" = "FALSE"
+		#endermanoverhaul:cave_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:cave_enderman" = "FALSE"
+		#endermanoverhaul:crimson_forest_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:crimson_forest_enderman" = "FALSE"
+		#endermanoverhaul:dark_oak_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:dark_oak_enderman" = "FALSE"
+		#endermanoverhaul:desert_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:desert_enderman" = "FALSE"
+		#endermanoverhaul:end_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:end_enderman" = "FALSE"
+		#endermanoverhaul:end_islands_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:end_islands_enderman" = "FALSE"
+		#endermanoverhaul:flower_fields_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:flower_fields_enderman" = "DEFAULT"
+		#endermanoverhaul:ice_spikes_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:ice_spikes_enderman" = "FALSE"
+		#endermanoverhaul:mushroom_fields_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:mushroom_fields_enderman" = "DEFAULT"
+		#endermanoverhaul:nether_wastes_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:nether_wastes_enderman" = "FALSE"
+		#endermanoverhaul:coral_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:coral_enderman" = "FALSE"
+		#endermanoverhaul:savanna_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:savanna_enderman" = "FALSE"
+		#endermanoverhaul:snowy_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:snowy_enderman" = "FALSE"
+		#endermanoverhaul:soulsand_valley_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:soulsand_valley_enderman" = "FALSE"
+		#endermanoverhaul:swamp_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:swamp_enderman" = "FALSE"
+		#endermanoverhaul:warped_forest_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:warped_forest_enderman" = "FALSE"
+		#endermanoverhaul:windswept_hills_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:windswept_hills_enderman" = "FALSE"
+		#endermanoverhaul:pet_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:pet_enderman" = "DEFAULT"
+		#endermanoverhaul:hammerhead_pet_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:hammerhead_pet_enderman" = "DEFAULT"
+		#endermanoverhaul:axolotl_pet_enderman mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:axolotl_pet_enderman" = "DEFAULT"
+		#endermanoverhaul:scarab mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:scarab" = "FALSE"
+		#endermanoverhaul:spirit mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:spirit" = "FALSE"
+		#endermanoverhaul:ender_bullet mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:ender_bullet" = "FALSE"
+		#endermanoverhaul:corrupted_pearl mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:corrupted_pearl" = "FALSE"
+		#endermanoverhaul:soul_pearl mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:soul_pearl" = "FALSE"
+		#endermanoverhaul:ancient_pearl mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:ancient_pearl" = "FALSE"
+		#endermanoverhaul:bubble_pearl mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:bubble_pearl" = "FALSE"
+		#endermanoverhaul:summoner_pearl mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:summoner_pearl" = "FALSE"
+		#endermanoverhaul:icy_pearl mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:icy_pearl" = "FALSE"
+		#endermanoverhaul:crimson_pearl mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:crimson_pearl" = "FALSE"
+		#endermanoverhaul:warped_pearl mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"endermanoverhaul:warped_pearl" = "FALSE"
+		#rottencreatures:burned mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"rottencreatures:burned" = "FALSE"
+		#rottencreatures:frostbitten mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"rottencreatures:frostbitten" = "FALSE"
+		#rottencreatures:swampy mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"rottencreatures:swampy" = "FALSE"
+		#rottencreatures:undead_miner mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"rottencreatures:undead_miner" = "FALSE"
+		#rottencreatures:mummy mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"rottencreatures:mummy" = "FALSE"
+		#rottencreatures:glacial_hunter mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"rottencreatures:glacial_hunter" = "FALSE"
+		#rottencreatures:hunter_wolf mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"rottencreatures:hunter_wolf" = "DEFAULT"
+		#rottencreatures:scarab mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"rottencreatures:scarab" = "FALSE"
+		#rottencreatures:dead_beard mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"rottencreatures:dead_beard" = "FALSE"
+		#rottencreatures:zombie_lackey mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"rottencreatures:zombie_lackey" = "FALSE"
+		#rottencreatures:skeleton_lackey mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"rottencreatures:skeleton_lackey" = "FALSE"
+		#rottencreatures:immortal mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"rottencreatures:immortal" = "FALSE"
+		#rottencreatures:zap mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"rottencreatures:zap" = "FALSE"
+		#rottencreatures:primed_tnt_barrel mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"rottencreatures:primed_tnt_barrel" = "FALSE"
+		#create:contraption mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"create:contraption" = "DEFAULT"
+		#create:stationary_contraption mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"create:stationary_contraption" = "DEFAULT"
+		#create:gantry_contraption mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"create:gantry_contraption" = "DEFAULT"
+		#create:carriage_contraption mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"create:carriage_contraption" = "DEFAULT"
+		#create:super_glue mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"create:super_glue" = "DEFAULT"
+		#create:crafting_blueprint mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"create:crafting_blueprint" = "DEFAULT"
+		#create:potato_projectile mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"create:potato_projectile" = "DEFAULT"
+		#create:seat mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"create:seat" = "DEFAULT"
+		#create:package mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"create:package" = "DEFAULT"
+		#crittersandcompanions:dragonfly mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:dragonfly" = "DEFAULT"
+		#crittersandcompanions:dumbo_octopus mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:dumbo_octopus" = "DEFAULT"
+		#crittersandcompanions:ferret mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:ferret" = "DEFAULT"
+		#crittersandcompanions:jumping_spider mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:jumping_spider" = "DEFAULT"
+		#crittersandcompanions:koi_fish mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:koi_fish" = "DEFAULT"
+		#crittersandcompanions:leaf_insect mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:leaf_insect" = "DEFAULT"
+		#crittersandcompanions:otter mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:otter" = "DEFAULT"
+		#crittersandcompanions:red_panda mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:red_panda" = "DEFAULT"
+		#crittersandcompanions:sea_bunny mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:sea_bunny" = "DEFAULT"
+		#crittersandcompanions:shima_enaga mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:shima_enaga" = "DEFAULT"
+		#crittersandcompanions:ladybug mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:ladybug" = "DEFAULT"
+		#crittersandcompanions:stag_beetle mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:stag_beetle" = "DEFAULT"
+		#crittersandcompanions:roly_poly mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:roly_poly" = "DEFAULT"
+		#crittersandcompanions:snail mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:snail" = "DEFAULT"
+		#crittersandcompanions:stick_bug mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:stick_bug" = "DEFAULT"
+		#crittersandcompanions:weevil mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:weevil" = "DEFAULT"
+		#crittersandcompanions:grappling_hook mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:grappling_hook" = "DEFAULT"
+		#crittersandcompanions:mud_ball mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"crittersandcompanions:mud_ball" = "DEFAULT"
+		#betterarcheology:bombentity mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"betterarcheology:bombentity" = "DEFAULT"
+		#creeperoverhaul:jungle_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"creeperoverhaul:jungle_creeper" = "FALSE"
+		#creeperoverhaul:bamboo_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"creeperoverhaul:bamboo_creeper" = "FALSE"
+		#creeperoverhaul:desert_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"creeperoverhaul:desert_creeper" = "FALSE"
+		#creeperoverhaul:badlands_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"creeperoverhaul:badlands_creeper" = "FALSE"
+		#creeperoverhaul:hills_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"creeperoverhaul:hills_creeper" = "FALSE"
+		#creeperoverhaul:savannah_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"creeperoverhaul:savannah_creeper" = "FALSE"
+		#creeperoverhaul:mushroom_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"creeperoverhaul:mushroom_creeper" = "DEFAULT"
+		#creeperoverhaul:swamp_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"creeperoverhaul:swamp_creeper" = "FALSE"
+		#creeperoverhaul:dripstone_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"creeperoverhaul:dripstone_creeper" = "FALSE"
+		#creeperoverhaul:cave_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"creeperoverhaul:cave_creeper" = "FALSE"
+		#creeperoverhaul:dark_oak_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"creeperoverhaul:dark_oak_creeper" = "FALSE"
+		#creeperoverhaul:spruce_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"creeperoverhaul:spruce_creeper" = "FALSE"
+		#creeperoverhaul:beach_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"creeperoverhaul:beach_creeper" = "FALSE"
+		#creeperoverhaul:snowy_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"creeperoverhaul:snowy_creeper" = "FALSE"
+		#creeperoverhaul:ocean_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"creeperoverhaul:ocean_creeper" = "FALSE"
+		#creeperoverhaul:birch_creeper mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"creeperoverhaul:birch_creeper" = "FALSE"
+		#lootr:lootr_minecart mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"lootr:lootr_minecart" = "DEFAULT"
+		#lootr:item_frame mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"lootr:item_frame" = "DEFAULT"
+		#archers:spirit_wolf mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"archers:spirit_wolf" = "DEFAULT"
+		#wizards:frost_elemental mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"wizards:frost_elemental" = "DEFAULT"
+		#wizards:arcane_emitter mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"wizards:arcane_emitter" = "DEFAULT"
+		#wizards:fire_hydra mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"wizards:fire_hydra" = "DEFAULT"
+		#paladins:barrier mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"paladins:barrier" = "DEFAULT"
+		#paladins:battle_banner mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"paladins:battle_banner" = "DEFAULT"
+		#paladins:lightwell mobGriefing
+		#Allowed Values: DEFAULT, TRUE, FALSE
+		"paladins:lightwell" = "DEFAULT"

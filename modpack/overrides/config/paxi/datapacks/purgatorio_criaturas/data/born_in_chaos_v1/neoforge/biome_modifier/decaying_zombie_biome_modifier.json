@@ -1,0 +1,18 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:or",
+    "values": [
+      "#c:is_swamp",
+      "#c:is_jungle"
+    ]
+  },
+  "spawners": [
+    {
+      "type": "born_in_chaos_v1:decaying_zombie",
+      "weight": 18,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

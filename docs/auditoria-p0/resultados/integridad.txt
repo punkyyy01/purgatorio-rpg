@@ -1,0 +1,28 @@
+== p0v_ab040
+overworld: 38385 chunks; estados: minecraft:structure_starts=21267, minecraft:full=9247, minecraft:biomes=2626, minecraft:initialize_light=2624, minecraft:carvers=2614, minecraft:noise=6, minecraft:features=1
+DataVersion: {3955: 38385}
+RESULTADO: 0 FALLOS
+== p0v_ab041
+overworld: 34659 chunks; estados: minecraft:structure_starts=19349, minecraft:full=8173, minecraft:biomes=2388, minecraft:carvers=2371, minecraft:initialize_light=2371, minecraft:noise=7
+DataVersion: {3955: 34659}
+RESULTADO: 0 FALLOS
+== p0v_ab050
+overworld: 29455 chunks; estados: minecraft:structure_starts=15724, minecraft:full=7743, minecraft:initialize_light=2035, minecraft:carvers=1984, minecraft:biomes=1968, minecraft:surface=1
+DataVersion: {3955: 29455}
+RESULTADO: 0 FALLOS
+== p0v_tp050
+overworld: 14418 chunks; estados: minecraft:structure_starts=11380, minecraft:biomes=971, minecraft:full=779, minecraft:carvers=628, minecraft:initialize_light=513, minecraft:noise=76, minecraft:light=48, minecraft:surface=23
+DataVersion: {3955: 14418}
+RESULTADO: 0 FALLOS
+== p0v_largo050
+overworld: 107037 chunks; estados: minecraft:structure_starts=55922, minecraft:full=28513, minecraft:initialize_light=7650, minecraft:carvers=7516, minecraft:biomes=7425, minecraft:light=7, minecraft:features=3, minecraft:noise=1
+DataVersion: {3955: 107037}
+RESULTADO: 0 FALLOS
+== p0v_fin050
+overworld: 29027 chunks; estados: minecraft:structure_starts=15436, minecraft:full=7678, minecraft:initialize_light=2011, minecraft:carvers=1954, minecraft:biomes=1948
+DataVersion: {3955: 29027}
+RESULTADO: 0 FALLOS
+== p0v_fintp050
+overworld: 15256 chunks; estados: minecraft:structure_starts=12057, minecraft:biomes=1007, minecraft:full=782, minecraft:carvers=667, minecraft:initialize_light=547, minecraft:noise=137, minecraft:light=30, minecraft:surface=28, minecraft:features=1
+DataVersion: {3955: 15256}
+RESULTADO: 0 FALLOS

@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "es.purg4tory.cauces.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ChunkMapGuardadoMixin",
+    "ServerPlayerTeletransporteMixin",
+    "CadenaVecinosMixin",
+    "ServerChunkCacheCadenaMixin",
+    "ServerChunkCacheSinEsperaMixin",
+    "MovimientoListoMixin",
+    "SondeoSpawnMixin",
+    "SpawnPlacementsSondeoMixin",
+    "PostProcesoMixin",
+    "FuenteMultiMixin",
+    "FuenteSimpleMixin",
+    "FuenteCompletaMixin",
+    "FuenteFormaMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

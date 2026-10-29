@@ -1,0 +1,20 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": {
+    "type": "neoforge:or",
+    "values": [
+      "#naturalist:has_bluejay",
+      "#naturalist:has_canary",
+      "#naturalist:has_cardinal",
+      "#naturalist:has_finch",
+      "#naturalist:has_robin",
+      "#naturalist:has_sparrow"
+    ]
+  },
+  "spawners": {
+    "type": "naturalist:bird",
+    "weight": 5,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}
